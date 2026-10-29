@@ -1,1 +1,47 @@
-IyBXZWxjb21lIHRvIHlvdXIgTG92YWJsZSBwcm9qZWN0CgpUaGlzIHByb2plY3Qgd2FzIGJ1aWx0IHdpdGggW0xvdmFibGVdKGh0dHBzOi8vbG92YWJsZS5kZXYpLgoKIyMgQnVpbGQgd2l0aCBMb3ZhYmxlCgpPcGVuIHlvdXIgcHJvamVjdCBpbiB0aGUgW0xvdmFibGUgZWRpdG9yXShodHRwczovL2xvdmFibGUuZGV2KSBhbmQga2VlcCBidWlsZGluZy4KCi0gKipTaGlwIGZhc3RlcioqOiBkZXNjcmliZSB3aGF0IHlvdSB3YW50IHRvIGJ1aWxkIGFuZCBMb3ZhYmxlIGhhbmRsZXMgdGhlIGNvZGUuCi0gKipTdGF5IGluIHN5bmMqKjogY29ubmVjdCB0aGUgcHJvamVjdCB0byBHaXRIdWIgYW5kIGV2ZXJ5IGNoYW5nZSBtYWRlIGluIExvdmFibGUgaXMgY29tbWl0dGVkIHN0cmFpZ2h0IHRvIHlvdXIgcmVwb3NpdG9yeS4KLSAqKkZ1bGwgb3duZXJzaGlwKio6IHRoaXMgY29kZSBpcyB5b3Vycy4gUHVzaCB0byB5b3VyIHJlcG9zaXRvcnkgYW5kIHlvdXIgY2hhbmdlcyBzeW5jIGJhY2sgaW50byBMb3ZhYmxlLCByZWFkeSBmb3IgeW91ciBuZXh0IHByb21wdC4KCiMjIERldmVsb3BtZW50CgpQcmVmZXIgd29ya2luZyBsb2NhbGx5PyBZb3UgbmVlZCBOb2RlLmpzIGFuZCBucG0g4oCUIFtpbnN0YWxsIHdpdGggbnZtXShodHRwczovL2dpdGh1Yi5jb20vbnZtLXNoL252bSNpbnN0YWxsaW5nLWFuZC11cGRhdGluZykuCgpgYGBzaApnaXQgY2xvbmUgPHRoaXMtcmVwb3NpdG9yeS11cmw+CmNkIDxyZXBvc2l0b3J5LW5hbWU+Cm5wbSBpCm5wbSBydW4gZGV2CmBgYAoKIyMgQnVpbHQgd2l0aAoKLSBUYW5TdGFjayBTdGFydAotIFR5cGVTY3JpcHQKLSBSZWFjdAotIFRhaWx3aW5kIENTUwo=
+# Role Radar Outreach
+
+A personal job-search and outreach dashboard for Yash Nikam.
+
+## Use the app
+
+Open **https://role-radar-outreach.lovable.app** and sign in with your existing account from any laptop. No download or installation is needed to use the published app.
+
+## What it includes
+
+- Recent LinkedIn and Naukri job discovery with keyword and experience filters.
+- Company contact discovery, with inferred addresses clearly marked as likely rather than verified.
+- An editable review queue before sending outreach through Gmail with a resume.
+- Sent-email activity, bounce checks, and open/resume-link tracking.
+- Excel, CSV, and PDF imports for internal company and HR data.
+- Saved settings and an in-app setup guide.
+
+Uploaded list emails teach company email patterns by default. Direct use requires explicit permission. Tracking and the absence of a bounce do not prove delivery or a human read.
+
+## Run the code locally
+
+Install a current Node.js LTS release and Bun, then run:
+
+```sh
+git clone https://github.com/yashnikam18yn/Job-Pipe-line.git
+cd Job-Pipe-line
+bun install
+bun run dev
+```
+
+Open the local address printed in your terminal.
+
+**Configuration:** The published app uses Lovable Cloud and connected services. Cloning this repository does not copy private credentials, recreate the hosted configuration, or start scheduled outreach on your laptop. Server-only service credentials must be configured separately; never commit them to GitHub. Use the published app for the already-configured experience.
+
+## Tests
+
+```sh
+bun run test
+```
+
+## Technology
+
+React, TypeScript, TanStack Start, Tailwind CSS, and Lovable Cloud.
+
+## Repository updates
+
+This repository was uploaded as a snapshot. Future edits are not automatically synchronized unless Git sync is separately configured. The published app and this code repository serve different purposes: the app is for daily use; the repository is for source code and development.
