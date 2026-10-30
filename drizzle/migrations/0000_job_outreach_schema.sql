@@ -1,1 +1,60 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5vdXRyZWFjaF9zZXR0aW5ncyAoCiAgdXNlcl9pZCB1dWlkIFBSSU1BUlkgS0VZLAogIGtleXdvcmRzIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnU29mdHdhcmUgRW5naW5lZXInLAogIGxvY2F0aW9uIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnSW5kaWEnLAogIHRhcmdldF90aXRsZXMgdGV4dFtdIE5PVCBOVUxMIERFRkFVTFQgQVJSQVlbJ0hSJywnUmVjcnVpdGVyJywnVGFsZW50IEFjcXVpc2l0aW9uJywnRW5naW5lZXJpbmcgTWFuYWdlcicsJ1NERSAyJywnU2VuaW9yIFNvZnR3YXJlIEVuZ2luZWVyJ10sCiAgZGFpbHlfbGltaXQgaW50IE5PVCBOVUxMIERFRkFVTFQgMTUsCiAgY29udGFjdHNfcGVyX2pvYiBpbnQgTk9UIE5VTEwgREVGQVVMVCAzLAogIGF1dG9fZW5hYmxlZCBib29sZWFuIE5PVCBOVUxMIERFRkFVTFQgZmFsc2UsCiAgdGVtcGxhdGVfc3ViamVjdCB0ZXh0IE5PVCBOVUxMIERFRkFVTFQgJ0FwcGxpY2F0aW9uIGZvciB7e2pvYl90aXRsZX19IGF0IHt7Y29tcGFueX19JywKICB0ZW1wbGF0ZV9ib2R5IHRleHQgTk9UIE5VTEwgREVGQVVMVCBFJ0hpIHt7Zmlyc3RfbmFtZX19LFxuXG5JIGNhbWUgYWNyb3NzIHRoZSB7e2pvYl90aXRsZX19IHJvbGUgYXQge3tjb21wYW55fX0gYW5kIEknJ2QgbG92ZSB0byBiZSBjb25zaWRlcmVkLiBJIGhhdmUgaGFuZHMtb24gZXhwZXJpZW5jZSB0aGF0IG1hdGNoZXMgdGhlIGpvYiBkZXNjcmlwdGlvbi5cblxuSm9iIGxpbms6IHt7am9iX3VybH19XG5cbldvdWxkIHlvdSBiZSBvcGVuIHRvIGEgcXVpY2sgY2hhdCBvciByZWZlcnJpbmcgbWU/XG5cblRoYW5rcyxcbllvdXIgTmFtZScsCiAgdXBkYXRlZF9hdCB0aW1lc3RhbXB0eiBOT1QgTlVMTCBERUZBVUxUIG5vdygpCik7CkdSQU5UIFNFTEVDVCwgSU5TRVJULCBVUERBVEUsIERFTEVURSBPTiBwdWJsaWMub3V0cmVhY2hfc2V0dGluZ3MgVE8gYXV0aGVudGljYXRlZDsKR1JBTlQgQUxMIE9OIHB1YmxpYy5vdXRyZWFjaF9zZXR0aW5ncyBUTyBzZXJ2aWNlX3JvbGU7CkFMVEVSIFRBQkxFIHB1YmxpYy5vdXRyZWFjaF9zZXR0aW5ncyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwpDUkVBVEUgUE9MSUNZICJvd24gc2V0dGluZ3MiIE9OIHB1YmxpYy5vdXRyZWFjaF9zZXR0aW5ncyBGT1IgQUxMIFRPIGF1dGhlbnRpY2F0ZWQgVVNJTkcgKGF1dGgudWlkKCkgPSB1c2VyX2lkKSBXSVRIIENIRUNLIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpDUkVBVEUgVEFCTEUgcHVibGljLmpvYnMgKAogIGlkIHV1aWQgUFJJTUFSWSBLRVkgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSwKICB1c2VyX2lkIHV1aWQgTk9UIE5VTEwsCiAgdGl0bGUgdGV4dCBOT1QgTlVMTCBERUZBVUxUICcnLAogIGNvbXBhbnkgdGV4dCBOT1QgTlVMTCBERUZBVUxUICcnLAogIGNvbXBhbnlfZG9tYWluIHRleHQsCiAgdXJsIHRleHQsCiAgc291cmNlIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnbWFudWFsJywKICBkZXNjcmlwdGlvbiB0ZXh0LAogIHN0YXR1cyB0ZXh0IE5PVCBOVUxMIERFRkFVTFQgJ25ldycsCiAgZXJyb3IgdGV4dCwKICBjcmVhdGVkX2F0IHRpbWVzdGFtcHR6IE5PVCBOVUxMIERFRkFVTFQgbm93KCksCiAgVU5JUVVFICh1c2VyX2lkLCB1cmwpCik7CkdSQU5UIFNFTEVDVCwgSU5TRVJULCBVUERBVEUsIERFTEVURSBPTiBwdWJsaWMuam9icyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBBTEwgT04gcHVibGljLmpvYnMgVE8gc2VydmljZV9yb2xlOwpBTFRFUiBUQUJMRSBwdWJsaWMuam9icyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwpDUkVBVEUgUE9MSUNZICJvd24gam9icyIgT04gcHVibGljLmpvYnMgRk9SIEFMTCBUTyBhdXRoZW50aWNhdGVkIFVTSU5HIChhdXRoLnVpZCgpID0gdXNlcl9pZCkgV0lUSCBDSEVDSyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpOwoKQ1JFQVRFIFRBQkxFIHB1YmxpYy5jb250YWN0cyAoCiAgaWQgdXVpZCBQUklNQVJZIEtFWSBERUZBVUxUIGdlbl9yYW5kb21fdXVpZCgpLAogIHVzZXJfaWQgdXVpZCBOT1QgTlVMTCwKICBqb2JfaWQgdXVpZCBSRUZFUkVOQ0VTIHB1YmxpYy5qb2JzKGlkKSBPTiBERUxFVEUgQ0FTQ0FERSwKICBhcG9sbG9faWQgdGV4dCwKICBuYW1lIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnJywKICBmaXJzdF9uYW1lIHRleHQsCiAgdGl0bGUgdGV4dCwKICBlbWFpbCB0ZXh0IE5PVCBOVUxMLAogIGVtYWlsX3N0YXR1cyB0ZXh0LAogIGxpbmtlZGluX3VybCB0ZXh0LAogIGNvbXBhbnkgdGV4dCwKICBzZW5kX3N0YXR1cyB0ZXh0IE5PVCBOVUxMIERFRkFVTFQgJ3BlbmRpbmcnLAogIGVycm9yIHRleHQsCiAgc2VudF9hdCB0aW1lc3RhbXB0eiwKICBjcmVhdGVkX2F0IHRpbWVzdGFtcHR6IE5PVCBOVUxMIERFRkFVTFQgbm93KCksCiAgVU5JUVVFICh1c2VyX2lkLCBlbWFpbCkKKTsKR1JBTlQgU0VMRUNULCBJTlNFUlQsIFVQREFURSwgREVMRVRFIE9OIHB1YmxpYy5jb250YWN0cyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBBTEwgT04gcHVibGljLmNvbnRhY3RzIFRPIHNlcnZpY2Vfcm9sZTsKQUxURVIgVEFCTEUgcHVibGljLmNvbnRhY3RzIEVOQUJMRSBST1cgTEVWRUwgU0VDVVJJVFk7CkNSRUFURSBQT0xJQ1kgIm93biBjb250YWN0cyIgT04gcHVibGljLmNvbnRhY3RzIEZPUiBBTEwgVE8gYXV0aGVudGljYXRlZCBVU0lORyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpIFdJVEggQ0hFQ0sgKGF1dGgudWlkKCkgPSB1c2VyX2lkKTsKQ1JFQVRFIElOREVYIGNvbnRhY3RzX3VzZXJfc3RhdHVzX2lkeCBPTiBwdWJsaWMuY29udGFjdHModXNlcl9pZCwgc2VuZF9zdGF0dXMpOwpDUkVBVEUgSU5ERVggam9ic191c2VyX3N0YXR1c19pZHggT04gcHVibGljLmpvYnModXNlcl9pZCwgc3RhdHVzKTs=
+CREATE TABLE public.outreach_settings (
+  user_id uuid PRIMARY KEY,
+  keywords text NOT NULL DEFAULT 'Software Engineer',
+  location text NOT NULL DEFAULT 'India',
+  target_titles text[] NOT NULL DEFAULT ARRAY['HR','Recruiter','Talent Acquisition','Engineering Manager','SDE 2','Senior Software Engineer'],
+  daily_limit int NOT NULL DEFAULT 15,
+  contacts_per_job int NOT NULL DEFAULT 3,
+  auto_enabled boolean NOT NULL DEFAULT false,
+  template_subject text NOT NULL DEFAULT 'Application for {{job_title}} at {{company}}',
+  template_body text NOT NULL DEFAULT E'Hi {{first_name}},\n\nI came across the {{job_title}} role at {{company}} and I''d love to be considered. I have hands-on experience that matches the job description.\n\nJob link: {{job_url}}\n\nWould you be open to a quick chat or referring me?\n\nThanks,\nYour Name',
+  updated_at timestamptz NOT NULL DEFAULT now()
+);
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.outreach_settings TO authenticated;
+GRANT ALL ON public.outreach_settings TO service_role;
+ALTER TABLE public.outreach_settings ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "own settings" ON public.outreach_settings FOR ALL TO authenticated USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);
+
+CREATE TABLE public.jobs (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  title text NOT NULL DEFAULT '',
+  company text NOT NULL DEFAULT '',
+  company_domain text,
+  url text,
+  source text NOT NULL DEFAULT 'manual',
+  description text,
+  status text NOT NULL DEFAULT 'new',
+  error text,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (user_id, url)
+);
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.jobs TO authenticated;
+GRANT ALL ON public.jobs TO service_role;
+ALTER TABLE public.jobs ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "own jobs" ON public.jobs FOR ALL TO authenticated USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);
+
+CREATE TABLE public.contacts (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  job_id uuid REFERENCES public.jobs(id) ON DELETE CASCADE,
+  apollo_id text,
+  name text NOT NULL DEFAULT '',
+  first_name text,
+  title text,
+  email text NOT NULL,
+  email_status text,
+  linkedin_url text,
+  company text,
+  send_status text NOT NULL DEFAULT 'pending',
+  error text,
+  sent_at timestamptz,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (user_id, email)
+);
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.contacts TO authenticated;
+GRANT ALL ON public.contacts TO service_role;
+ALTER TABLE public.contacts ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "own contacts" ON public.contacts FOR ALL TO authenticated USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);
+CREATE INDEX contacts_user_status_idx ON public.contacts(user_id, send_status);
+CREATE INDEX jobs_user_status_idx ON public.jobs(user_id, status);

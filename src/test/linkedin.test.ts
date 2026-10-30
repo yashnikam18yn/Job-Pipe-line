@@ -1,1 +1,107 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpIH0gZnJvbSAidml0ZXN0IjsKdmkubW9jaygiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIsICgpID0+ICh7IHN1cGFiYXNlQWRtaW46IHt9IH0pKTsKaW1wb3J0IHsgcGFyc2VMaW5rZWRJbkNhcmRzIH0gZnJvbSAiQC9saWIvb3V0cmVhY2guc2VydmVyIjsKY29uc3QgY2FyZCA9IChhZ286IHN0cmluZykgPT4gYDxsaT48YSBocmVmPSJodHRwczovL2luLmxpbmtlZGluLmNvbS9qb2JzL3ZpZXcvamF2YS1kZXYtYXQtYWNtZS0xMjM/eD0xIj48L2E+PGgzIGNsYXNzPSJiYXNlLXNlYXJjaC1jYXJkX190aXRsZSI+IEphdmEgRGV2ZWxvcGVyIDwvaDM+PGg0IGNsYXNzPSJiYXNlLXNlYXJjaC1jYXJkX19zdWJ0aXRsZSI+PGE+IEFjbWUgJmFtcDsgQ28gPC9hPjwvaDQ+PHNwYW4gY2xhc3M9ImpvYi1zZWFyY2gtY2FyZF9fbG9jYXRpb24iPlB1bmU8L3NwYW4+PHRpbWUgZGF0ZXRpbWU9IngiPiR7YWdvfTwvdGltZT48L2xpPmA7CmRlc2NyaWJlKCJMaW5rZWRJbiBqb2IgY2FyZHMiLCAoKSA9PiB7CiAgaXQoInJlYWRzIHJlYWwgdGl0bGUsIGNvbXBhbnkgYW5kIGxpbmsiLCAoKSA9PiB7CiAgICBleHBlY3QocGFyc2VMaW5rZWRJbkNhcmRzKGNhcmQoIjUgaG91cnMgYWdvIikpWzBdKS50b01hdGNoT2JqZWN0KHsgdXJsOiAiaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2pvYnMvdmlldy9qYXZhLWRldi1hdC1hY21lLTEyMyIsIHRpdGxlOiAiSmF2YSBEZXZlbG9wZXIiLCBjb21wYW55OiAiQWNtZSAmIENvIiB9KTsKICB9KTsKICBpdCgiZHJvcHMgam9icyBvbGRlciB0aGFuIDI0IGhvdXJzIiwgKCkgPT4gewogICAgZXhwZWN0KHBhcnNlTGlua2VkSW5DYXJkcyhjYXJkKCIyIGRheXMgYWdvIikpKS50b0hhdmVMZW5ndGgoMCk7CiAgfSk7Cn0pOwoKaW1wb3J0IHsgcGFyc2VQZW9wbGVSZXN1bHRzIH0gZnJvbSAiQC9saWIvb3V0cmVhY2guc2VydmVyIjsKY29uc3QgdGl0bGVzID0gWyJIUiIsICJSZWNydWl0ZXIiLCAiVGFsZW50IEFjcXVpc2l0aW9uIiwgIkVuZ2luZWVyaW5nIE1hbmFnZXIiXTsKZGVzY3JpYmUoIkxpbmtlZEluIHBlb3BsZSByZXN1bHRzIiwgKCkgPT4gewogIGNvbnN0IGxpc3QgPSBbCiAgICB7IHVybDogImh0dHBzOi8vaW4ubGlua2VkaW4uY29tL2luL21vbmlrYSIsIHRpdGxlOiAiTW9uaWthIFNoYWggLSBUYWxlbnQgQWNxdWlzaXRpb24gVGVhbSBMZWFkIGF0IENhcGNvIiwgZGVzY3JpcHRpb246ICIiIH0sCiAgICB7IHVybDogImh0dHBzOi8vaW4ubGlua2VkaW4uY29tL2luL3giLCB0aXRsZTogIkdyYXBoaWMgRGVzaWduZXIgLSBDYXBjbyIsIGRlc2NyaXB0aW9uOiAiIiB9LAogICAgeyB1cmw6ICJodHRwczovL2luLmxpbmtlZGluLmNvbS9pbi95IiwgdGl0bGU6ICJSYXZpIEt1bWFyIC0gVGFsZW50IEFjcXVpc2l0aW9uIGF0IEluZm9zeXMiLCBkZXNjcmlwdGlvbjogIiIgfSwKICBdOwogIGl0KCJrZWVwcyByZWNydWl0ZXJzIGF0IHRoZSByaWdodCBjb21wYW55IHdpdGggdGhlaXIgbmFtZSBzcGxpdCIsICgpID0+IHsKICAgIGV4cGVjdChwYXJzZVBlb3BsZVJlc3VsdHMobGlzdCwgIkNhcGNvIiwgdGl0bGVzKSkudG9FcXVhbChbCiAgICAgIHsgZmlyc3RfbmFtZTogIk1vbmlrYSIsIGxhc3RfbmFtZTogIlNoYWgiLCBoZWFkbGluZTogIlRhbGVudCBBY3F1aXNpdGlvbiBUZWFtIExlYWQgYXQgQ2FwY28iLCBsaW5rZWRpbl91cmw6ICJodHRwczovL2luLmxpbmtlZGluLmNvbS9pbi9tb25pa2EiIH0sCiAgICBdKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
+vi.mock("@/integrations/supabase/client.server", () => ({ supabaseAdmin: {} }));
+import { linkedinJobs, parseLinkedInCards, searchJobs } from "@/lib/outreach.server";
+const card = (ago: string) => `<li><a href="https://in.linkedin.com/jobs/view/java-dev-at-acme-123?x=1"></a><h3 class="base-search-card__title"> Java Developer </h3><h4 class="base-search-card__subtitle"><a> Acme &amp; Co </a></h4><span class="job-search-card__location">Pune</span><time datetime="x">${ago}</time></li>`;
+describe("LinkedIn job cards", () => {
+  it("reads real title, company and link", () => {
+    expect(parseLinkedInCards(card("5 hours ago"))[0]).toMatchObject({ url: "https://www.linkedin.com/jobs/view/java-dev-at-acme-123", title: "Java Developer", company: "Acme & Co" });
+  });
+  it("drops jobs older than 24 hours", () => {
+    expect(parseLinkedInCards(card("2 days ago"))).toHaveLength(0);
+  });
+});
+
+describe("LinkedIn search failures", () => {
+  beforeEach(() => vi.useFakeTimers());
+  afterEach(() => { vi.useRealTimers(); vi.restoreAllMocks(); });
+  it("reports a temporary limit instead of silently returning zero jobs", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response("Too many requests", { status: 429 }));
+    const warnings: string[] = [];
+    try {
+      const result = linkedinJobs("Java Developer", "India", 3, warnings);
+      await vi.runAllTimersAsync();
+      expect(await result).toEqual([]);
+      expect(warnings).toHaveLength(1);
+      expect(warnings[0]).toContain("temporarily limited");
+      expect(fetchMock).toHaveBeenCalledTimes(3);
+    } finally { fetchMock.mockRestore(); }
+  });
+  it("keeps earlier jobs when a later page fails", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch")
+      .mockRejectedValue(new Error("connection failed"))
+      .mockResolvedValueOnce(new Response(card("5 hours ago")));
+    const warnings: string[] = [];
+    try {
+      const result = linkedinJobs("Java Developer", "India", 3, warnings);
+      await vi.runAllTimersAsync();
+      expect(await result).toHaveLength(1);
+      expect(warnings).toHaveLength(1);
+    } finally { fetchMock.mockRestore(); }
+  });
+  it("recovers a temporary failure on the same page without duplicating jobs", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(new Response(null, { status: 429 }))
+      .mockResolvedValueOnce(new Response(card("5 hours ago")))
+      .mockResolvedValueOnce(new Response(""));
+    const log: string[] = [];
+    const result = linkedinJobs("Java Developer", "India", 3, log);
+    await vi.runAllTimersAsync();
+    expect(await result).toHaveLength(1);
+    expect(log).toEqual([expect.stringContaining("recovered")]);
+  });
+  it("defers remaining keywords after an exhausted rate limit", async () => {
+    const fetch = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response(null, { status: 429 }));
+    const state = {};
+    const log: string[] = [];
+    const first = linkedinJobs("Java", "India", 1, log, state);
+    await vi.runAllTimersAsync();
+    await first;
+    expect(await linkedinJobs("Spring Boot", "India", 1, log, state)).toEqual([]);
+    expect(fetch).toHaveBeenCalledTimes(3);
+    expect(log).toHaveLength(2);
+  });
+  it("retains LinkedIn jobs and reports Naukri failures independently", async () => {
+    vi.stubEnv("LOVABLE_API_KEY", "test-only");
+    vi.stubEnv("FIRECRAWL_API_KEY", "test-only");
+    vi.spyOn(globalThis, "fetch").mockImplementation(async (url) => {
+      if (String(url).includes("connector-gateway")) return new Response(null, { status: 503 });
+      return new Response(String(url).includes("start=0") ? card("5 hours ago") : "");
+    });
+    try {
+      const log: string[] = [];
+      const result = searchJobs("Java", "India", log);
+      await vi.runAllTimersAsync();
+      expect(await result).toHaveLength(1);
+      expect(log).toEqual([expect.stringContaining("Naukri could not complete")]);
+    } finally { vi.unstubAllEnvs(); }
+  });
+  it("retains Naukri jobs when LinkedIn remains rate limited", async () => {
+    vi.stubEnv("LOVABLE_API_KEY", "test-only");
+    vi.stubEnv("FIRECRAWL_API_KEY", "test-only");
+    vi.spyOn(globalThis, "fetch").mockImplementation(async (url) => {
+      if (String(url).includes("linkedin.com")) return new Response(null, { status: 429 });
+      return new Response(JSON.stringify({ data: { web: [{ url: "https://naukri.com/job-listings/java-acme", title: "Java Developer", description: "Posted 3 hours ago" }] } }));
+    });
+    try {
+      const log: string[] = [];
+      const result = searchJobs("Java", "India", log);
+      await vi.runAllTimersAsync();
+      expect(await result).toEqual([expect.objectContaining({ url: "https://naukri.com/job-listings/java-acme" })]);
+      expect(log).toEqual([expect.stringContaining("temporarily limited")]);
+    } finally { vi.unstubAllEnvs(); }
+  });
+});
+
+import { parsePeopleResults } from "@/lib/outreach.server";
+const titles = ["HR", "Recruiter", "Talent Acquisition", "Engineering Manager"];
+describe("LinkedIn people results", () => {
+  const list = [
+    { url: "https://in.linkedin.com/in/monika", title: "Monika Shah - Talent Acquisition Team Lead at Capco", description: "" },
+    { url: "https://in.linkedin.com/in/x", title: "Graphic Designer - Capco", description: "" },
+    { url: "https://in.linkedin.com/in/y", title: "Ravi Kumar - Talent Acquisition at Infosys", description: "" },
+  ];
+  it("keeps recruiters at the right company with their name split", () => {
+    expect(parsePeopleResults(list, "Capco", titles)).toEqual([
+      { first_name: "Monika", last_name: "Shah", headline: "Talent Acquisition Team Lead at Capco", linkedin_url: "https://in.linkedin.com/in/monika" },
+    ]);
+  });
+});

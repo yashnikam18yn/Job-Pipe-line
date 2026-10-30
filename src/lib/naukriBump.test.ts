@@ -1,1 +1,35 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBkdWVTbG90LCBpc3RQYXJ0cyB9IGZyb20gIi4vbmF1a3JpQnVtcCI7CgovLyBGaXhlZCBpbnN0YW50cyBpbiBVVEM7IElTVCA9IFVUQys1OjMwLgpjb25zdCBhdCA9IChpc29VdGM6IHN0cmluZykgPT4gbmV3IERhdGUoaXNvVXRjKTsKCmRlc2NyaWJlKCJpc3RQYXJ0cyIsICgpID0+IHsKICBpdCgiY29udmVydHMgVVRDIHRvIHRoZSBJU1QgZGF0ZSBhbmQgaG91ciIsICgpID0+IHsKICAgIC8vIDIwMjYtMTAtMjkgMDI6MDAgVVRDID0gMDc6MzAgSVNUCiAgICBleHBlY3QoaXN0UGFydHMoYXQoIjIwMjYtMTAtMjlUMDI6MDA6MDBaIikpKS50b0VxdWFsKHsgZGF0ZTogIjIwMjYtMTAtMjkiLCBob3VyOiA3IH0pOwogIH0pOwoKICBpdCgicm9sbHMgdGhlIGRhdGUgZm9yd2FyZCBhZnRlciAxODozMCBVVEMgKG1pZG5pZ2h0IElTVCkiLCAoKSA9PiB7CiAgICAvLyAyMDI2LTEwLTI5IDE5OjAwIFVUQyA9IDIwMjYtMTAtMzAgMDA6MzAgSVNUCiAgICBleHBlY3QoaXN0UGFydHMoYXQoIjIwMjYtMTAtMjlUMTk6MDA6MDBaIikpLmRhdGUpLnRvQmUoIjIwMjYtMTAtMzAiKTsKICB9KTsKfSk7CgpkZXNjcmliZSgiZHVlU2xvdCIsICgpID0+IHsKICBpdCgiaXMgbW9ybmluZyBmcm9tIDYgQU0gSVNUIiwgKCkgPT4gewogICAgZXhwZWN0KGR1ZVNsb3QoYXQoIjIwMjYtMTAtMjlUMDA6MzA6MDBaIikpKS50b0JlKCJtb3JuaW5nIik7IC8vIDA2OjAwIElTVAogICAgZXhwZWN0KGR1ZVNsb3QoYXQoIjIwMjYtMTAtMjlUMDY6Mjk6MDBaIikpKS50b0JlKCJtb3JuaW5nIik7IC8vIDExOjU5IElTVAogIH0pOwoKICBpdCgiaXMgZXZlbmluZyBmcm9tIDUgUE0gdG8gMTEgUE0gSVNUIiwgKCkgPT4gewogICAgZXhwZWN0KGR1ZVNsb3QoYXQoIjIwMjYtMTAtMjlUMTE6MzA6MDBaIikpKS50b0JlKCJldmVuaW5nIik7IC8vIDE3OjAwIElTVAogICAgZXhwZWN0KGR1ZVNsb3QoYXQoIjIwMjYtMTAtMjlUMTc6Mjk6MDBaIikpKS50b0JlKCJldmVuaW5nIik7IC8vIDIyOjU5IElTVAogIH0pOwoKICBpdCgiaXMgbnVsbCBvdXRzaWRlIGJvdGggd2luZG93cyIsICgpID0+IHsKICAgIGV4cGVjdChkdWVTbG90KGF0KCIyMDI2LTEwLTI5VDAwOjI5OjAwWiIpKSkudG9CZU51bGwoKTsgLy8gMDU6NTkgSVNUCiAgICBleHBlY3QoZHVlU2xvdChhdCgiMjAyNi0xMC0yOVQwNjozMDowMFoiKSkpLnRvQmVOdWxsKCk7IC8vIDEyOjAwIElTVAogICAgZXhwZWN0KGR1ZVNsb3QoYXQoIjIwMjYtMTAtMjlUMTc6MzA6MDBaIikpKS50b0JlTnVsbCgpOyAvLyAyMzowMCBJU1QKICB9KTsKfSk7Cg==
+import { describe, expect, it } from "vitest";
+import { dueSlot, istParts } from "./naukriBump";
+
+// Fixed instants in UTC; IST = UTC+5:30.
+const at = (isoUtc: string) => new Date(isoUtc);
+
+describe("istParts", () => {
+  it("converts UTC to the IST date and hour", () => {
+    // 2026-10-29 02:00 UTC = 07:30 IST
+    expect(istParts(at("2026-10-29T02:00:00Z"))).toEqual({ date: "2026-10-29", hour: 7 });
+  });
+
+  it("rolls the date forward after 18:30 UTC (midnight IST)", () => {
+    // 2026-10-29 19:00 UTC = 2026-10-30 00:30 IST
+    expect(istParts(at("2026-10-29T19:00:00Z")).date).toBe("2026-10-30");
+  });
+});
+
+describe("dueSlot", () => {
+  it("is morning from 6 AM IST", () => {
+    expect(dueSlot(at("2026-10-29T00:30:00Z"))).toBe("morning"); // 06:00 IST
+    expect(dueSlot(at("2026-10-29T06:29:00Z"))).toBe("morning"); // 11:59 IST
+  });
+
+  it("is evening from 5 PM to 11 PM IST", () => {
+    expect(dueSlot(at("2026-10-29T11:30:00Z"))).toBe("evening"); // 17:00 IST
+    expect(dueSlot(at("2026-10-29T17:29:00Z"))).toBe("evening"); // 22:59 IST
+  });
+
+  it("is null outside both windows", () => {
+    expect(dueSlot(at("2026-10-29T00:29:00Z"))).toBeNull(); // 05:59 IST
+    expect(dueSlot(at("2026-10-29T06:30:00Z"))).toBeNull(); // 12:00 IST
+    expect(dueSlot(at("2026-10-29T17:30:00Z"))).toBeNull(); // 23:00 IST
+  });
+});

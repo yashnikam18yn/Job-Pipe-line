@@ -1,1 +1,309 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAic29ubmVyIjsKaW1wb3J0IHsgTG9hZGVyMiwgVHJhc2gyLCBVcGxvYWQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giOwppbXBvcnQgeyBjb250YWN0c0Zyb21Sb3dzLCBjb250YWN0c0Zyb21UZXh0LCBwZW9wbGVGcm9tUGRmSXRlbXMsIHR5cGUgSW50ZXJuYWxDb250YWN0LCB0eXBlIEludGVybmFsUGVyc29uLCB0eXBlIFBkZkl0ZW0gfSBmcm9tICJAL2xpYi9pbnRlcm5hbERhdGEiOwoKdHlwZSBGaWxlU3VtbWFyeSA9IHsgc291cmNlX2ZpbGU6IHN0cmluZzsgY291bnQ6IG51bWJlciB9OwoKYXN5bmMgZnVuY3Rpb24gcmVhZEZpbGUoZmlsZTogRmlsZSk6IFByb21pc2U8SW50ZXJuYWxDb250YWN0W10gfCB7IHBlb3BsZTogSW50ZXJuYWxQZXJzb25bXSB9PiB7CiAgY29uc3QgbmFtZSA9IGZpbGUubmFtZS50b0xvd2VyQ2FzZSgpOwogIGlmIChuYW1lLmVuZHNXaXRoKCIucGRmIikpIHsKICAgIGNvbnN0IHBkZmpzID0gYXdhaXQgaW1wb3J0KCJwZGZqcy1kaXN0L2xlZ2FjeS9idWlsZC9wZGYubWpzIik7CiAgICBjb25zdCB3b3JrZXIgPSBhd2FpdCBpbXBvcnQoInBkZmpzLWRpc3QvbGVnYWN5L2J1aWxkL3BkZi53b3JrZXIubWluLm1qcz91cmwiKTsKICAgIHBkZmpzLkdsb2JhbFdvcmtlck9wdGlvbnMud29ya2VyU3JjID0gd29ya2VyLmRlZmF1bHQ7CiAgICBjb25zdCBkb2MgPSBhd2FpdCBwZGZqcy5nZXREb2N1bWVudCh7IGRhdGE6IGF3YWl0IGZpbGUuYXJyYXlCdWZmZXIoKSB9KS5wcm9taXNlOwogICAgbGV0IHRleHQgPSAiIjsKICAgIGNvbnN0IHBlb3BsZTogSW50ZXJuYWxQZXJzb25bXSA9IFtdOwogICAgbGV0IGhlYWRlcjogUGRmSXRlbVtdIHwgbnVsbCA9IG51bGw7CiAgICBmb3IgKGxldCBpID0gMTsgaSA8PSBkb2MubnVtUGFnZXM7IGkrKykgewogICAgICBjb25zdCBwYWdlID0gYXdhaXQgZG9jLmdldFBhZ2UoaSk7CiAgICAgIGNvbnN0IHRjID0gYXdhaXQgcGFnZS5nZXRUZXh0Q29udGVudCgpOwogICAgICBsZXQgaXRlbXM6IFBkZkl0ZW1bXSA9ICh0Yy5pdGVtcyBhcyB7IHN0cjogc3RyaW5nOyB0cmFuc2Zvcm06IG51bWJlcltdIH1bXSkubWFwKCh0KSA9PiAoeyBzdHI6IHQuc3RyLCB4OiB0LnRyYW5zZm9ybVs0XSA/PyAwLCB5OiB0LnRyYW5zZm9ybVs1XSA/PyAwIH0pKTsKICAgICAgY29uc3QgbmFtZUhlYWQgPSBpdGVtcy5maW5kKCh0KSA9PiAvXm5hbWUkL2kudGVzdCh0LnN0ci50cmltKCkpKTsKICAgICAgaWYgKG5hbWVIZWFkKSBoZWFkZXIgPSBpdGVtcy5maWx0ZXIoKHQpID0+IE1hdGguYWJzKHQueSAtIG5hbWVIZWFkLnkpIDwgMS41ICYmIHQueCA+PSBuYW1lSGVhZC54IC0gMykubWFwKCh0KSA9PiAoeyAuLi50LCB5OiAxZTYgfSkpOwogICAgICBlbHNlIGlmIChoZWFkZXIpIGl0ZW1zID0gWy4uLmhlYWRlciwgLi4uaXRlbXNdOyAvLyB0YWJsZSBjb250aW51ZXMgb24gbGF0ZXIgcGFnZXMgd2l0aG91dCBpdHMgaGVhZGVyCiAgICAgIHBlb3BsZS5wdXNoKC4uLnBlb3BsZUZyb21QZGZJdGVtcyhpdGVtcykpOwogICAgICBsZXQgbGFzdFk6IG51bWJlciB8IG51bGwgPSBudWxsOwogICAgICBmb3IgKGNvbnN0IGl0IG9mIHRjLml0ZW1zIGFzIHsgc3RyOiBzdHJpbmc7IHRyYW5zZm9ybTogbnVtYmVyW107IGhhc0VPTD86IGJvb2xlYW4gfVtdKSB7CiAgICAgICAgY29uc3QgeSA9IGl0LnRyYW5zZm9ybVs1XSA/PyAwOwogICAgICAgIHRleHQgKz0gbGFzdFkgIT09IG51bGwgJiYgTWF0aC5hYnMoeSAtIGxhc3RZKSA+IDIgPyAiXG4iIDogIiAiOwogICAgICAgIHRleHQgKz0gaXQuc3RyOwogICAgICAgIGxhc3RZID0geTsKICAgICAgfQogICAgICB0ZXh0ICs9ICJcbiI7CiAgICB9CiAgICBjb25zdCBlbWFpbHMgPSBjb250YWN0c0Zyb21UZXh0KHRleHQpOwogICAgcmV0dXJuIGVtYWlscy5sZW5ndGggPyBlbWFpbHMgOiB7IHBlb3BsZSB9OwogIH0KICBpZiAoL1wuKHhsc3h8eGxzfGNzdnxvZHMpJC8udGVzdChuYW1lKSkgewogICAgY29uc3QgWExTWCA9IGF3YWl0IGltcG9ydCgieGxzeCIpOwogICAgY29uc3Qgd2IgPSBYTFNYLnJlYWQoYXdhaXQgZmlsZS5hcnJheUJ1ZmZlcigpKTsKICAgIGNvbnN0IGFsbDogSW50ZXJuYWxDb250YWN0W10gPSBbXTsKICAgIGZvciAoY29uc3Qgc24gb2Ygd2IuU2hlZXROYW1lcykgewogICAgICBjb25zdCByb3dzID0gWExTWC51dGlscy5zaGVldF90b19qc29uPHVua25vd25bXT4od2IuU2hlZXRzW3NuXSEsIHsgaGVhZGVyOiAxLCBkZWZ2YWw6ICIiIH0pOwogICAgICBhbGwucHVzaCguLi5jb250YWN0c0Zyb21Sb3dzKHJvd3MpKTsKICAgIH0KICAgIHJldHVybiBhbGw7CiAgfQogIHJldHVybiBjb250YWN0c0Zyb21UZXh0KGF3YWl0IGZpbGUudGV4dCgpKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIEludGVybmFsRGF0YVRhYih7IHVzZXJJZCB9OiB7IHVzZXJJZDogc3RyaW5nIH0pIHsKICBjb25zdCBbZmlsZXMsIHNldEZpbGVzXSA9IHVzZVN0YXRlPEZpbGVTdW1tYXJ5W10+KFtdKTsKICBjb25zdCBbdG90YWwsIHNldFRvdGFsXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IFtjb21wYW5pZXMsIHNldENvbXBhbmllc10gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbcGVvcGxlRmlsZXMsIHNldFBlb3BsZUZpbGVzXSA9IHVzZVN0YXRlPEZpbGVTdW1tYXJ5W10+KFtdKTsKICBjb25zdCBbcGVvcGxlQ29tcGFuaWVzLCBzZXRQZW9wbGVDb21wYW5pZXNdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3VzZURpcmVjdCwgc2V0VXNlRGlyZWN0XSA9IHVzZVN0YXRlKGZhbHNlKTsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdm9pZCBzdXBhYmFzZS5mcm9tKCJvdXRyZWFjaF9zZXR0aW5ncyIpLnNlbGVjdCgidXNlX2ludGVybmFsX2VtYWlscyIpLmVxKCJ1c2VyX2lkIiwgdXNlcklkKS5tYXliZVNpbmdsZSgpCiAgICAgIC50aGVuKCh7IGRhdGEgfSkgPT4gc2V0VXNlRGlyZWN0KCEhZGF0YT8udXNlX2ludGVybmFsX2VtYWlscykpOwogIH0sIFt1c2VySWRdKTsKICBhc3luYyBmdW5jdGlvbiB0b2dnbGVEaXJlY3QodjogYm9vbGVhbikgewogICAgc2V0VXNlRGlyZWN0KHYpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgib3V0cmVhY2hfc2V0dGluZ3MiKS51cGRhdGUoeyB1c2VfaW50ZXJuYWxfZW1haWxzOiB2IH0pLmVxKCJ1c2VyX2lkIiwgdXNlcklkKTsKICAgIGlmIChlcnJvcikgeyBzZXRVc2VEaXJlY3QoIXYpOyB0b2FzdC5lcnJvcihlcnJvci5tZXNzYWdlKTsgfSBlbHNlIHRvYXN0LnN1Y2Nlc3ModiA/ICJMaXN0IGVtYWlscyB3aWxsIGJlIHVzZWQgZGlyZWN0bHkiIDogIkxpc3QgZW1haWxzIHVzZWQgb25seSB0byBsZWFybiBlbWFpbCBmb3JtYXRzIik7CiAgfQogIGNvbnN0IFtxLCBzZXRRXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbaGl0cywgc2V0SGl0c10gPSB1c2VTdGF0ZTx7IGVtYWlsOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB8IG51bGw7IGNvbXBhbnk6IHN0cmluZyB8IG51bGwgfVtdPihbXSk7CgogIGNvbnN0IGxvYWQgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBjb25zdCByb3dzOiB7IHNvdXJjZV9maWxlOiBzdHJpbmcgfCBudWxsOyBkb21haW46IHN0cmluZyB9W10gPSBbXTsKICAgIGZvciAobGV0IGZyb20gPSAwOyA7IGZyb20gKz0gMTAwMCkgewogICAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oImludGVybmFsX2NvbnRhY3RzIikuc2VsZWN0KCJzb3VyY2VfZmlsZSwgZG9tYWluIikucmFuZ2UoZnJvbSwgZnJvbSArIDk5OSk7CiAgICAgIHJvd3MucHVzaCguLi4oZGF0YSA/PyBbXSkpOwogICAgICBpZiAoIWRhdGEgfHwgZGF0YS5sZW5ndGggPCAxMDAwKSBicmVhazsKICAgIH0KICAgIGNvbnN0IG0gPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwogICAgcm93cy5mb3JFYWNoKChyKSA9PiBtLnNldChyLnNvdXJjZV9maWxlID8/ICI/IiwgKG0uZ2V0KHIuc291cmNlX2ZpbGUgPz8gIj8iKSA/PyAwKSArIDEpKTsKICAgIGNvbnN0IHBwbDogeyBzb3VyY2VfZmlsZTogc3RyaW5nIHwgbnVsbDsgZG9tYWluOiBzdHJpbmcgfVtdID0gW107CiAgICBmb3IgKGxldCBmcm9tID0gMDsgOyBmcm9tICs9IDEwMDApIHsKICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJpbnRlcm5hbF9wZW9wbGUiKS5zZWxlY3QoInNvdXJjZV9maWxlLCBkb21haW4iKS5yYW5nZShmcm9tLCBmcm9tICsgOTk5KTsKICAgICAgcHBsLnB1c2goLi4uKGRhdGEgPz8gW10pKTsKICAgICAgaWYgKCFkYXRhIHx8IGRhdGEubGVuZ3RoIDwgMTAwMCkgYnJlYWs7CiAgICB9CiAgICBjb25zdCBwbSA9IG5ldyBNYXA8c3RyaW5nLCBudW1iZXI+KCk7CiAgICBwcGwuZm9yRWFjaCgocikgPT4gcG0uc2V0KHIuc291cmNlX2ZpbGUgPz8gIj8iLCAocG0uZ2V0KHIuc291cmNlX2ZpbGUgPz8gIj8iKSA/PyAwKSArIDEpKTsKICAgIHNldFBlb3BsZUZpbGVzKFsuLi5wbV0ubWFwKChbc291cmNlX2ZpbGUsIGNvdW50XSkgPT4gKHsgc291cmNlX2ZpbGUsIGNvdW50IH0pKSk7CiAgICBzZXRQZW9wbGVDb21wYW5pZXMobmV3IFNldChwcGwubWFwKChyKSA9PiByLmRvbWFpbikpLnNpemUpOwogICAgc2V0RmlsZXMoWy4uLm1dLm1hcCgoW3NvdXJjZV9maWxlLCBjb3VudF0pID0+ICh7IHNvdXJjZV9maWxlLCBjb3VudCB9KSkpOwogICAgc2V0VG90YWwocm93cy5sZW5ndGgpOwogICAgc2V0Q29tcGFuaWVzKG5ldyBTZXQocm93cy5tYXAoKHIpID0+IHIuZG9tYWluKSkuc2l6ZSk7CiAgfSwgW10pOwogIHVzZUVmZmVjdCgoKSA9PiB7IHZvaWQgbG9hZCgpOyB9LCBbbG9hZF0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgdCA9IHNldFRpbWVvdXQoYXN5bmMgKCkgPT4gewogICAgICBpZiAocS50cmltKCkubGVuZ3RoIDwgMikgcmV0dXJuIHNldEhpdHMoW10pOwogICAgICBjb25zdCBzID0gcS50cmltKCkucmVwbGFjZSgvWyUsKCldL2csICIiKTsKICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJpbnRlcm5hbF9jb250YWN0cyIpLnNlbGVjdCgiZW1haWwsIG5hbWUsIGNvbXBhbnkiKQogICAgICAgIC5vcihgY29tcGFueS5pbGlrZS4lJHtzfSUsZG9tYWluLmlsaWtlLiUke3N9JSxlbWFpbC5pbGlrZS4lJHtzfSVgKS5saW1pdCgzMCk7CiAgICAgIHNldEhpdHMoZGF0YSA/PyBbXSk7CiAgICB9LCAzMDApOwogICAgcmV0dXJuICgpID0+IGNsZWFyVGltZW91dCh0KTsKICB9LCBbcV0pOwoKICBjb25zdCBbcHJldmlldywgc2V0UHJldmlld10gPSB1c2VTdGF0ZTx7IGZpbGU6IHN0cmluZzsgcm93czogKEludGVybmFsQ29udGFjdCAmIHsga2VlcDogYm9vbGVhbiB9KVtdIH0gfCBudWxsPihudWxsKTsKCiAgYXN5bmMgZnVuY3Rpb24gc2F2ZShmaWxlTmFtZTogc3RyaW5nLCBmb3VuZDogSW50ZXJuYWxDb250YWN0W10pIHsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGZvdW5kLmxlbmd0aDsgaSArPSA1MDApIHsKICAgICAgICAgIGNvbnN0IGNodW5rID0gZm91bmQuc2xpY2UoaSwgaSArIDUwMCkubWFwKChjKSA9PiAoeyAuLi5jLCB1c2VyX2lkOiB1c2VySWQsIHNvdXJjZV9maWxlOiBmaWxlTmFtZSB9KSk7CiAgICAgICAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJpbnRlcm5hbF9jb250YWN0cyIpLnVwc2VydChjaHVuaywgeyBvbkNvbmZsaWN0OiAidXNlcl9pZCxlbWFpbCIsIGlnbm9yZUR1cGxpY2F0ZXM6IHRydWUgfSk7CiAgICAgICAgICBpZiAoZXJyb3IpIHRocm93IGVycm9yOwogICAgICAgIH0KICAgICAgICB0b2FzdC5zdWNjZXNzKGAke2ZpbGVOYW1lfTogJHtmb3VuZC5sZW5ndGh9IGNvbXBhbnkgZW1haWxzIHNhdmVkYCk7CiAgfQoKICBhc3luYyBmdW5jdGlvbiB1cGxvYWQobGlzdDogRmlsZUxpc3QgfCBudWxsKSB7CiAgICBpZiAoIWxpc3Q/Lmxlbmd0aCkgcmV0dXJuOwogICAgZm9yIChjb25zdCBmaWxlIG9mIEFycmF5LmZyb20obGlzdCkpIHsKICAgICAgc2V0QnVzeShmaWxlLm5hbWUpOwogICAgICB0cnkgewogICAgICAgIGNvbnN0IGZvdW5kID0gYXdhaXQgcmVhZEZpbGUoZmlsZSk7CiAgICAgICAgaWYgKCFBcnJheS5pc0FycmF5KGZvdW5kKSkgewogICAgICAgICAgaWYgKCFmb3VuZC5wZW9wbGUubGVuZ3RoKSB7IHRvYXN0LmVycm9yKGAke2ZpbGUubmFtZX06IG5vIGVtYWlscyBvciBIUiBwZW9wbGUgdGFibGUgZm91bmQgKHNjYW5uZWQgUERGcyBjYW4ndCBiZSByZWFkKWApOyBjb250aW51ZTsgfQogICAgICAgICAgc2V0UGVvcGxlUHJldmlldyh7IGZpbGU6IGZpbGUubmFtZSwgcm93czogZm91bmQucGVvcGxlLm1hcCgocikgPT4gKHsgLi4uciwga2VlcDogdHJ1ZSB9KSkgfSk7CiAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaWYgKCFmb3VuZC5sZW5ndGgpIHsgdG9hc3QuZXJyb3IoYCR7ZmlsZS5uYW1lfTogbm8gY29tcGFueSBlbWFpbHMgZm91bmRgKTsgY29udGludWU7IH0KICAgICAgICBpZiAoZmlsZS5uYW1lLnRvTG93ZXJDYXNlKCkuZW5kc1dpdGgoIi5wZGYiKSkgeyBzZXRQcmV2aWV3KHsgZmlsZTogZmlsZS5uYW1lLCByb3dzOiBmb3VuZC5tYXAoKHIpID0+ICh7IC4uLnIsIGtlZXA6IHRydWUgfSkpIH0pOyBjb250aW51ZTsgfQogICAgICAgIGF3YWl0IHNhdmUoZmlsZS5uYW1lLCBmb3VuZCk7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICB0b2FzdC5lcnJvcihgJHtmaWxlLm5hbWV9OiAke2UgaW5zdGFuY2VvZiBFcnJvciA/IGUubWVzc2FnZSA6ICJjb3VsZCBub3QgcmVhZCJ9YCk7CiAgICAgIH0KICAgIH0KICAgIHNldEJ1c3kobnVsbCk7CiAgICBhd2FpdCBsb2FkKCk7CiAgfQoKICBjb25zdCBbcGVvcGxlUHJldmlldywgc2V0UGVvcGxlUHJldmlld10gPSB1c2VTdGF0ZTx7IGZpbGU6IHN0cmluZzsgcm93czogKEludGVybmFsUGVyc29uICYgeyBrZWVwOiBib29sZWFuIH0pW10gfSB8IG51bGw+KG51bGwpOwogIGFzeW5jIGZ1bmN0aW9uIGNvbmZpcm1QZW9wbGUoKSB7CiAgICBpZiAoIXBlb3BsZVByZXZpZXcpIHJldHVybjsKICAgIHNldEJ1c3kocGVvcGxlUHJldmlldy5maWxlKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGtlZXAgPSBwZW9wbGVQcmV2aWV3LnJvd3MuZmlsdGVyKChyKSA9PiByLmtlZXApLm1hcCgoeyBrZWVwOiBfaywgLi4uciB9KSA9PiAoeyAuLi5yLCBjb21wYW55OiByLmNvbXBhbnk/LnRyaW0oKSB8fCBudWxsLCB1c2VyX2lkOiB1c2VySWQsIHNvdXJjZV9maWxlOiBwZW9wbGVQcmV2aWV3LmZpbGUgfSkpOwogICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGtlZXAubGVuZ3RoOyBpICs9IDUwMCkgewogICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oImludGVybmFsX3Blb3BsZSIpLnVwc2VydChrZWVwLnNsaWNlKGksIGkgKyA1MDApLCB7IG9uQ29uZmxpY3Q6ICJ1c2VyX2lkLGxpbmtlZGluX3VybCIsIGlnbm9yZUR1cGxpY2F0ZXM6IHRydWUgfSk7CiAgICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcjsKICAgICAgfQogICAgICB0b2FzdC5zdWNjZXNzKGAke3Blb3BsZVByZXZpZXcuZmlsZX06ICR7a2VlcC5sZW5ndGh9IEhSIHBlb3BsZSBzYXZlZGApOwogICAgICBzZXRQZW9wbGVQcmV2aWV3KG51bGwpOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICB9IGNhdGNoIChlKSB7IHRvYXN0LmVycm9yKGUgaW5zdGFuY2VvZiBFcnJvciA/IGUubWVzc2FnZSA6ICJTYXZlIGZhaWxlZCIpOyB9CiAgICBzZXRCdXN5KG51bGwpOwogIH0KICBjb25zdCBlZGl0UGVyc29uID0gKGk6IG51bWJlciwgcGF0Y2g6IFBhcnRpYWw8SW50ZXJuYWxQZXJzb24gJiB7IGtlZXA6IGJvb2xlYW4gfT4pID0+CiAgICBzZXRQZW9wbGVQcmV2aWV3KChwKSA9PiBwICYmIHsgLi4ucCwgcm93czogcC5yb3dzLm1hcCgociwgaikgPT4gKGogPT09IGkgPyB7IC4uLnIsIC4uLnBhdGNoIH0gOiByKSkgfSk7CgogIGFzeW5jIGZ1bmN0aW9uIGNvbmZpcm1QcmV2aWV3KCkgewogICAgaWYgKCFwcmV2aWV3KSByZXR1cm47CiAgICBzZXRCdXN5KHByZXZpZXcuZmlsZSk7CiAgICB0cnkgewogICAgICBhd2FpdCBzYXZlKHByZXZpZXcuZmlsZSwgcHJldmlldy5yb3dzLmZpbHRlcigocikgPT4gci5rZWVwKS5tYXAoKHsga2VlcDogX2ssIC4uLnIgfSkgPT4gKHsgLi4uciwgY29tcGFueTogci5jb21wYW55Py50cmltKCkgfHwgbnVsbCB9KSkpOwogICAgICBzZXRQcmV2aWV3KG51bGwpOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICB9IGNhdGNoIChlKSB7IHRvYXN0LmVycm9yKGUgaW5zdGFuY2VvZiBFcnJvciA/IGUubWVzc2FnZSA6ICJTYXZlIGZhaWxlZCIpOyB9CiAgICBzZXRCdXN5KG51bGwpOwogIH0KICBjb25zdCBlZGl0Um93ID0gKGk6IG51bWJlciwgcGF0Y2g6IFBhcnRpYWw8SW50ZXJuYWxDb250YWN0ICYgeyBrZWVwOiBib29sZWFuIH0+KSA9PgogICAgc2V0UHJldmlldygocCkgPT4gcCAmJiB7IC4uLnAsIHJvd3M6IHAucm93cy5tYXAoKHIsIGopID0+IChqID09PSBpID8geyAuLi5yLCAuLi5wYXRjaCB9IDogcikpIH0pOwoKICBhc3luYyBmdW5jdGlvbiByZW1vdmVQZW9wbGVGaWxlKGY6IHN0cmluZykgewogICAgaWYgKCFjb25maXJtKGBSZW1vdmUgYWxsICR7cGVvcGxlRmlsZXMuZmluZCgoeCkgPT4geC5zb3VyY2VfZmlsZSA9PT0gZik/LmNvdW50ID8/ICIifSBIUiBwZW9wbGUgZnJvbSAke2Z9P2ApKSByZXR1cm47CiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJpbnRlcm5hbF9wZW9wbGUiKS5kZWxldGUoKS5lcSgic291cmNlX2ZpbGUiLCBmKTsKICAgIGF3YWl0IGxvYWQoKTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHJlbW92ZUZpbGUoZjogc3RyaW5nKSB7CiAgICBpZiAoIWNvbmZpcm0oYFJlbW92ZSBhbGwgJHtmaWxlcy5maW5kKCh4KSA9PiB4LnNvdXJjZV9maWxlID09PSBmKT8uY291bnQgPz8gIiJ9IGVtYWlscyBmcm9tICR7Zn0/YCkpIHJldHVybjsKICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oImludGVybmFsX2NvbnRhY3RzIikuZGVsZXRlKCkuZXEoInNvdXJjZV9maWxlIiwgZik7CiAgICBhd2FpdCBsb2FkKCk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1jYXJkIHAtNCBzcGFjZS15LTMiPgogICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPllvdXIgSFIgbGlzdHM8L2gzPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgVXBsb2FkIEV4Y2VsLCBDU1Ygb3IgUERGIGZpbGVzIHdpdGggSFIgZW1haWxzLiBXaGVuIGEgbmV3IGpvYiBpcyBmcm9tIGEgY29tcGFueSBpbiB5b3VyIGxpc3QsIHRoZSBjb21wYW55J3MgZW1haWwgZm9ybWF0CiAgICAgICAgICAoZS5nLiBmaXJzdC5sYXN0QCkgaXMgbGVhcm5lZCBmcm9tIHRoZW0gZm9yIGxpa2VseSBlbWFpbHMuIFBlcnNvbmFsIGFkZHJlc3NlcyAoR21haWwsIFlhaG9v4oCmKSBhcmUgc2tpcHBlZC4KICAgICAgICA8L3A+CiAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkIGJvcmRlciBwLTMgdGV4dC1zbSI+CiAgICAgICAgICA8U3dpdGNoIGNoZWNrZWQ9e3VzZURpcmVjdH0gb25DaGVja2VkQ2hhbmdlPXt0b2dnbGVEaXJlY3R9IGFyaWEtbGFiZWw9IkVtYWlsIHBlb3BsZSBmcm9tIG15IGxpc3QgZGlyZWN0bHkiIC8+CiAgICAgICAgICA8c3Bhbj48Yj5FbWFpbCBwZW9wbGUgZnJvbSBteSBsaXN0IGRpcmVjdGx5PC9iPjxiciAvPjxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgT2ZmOiBsaXN0IGVtYWlscyBhcmUgbmV2ZXIgZW1haWxlZCwgb25seSB1c2VkIHRvIGZpbmQgdGhlIGZvcm1hdC4gT246IG1hdGNoaW5nIGxpc3QgZW1haWxzIGFyZSBhZGRlZCB0byB0aGUgUmV2aWV3IHF1ZXVlIGZpcnN0Ljwvc3Bhbj48L3NwYW4+CiAgICAgICAgPC9sYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImlubGluZS1mbGV4Ij4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJmaWxlIiBtdWx0aXBsZSBhY2NlcHQ9Ii54bHN4LC54bHMsLmNzdiwub2RzLC50eHQiIGNsYXNzTmFtZT0iaGlkZGVuIiBkaXNhYmxlZD17ISFidXN5fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHsgdm9pZCB1cGxvYWQoZS50YXJnZXQuZmlsZXMpOyBlLnRhcmdldC52YWx1ZSA9ICIiOyB9fSAvPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBiZy1wcmltYXJ5IHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge2J1c3kgPyA8TG9hZGVyMiBjbGFzc05hbWU9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPiA6IDxVcGxvYWQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPn0KICAgICAgICAgICAge2J1c3kgPyBgUmVhZGluZyAke2J1c3l94oCmYCA6ICJVcGxvYWQgRXhjZWwgLyBDU1YifQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvbGFiZWw+CiAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iaW5saW5lLWZsZXgiPgogICAgICAgICAgPGlucHV0IHR5cGU9ImZpbGUiIG11bHRpcGxlIGFjY2VwdD0iLnBkZixhcHBsaWNhdGlvbi9wZGYiIGNsYXNzTmFtZT0iaGlkZGVuIiBkaXNhYmxlZD17ISFidXN5fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHsgdm9pZCB1cGxvYWQoZS50YXJnZXQuZmlsZXMpOyBlLnRhcmdldC52YWx1ZSA9ICIiOyB9fSAvPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBiZy1wcmltYXJ5IHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge2J1c3kgPyA8TG9hZGVyMiBjbGFzc05hbWU9ImgtNCB3LTQgYW5pbWF0ZS1zcGluIiAvPiA6IDxVcGxvYWQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPn0KICAgICAgICAgICAge2J1c3kgPyBgUmVhZGluZyAke2J1c3l94oCmYCA6ICJVcGxvYWQgUERGIn0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2xhYmVsPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSI+PGI+e3RvdGFsfTwvYj4gZW1haWxzIGFjcm9zcyA8Yj57Y29tcGFuaWVzfTwvYj4gY29tcGFuaWVzPC9wPgogICAgICAgIHtmaWxlcy5tYXAoKGYpID0+ICgKICAgICAgICAgIDxkaXYga2V5PXtmLnNvdXJjZV9maWxlfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByb3VuZGVkIGJvcmRlciBweC0zIHB5LTIgdGV4dC1zbSI+CiAgICAgICAgICAgIDxzcGFuPntmLnNvdXJjZV9maWxlfSDCtyB7Zi5jb3VudH0gZW1haWxzPC9zcGFuPgogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJnaG9zdCIgb25DbGljaz17KCkgPT4gcmVtb3ZlRmlsZShmLnNvdXJjZV9maWxlKX0gYXJpYS1sYWJlbD17YFJlbW92ZSAke2Yuc291cmNlX2ZpbGV9YH0+PFRyYXNoMiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+PC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApKX0KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20iPjxiPntwZW9wbGVGaWxlcy5yZWR1Y2UoKGEsIGYpID0+IGEgKyBmLmNvdW50LCAwKX08L2I+IEhSIHBlb3BsZSAobm8gZW1haWwpIGFjcm9zcyA8Yj57cGVvcGxlQ29tcGFuaWVzfTwvYj4gY29tcGFuaWVzIOKAlCB0aGVpciBlbWFpbHMgYXJlIGJ1aWx0IGZyb20gZWFjaCBjb21wYW55J3MgZm9ybWF0IGFuZCBtYXJrZWQgbGlrZWx5LjwvcD4KICAgICAgICB7cGVvcGxlRmlsZXMubWFwKChmKSA9PiAoCiAgICAgICAgICA8ZGl2IGtleT17InAiICsgZi5zb3VyY2VfZmlsZX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcm91bmRlZCBib3JkZXIgcHgtMyBweS0yIHRleHQtc20iPgogICAgICAgICAgICA8c3Bhbj57Zi5zb3VyY2VfZmlsZX0gwrcge2YuY291bnR9IEhSIHBlb3BsZTwvc3Bhbj4KICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0iZ2hvc3QiIG9uQ2xpY2s9eygpID0+IHJlbW92ZVBlb3BsZUZpbGUoZi5zb3VyY2VfZmlsZSl9IGFyaWEtbGFiZWw9e2BSZW1vdmUgcGVvcGxlIGZyb20gJHtmLnNvdXJjZV9maWxlfWB9PjxUcmFzaDIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPjwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgICB7cGVvcGxlUHJldmlldyAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyLTIgYm9yZGVyLXByaW1hcnkgYmctY2FyZCBwLTQgc3BhY2UteS0zIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+Q2hlY2sge3Blb3BsZVByZXZpZXcuZmlsZX0gYmVmb3JlIHNhdmluZyDigJQge3Blb3BsZVByZXZpZXcucm93cy5sZW5ndGh9IEhSIHBlb3BsZSwge25ldyBTZXQocGVvcGxlUHJldmlldy5yb3dzLm1hcCgocikgPT4gci5kb21haW4pKS5zaXplfSBjb21wYW5pZXM8L2gzPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gc2V0UGVvcGxlUHJldmlldyhudWxsKX0+Q2FuY2VsPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgZGlzYWJsZWQ9eyEhYnVzeSB8fCAhcGVvcGxlUHJldmlldy5yb3dzLnNvbWUoKHIpID0+IHIua2VlcCl9IG9uQ2xpY2s9e2NvbmZpcm1QZW9wbGV9PgogICAgICAgICAgICAgICAgU2F2ZSB7cGVvcGxlUHJldmlldy5yb3dzLmZpbHRlcigocikgPT4gci5rZWVwKS5sZW5ndGh9IG9mIHtwZW9wbGVQcmV2aWV3LnJvd3MubGVuZ3RofQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+VGhpcyBQREYgaGFzIG5hbWVzLCB0aXRsZXMsIExpbmtlZEluIGFuZCBjb21wYW55IHdlYnNpdGVzIGJ1dCBubyBlbWFpbHMuIFVudGljayB3cm9uZyByb3dzIGFuZCBmaXggY29tcGFueSBuYW1lcy4gTm90aGluZyBpcyBzYXZlZCB1bnRpbCB5b3UgY2xpY2sgU2F2ZS48L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBzZXRQZW9wbGVQcmV2aWV3KChwKSA9PiBwICYmIHsgLi4ucCwgcm93czogcC5yb3dzLm1hcCgocikgPT4gKHsgLi4uciwga2VlcDogdHJ1ZSB9KSkgfSl9PlRpY2sgYWxsPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBzZXRQZW9wbGVQcmV2aWV3KChwKSA9PiBwICYmIHsgLi4ucCwgcm93czogcC5yb3dzLm1hcCgocikgPT4gKHsgLi4uciwga2VlcDogZmFsc2UgfSkpIH0pfT5VbnRpY2sgYWxsPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtaC1bNDgwcHhdIG92ZXJmbG93LWF1dG8gcm91bmRlZCBib3JkZXIiPgogICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPHRoZWFkIGNsYXNzTmFtZT0ic3RpY2t5IHRvcC0wIGJnLW11dGVkIj48dHI+PHRoIGNsYXNzTmFtZT0icC0yIHctOCIgLz48dGggY2xhc3NOYW1lPSJwLTIgdGV4dC1sZWZ0Ij5OYW1lPC90aD48dGggY2xhc3NOYW1lPSJwLTIgdGV4dC1sZWZ0Ij5UaXRsZTwvdGg+PHRoIGNsYXNzTmFtZT0icC0yIHRleHQtbGVmdCI+Q29tcGFueTwvdGg+PHRoIGNsYXNzTmFtZT0icC0yIHRleHQtbGVmdCI+V2Vic2l0ZTwvdGg+PC90cj48L3RoZWFkPgogICAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICAgIHtwZW9wbGVQcmV2aWV3LnJvd3MubWFwKChyLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgIDx0ciBrZXk9e3IubGlua2VkaW5fdXJsfSBjbGFzc05hbWU9e3Iua2VlcCA/ICIiIDogIm9wYWNpdHktNTAifT4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJwLTIiPjxpbnB1dCB0eXBlPSJjaGVja2JveCIgYXJpYS1sYWJlbD17YEtlZXAgJHtyLm5hbWV9YH0gY2hlY2tlZD17ci5rZWVwfSBvbkNoYW5nZT17KGUpID0+IGVkaXRQZXJzb24oaSwgeyBrZWVwOiBlLnRhcmdldC5jaGVja2VkIH0pfSAvPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icC0yIj48YSBjbGFzc05hbWU9InVuZGVybGluZSIgaHJlZj17ci5saW5rZWRpbl91cmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPntyLm5hbWV9PC9hPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icC0yIj57ci50aXRsZX08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InAtMSI+PElucHV0IGNsYXNzTmFtZT0iaC04IiB2YWx1ZT17ci5jb21wYW55ID8/ICIifSBvbkNoYW5nZT17KGUpID0+IGVkaXRQZXJzb24oaSwgeyBjb21wYW55OiBlLnRhcmdldC52YWx1ZSB9KX0gLz48L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InAtMiI+e3IuZG9tYWlufTwvdGQ+CiAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICAgIHtwcmV2aWV3ICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXItMiBib3JkZXItcHJpbWFyeSBiZy1jYXJkIHAtNCBzcGFjZS15LTMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj5DaGVjayB7cHJldmlldy5maWxlfSBiZWZvcmUgc2F2aW5nPC9oMz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHNldFByZXZpZXcobnVsbCl9PkNhbmNlbDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIGRpc2FibGVkPXshIWJ1c3kgfHwgIXByZXZpZXcucm93cy5zb21lKChyKSA9PiByLmtlZXApfSBvbkNsaWNrPXtjb25maXJtUHJldmlld30+CiAgICAgICAgICAgICAgICBTYXZlIHtwcmV2aWV3LnJvd3MuZmlsdGVyKChyKSA9PiByLmtlZXApLmxlbmd0aH0gb2Yge3ByZXZpZXcucm93cy5sZW5ndGh9CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5VbnRpY2sgd3JvbmcgZW1haWxzIGFuZCBmaXggY29tcGFueSBuYW1lcy4gTm90aGluZyBpcyBzYXZlZCB1bnRpbCB5b3UgY2xpY2sgU2F2ZS48L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiB0ZXh0LXNtIj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHNldFByZXZpZXcoKHApID0+IHAgJiYgeyAuLi5wLCByb3dzOiBwLnJvd3MubWFwKChyKSA9PiAoeyAuLi5yLCBrZWVwOiB0cnVlIH0pKSB9KX0+VGljayBhbGw8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHNldFByZXZpZXcoKHApID0+IHAgJiYgeyAuLi5wLCByb3dzOiBwLnJvd3MubWFwKChyKSA9PiAoeyAuLi5yLCBrZWVwOiBmYWxzZSB9KSkgfSl9PlVudGljayBhbGw8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC1oLVs0ODBweF0gb3ZlcmZsb3ctYXV0byByb3VuZGVkIGJvcmRlciI+CiAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCB0ZXh0LXNtIj4KICAgICAgICAgICAgICA8dGhlYWQgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgYmctbXV0ZWQiPjx0cj48dGggY2xhc3NOYW1lPSJwLTIgdy04IiAvPjx0aCBjbGFzc05hbWU9InAtMiB0ZXh0LWxlZnQiPkVtYWlsPC90aD48dGggY2xhc3NOYW1lPSJwLTIgdGV4dC1sZWZ0Ij5Db21wYW55PC90aD48L3RyPjwvdGhlYWQ+CiAgICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgICAge3ByZXZpZXcucm93cy5tYXAoKHIsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgPHRyIGtleT17ci5lbWFpbH0gY2xhc3NOYW1lPXtyLmtlZXAgPyAiIiA6ICJvcGFjaXR5LTUwIn0+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icC0yIj48aW5wdXQgdHlwZT0iY2hlY2tib3giIGFyaWEtbGFiZWw9e2BLZWVwICR7ci5lbWFpbH1gfSBjaGVja2VkPXtyLmtlZXB9IG9uQ2hhbmdlPXsoZSkgPT4gZWRpdFJvdyhpLCB7IGtlZXA6IGUudGFyZ2V0LmNoZWNrZWQgfSl9IC8+PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJwLTIiPntyLmVtYWlsfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icC0xIj48SW5wdXQgY2xhc3NOYW1lPSJoLTgiIHZhbHVlPXtyLmNvbXBhbnkgPz8gIiJ9IG9uQ2hhbmdlPXsoZSkgPT4gZWRpdFJvdyhpLCB7IGNvbXBhbnk6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPjwvdGQ+CiAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBiZy1jYXJkIHAtNCBzcGFjZS15LTIiPgogICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPlNlYXJjaCB5b3VyIGxpc3Q8L2gzPgogICAgICAgIDxJbnB1dCBwbGFjZWhvbGRlcj0iQ29tcGFueSBuYW1lIG9yIGRvbWFpbiwgZS5nLiBjYXBnZW1pbmkiIHZhbHVlPXtxfSBvbkNoYW5nZT17KGUpID0+IHNldFEoZS50YXJnZXQudmFsdWUpfSAvPgogICAgICAgIHtoaXRzLm1hcCgoaCkgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e2guZW1haWx9IGNsYXNzTmFtZT0idGV4dC1zbSI+PGI+e2guY29tcGFueX08L2I+IMK3IHtoLm5hbWUgPyBgJHtoLm5hbWV9IMK3IGAgOiAiIn17aC5lbWFpbH08L2Rpdj4KICAgICAgICApKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { useCallback, useEffect, useState } from "react";
+import { toast } from "sonner";
+import { Loader2, Trash2, Upload } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Switch } from "@/components/ui/switch";
+import { contactsFromRows, contactsFromText, peopleFromPdfItems, type InternalContact, type InternalPerson, type PdfItem } from "@/lib/internalData";
+
+type FileSummary = { source_file: string; count: number };
+
+async function readFile(file: File): Promise<InternalContact[] | { people: InternalPerson[] }> {
+  const name = file.name.toLowerCase();
+  if (name.endsWith(".pdf")) {
+    const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+    const worker = await import("pdfjs-dist/legacy/build/pdf.worker.min.mjs?url");
+    pdfjs.GlobalWorkerOptions.workerSrc = worker.default;
+    const doc = await pdfjs.getDocument({ data: await file.arrayBuffer() }).promise;
+    let text = "";
+    const people: InternalPerson[] = [];
+    let header: PdfItem[] | null = null;
+    for (let i = 1; i <= doc.numPages; i++) {
+      const page = await doc.getPage(i);
+      const tc = await page.getTextContent();
+      let items: PdfItem[] = (tc.items as { str: string; transform: number[] }[]).map((t) => ({ str: t.str, x: t.transform[4] ?? 0, y: t.transform[5] ?? 0 }));
+      const nameHead = items.find((t) => /^name$/i.test(t.str.trim()));
+      if (nameHead) header = items.filter((t) => Math.abs(t.y - nameHead.y) < 1.5 && t.x >= nameHead.x - 3).map((t) => ({ ...t, y: 1e6 }));
+      else if (header) items = [...header, ...items]; // table continues on later pages without its header
+      people.push(...peopleFromPdfItems(items));
+      let lastY: number | null = null;
+      for (const it of tc.items as { str: string; transform: number[]; hasEOL?: boolean }[]) {
+        const y = it.transform[5] ?? 0;
+        text += lastY !== null && Math.abs(y - lastY) > 2 ? "\n" : " ";
+        text += it.str;
+        lastY = y;
+      }
+      text += "\n";
+    }
+    const emails = contactsFromText(text);
+    return emails.length ? emails : { people };
+  }
+  if (/\.(xlsx|xls|csv|ods)$/.test(name)) {
+    const XLSX = await import("xlsx");
+    const wb = XLSX.read(await file.arrayBuffer());
+    const all: InternalContact[] = [];
+    for (const sn of wb.SheetNames) {
+      const rows = XLSX.utils.sheet_to_json<unknown[]>(wb.Sheets[sn]!, { header: 1, defval: "" });
+      all.push(...contactsFromRows(rows));
+    }
+    return all;
+  }
+  return contactsFromText(await file.text());
+}
+
+export function InternalDataTab({ userId }: { userId: string }) {
+  const [files, setFiles] = useState<FileSummary[]>([]);
+  const [total, setTotal] = useState(0);
+  const [companies, setCompanies] = useState(0);
+  const [peopleFiles, setPeopleFiles] = useState<FileSummary[]>([]);
+  const [peopleCompanies, setPeopleCompanies] = useState(0);
+  const [busy, setBusy] = useState<string | null>(null);
+  const [useDirect, setUseDirect] = useState(false);
+  useEffect(() => {
+    void supabase.from("outreach_settings").select("use_internal_emails").eq("user_id", userId).maybeSingle()
+      .then(({ data }) => setUseDirect(!!data?.use_internal_emails));
+  }, [userId]);
+  async function toggleDirect(v: boolean) {
+    setUseDirect(v);
+    const { error } = await supabase.from("outreach_settings").update({ use_internal_emails: v }).eq("user_id", userId);
+    if (error) { setUseDirect(!v); toast.error(error.message); } else toast.success(v ? "List emails will be used directly" : "List emails used only to learn email formats");
+  }
+  const [q, setQ] = useState("");
+  const [hits, setHits] = useState<{ email: string; name: string | null; company: string | null }[]>([]);
+
+  const load = useCallback(async () => {
+    const rows: { source_file: string | null; domain: string }[] = [];
+    for (let from = 0; ; from += 1000) {
+      const { data } = await supabase.from("internal_contacts").select("source_file, domain").range(from, from + 999);
+      rows.push(...(data ?? []));
+      if (!data || data.length < 1000) break;
+    }
+    const m = new Map<string, number>();
+    rows.forEach((r) => m.set(r.source_file ?? "?", (m.get(r.source_file ?? "?") ?? 0) + 1));
+    const ppl: { source_file: string | null; domain: string }[] = [];
+    for (let from = 0; ; from += 1000) {
+      const { data } = await supabase.from("internal_people").select("source_file, domain").range(from, from + 999);
+      ppl.push(...(data ?? []));
+      if (!data || data.length < 1000) break;
+    }
+    const pm = new Map<string, number>();
+    ppl.forEach((r) => pm.set(r.source_file ?? "?", (pm.get(r.source_file ?? "?") ?? 0) + 1));
+    setPeopleFiles([...pm].map(([source_file, count]) => ({ source_file, count })));
+    setPeopleCompanies(new Set(ppl.map((r) => r.domain)).size);
+    setFiles([...m].map(([source_file, count]) => ({ source_file, count })));
+    setTotal(rows.length);
+    setCompanies(new Set(rows.map((r) => r.domain)).size);
+  }, []);
+  useEffect(() => { void load(); }, [load]);
+
+  useEffect(() => {
+    const t = setTimeout(async () => {
+      if (q.trim().length < 2) return setHits([]);
+      const s = q.trim().replace(/[%,()]/g, "");
+      const { data } = await supabase.from("internal_contacts").select("email, name, company")
+        .or(`company.ilike.%${s}%,domain.ilike.%${s}%,email.ilike.%${s}%`).limit(30);
+      setHits(data ?? []);
+    }, 300);
+    return () => clearTimeout(t);
+  }, [q]);
+
+  const [preview, setPreview] = useState<{ file: string; rows: (InternalContact & { keep: boolean })[] } | null>(null);
+
+  async function save(fileName: string, found: InternalContact[]) {
+        for (let i = 0; i < found.length; i += 500) {
+          const chunk = found.slice(i, i + 500).map((c) => ({ ...c, user_id: userId, source_file: fileName }));
+          const { error } = await supabase.from("internal_contacts").upsert(chunk, { onConflict: "user_id,email", ignoreDuplicates: true });
+          if (error) throw error;
+        }
+        toast.success(`${fileName}: ${found.length} company emails saved`);
+  }
+
+  async function upload(list: FileList | null) {
+    if (!list?.length) return;
+    for (const file of Array.from(list)) {
+      setBusy(file.name);
+      try {
+        const found = await readFile(file);
+        if (!Array.isArray(found)) {
+          if (!found.people.length) { toast.error(`${file.name}: no emails or HR people table found (scanned PDFs can't be read)`); continue; }
+          setPeoplePreview({ file: file.name, rows: found.people.map((r) => ({ ...r, keep: true })) });
+          continue;
+        }
+        if (!found.length) { toast.error(`${file.name}: no company emails found`); continue; }
+        if (file.name.toLowerCase().endsWith(".pdf")) { setPreview({ file: file.name, rows: found.map((r) => ({ ...r, keep: true })) }); continue; }
+        await save(file.name, found);
+      } catch (e) {
+        toast.error(`${file.name}: ${e instanceof Error ? e.message : "could not read"}`);
+      }
+    }
+    setBusy(null);
+    await load();
+  }
+
+  const [peoplePreview, setPeoplePreview] = useState<{ file: string; rows: (InternalPerson & { keep: boolean })[] } | null>(null);
+  async function confirmPeople() {
+    if (!peoplePreview) return;
+    setBusy(peoplePreview.file);
+    try {
+      const keep = peoplePreview.rows.filter((r) => r.keep).map(({ keep: _k, ...r }) => ({ ...r, company: r.company?.trim() || null, user_id: userId, source_file: peoplePreview.file }));
+      for (let i = 0; i < keep.length; i += 500) {
+        const { error } = await supabase.from("internal_people").upsert(keep.slice(i, i + 500), { onConflict: "user_id,linkedin_url", ignoreDuplicates: true });
+        if (error) throw error;
+      }
+      toast.success(`${peoplePreview.file}: ${keep.length} HR people saved`);
+      setPeoplePreview(null);
+      await load();
+    } catch (e) { toast.error(e instanceof Error ? e.message : "Save failed"); }
+    setBusy(null);
+  }
+  const editPerson = (i: number, patch: Partial<InternalPerson & { keep: boolean }>) =>
+    setPeoplePreview((p) => p && { ...p, rows: p.rows.map((r, j) => (j === i ? { ...r, ...patch } : r)) });
+
+  async function confirmPreview() {
+    if (!preview) return;
+    setBusy(preview.file);
+    try {
+      await save(preview.file, preview.rows.filter((r) => r.keep).map(({ keep: _k, ...r }) => ({ ...r, company: r.company?.trim() || null })));
+      setPreview(null);
+      await load();
+    } catch (e) { toast.error(e instanceof Error ? e.message : "Save failed"); }
+    setBusy(null);
+  }
+  const editRow = (i: number, patch: Partial<InternalContact & { keep: boolean }>) =>
+    setPreview((p) => p && { ...p, rows: p.rows.map((r, j) => (j === i ? { ...r, ...patch } : r)) });
+
+  async function removePeopleFile(f: string) {
+    if (!confirm(`Remove all ${peopleFiles.find((x) => x.source_file === f)?.count ?? ""} HR people from ${f}?`)) return;
+    await supabase.from("internal_people").delete().eq("source_file", f);
+    await load();
+  }
+
+  async function removeFile(f: string) {
+    if (!confirm(`Remove all ${files.find((x) => x.source_file === f)?.count ?? ""} emails from ${f}?`)) return;
+    await supabase.from("internal_contacts").delete().eq("source_file", f);
+    await load();
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="rounded-lg border bg-card p-4 space-y-3">
+        <h3 className="font-semibold">Your HR lists</h3>
+        <p className="text-sm text-muted-foreground">
+          Upload Excel, CSV or PDF files with HR emails. When a new job is from a company in your list, the company's email format
+          (e.g. first.last@) is learned from them for likely emails. Personal addresses (Gmail, Yahoo…) are skipped.
+        </p>
+        <label className="flex items-start gap-2 rounded border p-3 text-sm">
+          <Switch checked={useDirect} onCheckedChange={toggleDirect} aria-label="Email people from my list directly" />
+          <span><b>Email people from my list directly</b><br /><span className="text-muted-foreground">
+            Off: list emails are never emailed, only used to find the format. On: matching list emails are added to the Review queue first.</span></span>
+        </label>
+        <div className="flex flex-wrap gap-2">
+        <label className="inline-flex">
+          <input type="file" multiple accept=".xlsx,.xls,.csv,.ods,.txt" className="hidden" disabled={!!busy}
+            onChange={(e) => { void upload(e.target.files); e.target.value = ""; }} />
+          <span className="inline-flex cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground">
+            {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : <Upload className="h-4 w-4" />}
+            {busy ? `Reading ${busy}…` : "Upload Excel / CSV"}
+          </span>
+        </label>
+        <label className="inline-flex">
+          <input type="file" multiple accept=".pdf,application/pdf" className="hidden" disabled={!!busy}
+            onChange={(e) => { void upload(e.target.files); e.target.value = ""; }} />
+          <span className="inline-flex cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground">
+            {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : <Upload className="h-4 w-4" />}
+            {busy ? `Reading ${busy}…` : "Upload PDF"}
+          </span>
+        </label>
+        </div>
+        <p className="text-sm"><b>{total}</b> emails across <b>{companies}</b> companies</p>
+        {files.map((f) => (
+          <div key={f.source_file} className="flex items-center justify-between rounded border px-3 py-2 text-sm">
+            <span>{f.source_file} · {f.count} emails</span>
+            <Button size="sm" variant="ghost" onClick={() => removeFile(f.source_file)} aria-label={`Remove ${f.source_file}`}><Trash2 className="h-4 w-4" /></Button>
+          </div>
+        ))}
+        <p className="text-sm"><b>{peopleFiles.reduce((a, f) => a + f.count, 0)}</b> HR people (no email) across <b>{peopleCompanies}</b> companies — their emails are built from each company's format and marked likely.</p>
+        {peopleFiles.map((f) => (
+          <div key={"p" + f.source_file} className="flex items-center justify-between rounded border px-3 py-2 text-sm">
+            <span>{f.source_file} · {f.count} HR people</span>
+            <Button size="sm" variant="ghost" onClick={() => removePeopleFile(f.source_file)} aria-label={`Remove people from ${f.source_file}`}><Trash2 className="h-4 w-4" /></Button>
+          </div>
+        ))}
+      </div>
+      {peoplePreview && (
+        <div className="rounded-lg border-2 border-primary bg-card p-4 space-y-3">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="font-semibold">Check {peoplePreview.file} before saving — {peoplePreview.rows.length} HR people, {new Set(peoplePreview.rows.map((r) => r.domain)).size} companies</h3>
+            <div className="flex gap-2">
+              <Button variant="outline" size="sm" onClick={() => setPeoplePreview(null)}>Cancel</Button>
+              <Button size="sm" disabled={!!busy || !peoplePreview.rows.some((r) => r.keep)} onClick={confirmPeople}>
+                Save {peoplePreview.rows.filter((r) => r.keep).length} of {peoplePreview.rows.length}
+              </Button>
+            </div>
+          </div>
+          <p className="text-sm text-muted-foreground">This PDF has names, titles, LinkedIn and company websites but no emails. Untick wrong rows and fix company names. Nothing is saved until you click Save.</p>
+          <div className="flex gap-2">
+            <Button variant="ghost" size="sm" onClick={() => setPeoplePreview((p) => p && { ...p, rows: p.rows.map((r) => ({ ...r, keep: true })) })}>Tick all</Button>
+            <Button variant="ghost" size="sm" onClick={() => setPeoplePreview((p) => p && { ...p, rows: p.rows.map((r) => ({ ...r, keep: false })) })}>Untick all</Button>
+          </div>
+          <div className="max-h-[480px] overflow-auto rounded border">
+            <table className="w-full text-sm">
+              <thead className="sticky top-0 bg-muted"><tr><th className="p-2 w-8" /><th className="p-2 text-left">Name</th><th className="p-2 text-left">Title</th><th className="p-2 text-left">Company</th><th className="p-2 text-left">Website</th></tr></thead>
+              <tbody>
+                {peoplePreview.rows.map((r, i) => (
+                  <tr key={r.linkedin_url} className={r.keep ? "" : "opacity-50"}>
+                    <td className="p-2"><input type="checkbox" aria-label={`Keep ${r.name}`} checked={r.keep} onChange={(e) => editPerson(i, { keep: e.target.checked })} /></td>
+                    <td className="p-2"><a className="underline" href={r.linkedin_url} target="_blank" rel="noreferrer">{r.name}</a></td>
+                    <td className="p-2">{r.title}</td>
+                    <td className="p-1"><Input className="h-8" value={r.company ?? ""} onChange={(e) => editPerson(i, { company: e.target.value })} /></td>
+                    <td className="p-2">{r.domain}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+      {preview && (
+        <div className="rounded-lg border-2 border-primary bg-card p-4 space-y-3">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="font-semibold">Check {preview.file} before saving</h3>
+            <div className="flex gap-2">
+              <Button variant="outline" size="sm" onClick={() => setPreview(null)}>Cancel</Button>
+              <Button size="sm" disabled={!!busy || !preview.rows.some((r) => r.keep)} onClick={confirmPreview}>
+                Save {preview.rows.filter((r) => r.keep).length} of {preview.rows.length}
+              </Button>
+            </div>
+          </div>
+          <p className="text-sm text-muted-foreground">Untick wrong emails and fix company names. Nothing is saved until you click Save.</p>
+          <div className="flex gap-2 text-sm">
+            <Button variant="ghost" size="sm" onClick={() => setPreview((p) => p && { ...p, rows: p.rows.map((r) => ({ ...r, keep: true })) })}>Tick all</Button>
+            <Button variant="ghost" size="sm" onClick={() => setPreview((p) => p && { ...p, rows: p.rows.map((r) => ({ ...r, keep: false })) })}>Untick all</Button>
+          </div>
+          <div className="max-h-[480px] overflow-auto rounded border">
+            <table className="w-full text-sm">
+              <thead className="sticky top-0 bg-muted"><tr><th className="p-2 w-8" /><th className="p-2 text-left">Email</th><th className="p-2 text-left">Company</th></tr></thead>
+              <tbody>
+                {preview.rows.map((r, i) => (
+                  <tr key={r.email} className={r.keep ? "" : "opacity-50"}>
+                    <td className="p-2"><input type="checkbox" aria-label={`Keep ${r.email}`} checked={r.keep} onChange={(e) => editRow(i, { keep: e.target.checked })} /></td>
+                    <td className="p-2">{r.email}</td>
+                    <td className="p-1"><Input className="h-8" value={r.company ?? ""} onChange={(e) => editRow(i, { company: e.target.value })} /></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+      <div className="rounded-lg border bg-card p-4 space-y-2">
+        <h3 className="font-semibold">Search your list</h3>
+        <Input placeholder="Company name or domain, e.g. capgemini" value={q} onChange={(e) => setQ(e.target.value)} />
+        {hits.map((h) => (
+          <div key={h.email} className="text-sm"><b>{h.company}</b> · {h.name ? `${h.name} · ` : ""}{h.email}</div>
+        ))}
+      </div>
+    </div>
+  );
+}

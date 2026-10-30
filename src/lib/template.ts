@@ -1,1 +1,170 @@
-ZXhwb3J0IHR5cGUgVGVtcGxhdGVWYXJzID0gewogIGZpcnN0X25hbWU/OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwogIG5hbWU/OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwogIGNvbXBhbnk/OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwogIGpvYl90aXRsZT86IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgam9iX3VybD86IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgam9iX2lkPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBqb2JfcmVmZXJlbmNlPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBjb250YWN0X3RpdGxlPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBsaW5rZWRpbj86IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7Cn07CgovKiogVmFsaWRhdGUgbGluayBzeW50YXgsIG5vdCByZWFjaGFiaWxpdHk7IGV4dHJhY3Qgb25seSByZWNvZ25pemFibGUgcmVjcnVpdG1lbnQgSURzLiAqLwpleHBvcnQgZnVuY3Rpb24gam9iUmVmZXJlbmNlKHJhdz86IHN0cmluZyB8IG51bGwpOiB7IGpvYl91cmw6IHN0cmluZzsgam9iX2lkOiBzdHJpbmc7IGpvYl9yZWZlcmVuY2U6IHN0cmluZyB9IHsKICBjb25zdCBpbnB1dCA9IHJhdz8udHJpbSgpID8/ICIiOwogIGxldCBqb2JfdXJsID0gIiI7CiAgbGV0IGpvYl9pZCA9ICIiOwogIGlmIChpbnB1dCAmJiAhaW5wdXQuc3RhcnRzV2l0aCgibWFudWFsOiIpKSB7CiAgICBsZXQgcGFyc2VkOiBVUkwgfCB1bmRlZmluZWQ7CiAgICB0cnkgewogICAgICBwYXJzZWQgPSBuZXcgVVJMKGlucHV0KTsKICAgICAgaWYgKFsiaHR0cDoiLCAiaHR0cHM6Il0uaW5jbHVkZXMocGFyc2VkLnByb3RvY29sKSAmJiBwYXJzZWQuaG9zdG5hbWUuaW5jbHVkZXMoIi4iKSAmJiAhcGFyc2VkLnVzZXJuYW1lICYmICFwYXJzZWQucGFzc3dvcmQgJiYgIS9ccy8udGVzdChpbnB1dCkpIHsKICAgICAgICBqb2JfdXJsID0gcGFyc2VkLmhyZWY7CiAgICAgIH0KICAgIH0gY2F0Y2ggeyAvKiBBIG1hbGZvcm1lZCBVUkwgbWF5IHN0aWxsIGNvbnRhaW4gYSByZWNvZ25pemFibGUgam9iIElELiAqLyB9CiAgICBmb3IgKGNvbnN0IGtleSBvZiBbImpvYklkIiwgImpvYl9pZCIsICJqb2JpZCIsICJyZXF1aXNpdGlvbklkIiwgInJlcXVpc2l0aW9uX2lkIiwgInJlcUlkIiwgImN1cnJlbnRKb2JJZCJdKSB7CiAgICAgIGNvbnN0IHZhbHVlID0gcGFyc2VkPy5zZWFyY2hQYXJhbXMuZ2V0KGtleSk7CiAgICAgIGlmICh2YWx1ZSAmJiAvXig/PS4qXGQpW2EtelxkXy1dezMsNDB9JC9pLnRlc3QodmFsdWUpKSB7IGpvYl9pZCA9IHZhbHVlOyBicmVhazsgfQogICAgfQogICAgaWYgKCFqb2JfaWQpIHsKICAgICAgLy8gV29ya2RheSBqb2Igc2x1Z3MgZW5kIHdpdGggYSByZXF1aXNpdGlvbiBJRCwgbm90IGEgdGl0bGUgb3IgbG9jYXRpb24gbnVtYmVyLgogICAgICB0cnkgewogICAgICAgIGNvbnN0IGNhbmRpZGF0ZSA9IHBhcnNlZCA/PyBuZXcgVVJMKGBodHRwczovLyR7aW5wdXR9YCk7CiAgICAgICAgaWYgKC8oXnxcLilteXdvcmtkYXlqb2JzXC5jb20kL2kudGVzdChjYW5kaWRhdGUuaG9zdG5hbWUpKSB7CiAgICAgICAgICBjb25zdCBwYXRoID0gZGVjb2RlVVJJQ29tcG9uZW50KGNhbmRpZGF0ZS5wYXRobmFtZSk7CiAgICAgICAgICBpZiAoL1wvam9iXC8vaS50ZXN0KHBhdGgpKSB7CiAgICAgICAgICAgIGpvYl9pZCA9IHBhdGgubWF0Y2goL18oKD86SlJ8UilbLV9dP1xkezMsfXxcZHs1LH0pKD89XC98JCkvaSk/LlsxXSA/PyAiIjsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0gY2F0Y2ggeyAvKiBObyByZWNvZ25pemFibGUgV29ya2RheSBwYXRoOyBuZXZlciBpbnZlbnQgYSByZXF1aXNpdGlvbi4gKi8gfQogICAgfQogICAgaWYgKCFqb2JfaWQpIHsKICAgICAgam9iX2lkID0gaW5wdXQubWF0Y2goLyg/Ol58W15hLXpcZF0pKEpSXGR7NCx9KSg/PVteYS16XGRdfCQpL2kpPy5bMV0KICAgICAgICA/PyBpbnB1dC5tYXRjaCgvbGlua2VkaW5cLmNvbVwvam9ic1wvdmlld1wvKD86W14/I1xzXSotKT8oXGR7Nix9KSg/PVsvPyNdfCQpL2kpPy5bMV0KICAgICAgICA/PyBpbnB1dC5tYXRjaCgvbmF1a3JpXC5jb21cL2pvYi1saXN0aW5nc1wvW14/I1xzXSotKFxkezEwLH0pKD89Wy8/I118JCkvaSk/LlsxXQogICAgICAgID8/ICIiOwogICAgfQogIH0KICByZXR1cm4geyBqb2JfdXJsLCBqb2JfaWQsIGpvYl9yZWZlcmVuY2U6IFtqb2JfdXJsID8gYEpvYiBVUkw6ICR7am9iX3VybH1gIDogIiIsIGpvYl9pZCA/IGBKb2IgSUQ6ICR7am9iX2lkfWAgOiAiIl0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIlxuIikgfTsKfQoKLyoqIFlhc2gncyBsZXZlbCBiYW5kOiBTREUyIC8gM+KAkzUgeWVhcnMgYW5kIGJlbG93LiBMZWFkLCBwcmluY2lwYWwsIHN0YWZmLCBhcmNoaXRlY3QsCiAqIG1hbmFnZXIsIGRpcmVjdG9yLWxldmVsIHRpdGxlcyBhbmQgU0RFMysgYXJlIG91dC4gUGxhaW4gIlNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlciIKICogc3RheXMgaW4gKHVzdWFsbHkgM+KAkzUgeXJzIGluIEluZGlhKSB1bmxlc3MgdGhlIHRleHQgYXNrcyBmb3IgbW9yZSB0aGFuIDUgeWVhcnMuICovCmNvbnN0IFNFTklPUl9USVRMRSA9CiAgL1xiKGxlYWR8bGVhZHN8cHJpbmNpcGFsfHN0YWZmfGFyY2hpdGVjdHxhcmNoaXRlY3RzfGRpcmVjdG9yfGRpcmVjdG9yc3xoZWFkfGhlYWRzfHZwfHZpY2UgcHJlc2lkZW50fGNoaWVmfGZlbGxvd3xkaXN0aW5ndWlzaGVkfG1hbmFnZXJ8bWFuYWdlcnN8c2RlXHMqWy1cc10/M1xifHNkZVxzKmlpaVxifHNvZnR3YXJlXHMqZW5naW5lZXJccypbLVxzXT8oM3xpaWkpXGJ8c2VuaW9yXHMrc2RlfHNyXC4/XHMrc2RlfHNlbmlvclxzK3N0YWZmfHNyXC4/XHMqc3RhZmZ8dGVjaCBsZWFkfHRlY2huaWNhbCBsZWFkfHRlYW0gbGVhZClcYi9pOwoKLyoqIFRydWUgd2hlbiB0aGUgam9iIHRpdGxlIGlzIGFib3ZlIHRoZSBTREUyIC8gM+KAkzUgeWVhcnMgYmFuZCAobGVhZCByb2xlcyBldGMuKS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGlzU2VuaW9yUm9sZSh0aXRsZT86IHN0cmluZyB8IG51bGwpOiBib29sZWFuIHsKICByZXR1cm4gU0VOSU9SX1RJVExFLnRlc3QodGl0bGUgPz8gIiIpOwp9CgovKiogSGlnaGVzdCAiTiB5ZWFycyIgZXhwZXJpZW5jZSBiYXIgbWVudGlvbmVkIGluIHRoZSB0ZXh0OyAwIHdoZW4gbm9uZSBpcyBzdGF0ZWQuICovCmV4cG9ydCBmdW5jdGlvbiBtYXhZZWFyc01lbnRpb25lZCh0ZXh0Pzogc3RyaW5nIHwgbnVsbCk6IG51bWJlciB7CiAgbGV0IG1heCA9IDA7CiAgZm9yIChjb25zdCBtIG9mICh0ZXh0ID8/ICIiKS5tYXRjaEFsbCgvXGIoXGR7MSwyfSlccypcKz9ccyp5ZWFycz9cYi9naSkpIG1heCA9IE1hdGgubWF4KG1heCwgTnVtYmVyKG1bMV0pKTsKICByZXR1cm4gbWF4Owp9CgovKiogQ29tYmluZWQgY2hlY2s6IHNlbmlvciB0aXRsZSwgb3IgdGhlIHBvc3RpbmcgYXNrcyBmb3IgbW9yZSB0aGFuIDUgeWVhcnMuICovCmV4cG9ydCBmdW5jdGlvbiBpc0Fib3ZlRXhwZXJpZW5jZUJhbmQodGl0bGU/OiBzdHJpbmcgfCBudWxsLCB0ZXh0Pzogc3RyaW5nIHwgbnVsbCk6IGJvb2xlYW4gewogIHJldHVybiBpc1NlbmlvclJvbGUodGl0bGUpIHx8IG1heFllYXJzTWVudGlvbmVkKHRleHQpID4gNTsKfQoKLyoqIFJlcGxhY2VzIHt7dmFyfX0gcGxhY2Vob2xkZXJzLiBVbmtub3duL21pc3NpbmcgdmFycyBmYWxsIGJhY2sgdG8gc2Vuc2libGUgZGVmYXVsdHMuICovCmV4cG9ydCBmdW5jdGlvbiByZW5kZXJUZW1wbGF0ZSh0cGw6IHN0cmluZywgdmFyczogVGVtcGxhdGVWYXJzKTogc3RyaW5nIHsKICBjb25zdCByZXNvbHZlZCA9IHsgLi4udmFycywgLi4uam9iUmVmZXJlbmNlKHZhcnMuam9iX3VybCkgfTsKICBjb25zdCBmYWxsYmFjazogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgIGZpcnN0X25hbWU6ICJ0aGVyZSIsCiAgICBuYW1lOiAidGhlcmUiLAogICAgY29tcGFueTogInlvdXIgY29tcGFueSIsCiAgICBqb2JfdGl0bGU6ICJ0aGUgb3BlbiByb2xlIiwKICAgIGpvYl91cmw6ICIiLAogICAgY29udGFjdF90aXRsZTogIiIsCiAgICBsaW5rZWRpbjogIiIsCiAgfTsKICByZXR1cm4gdHBsLnJlcGxhY2UoL1x7XHtccyooXHcrKVxzKlx9XH0vZywgKF8sIGtleTogc3RyaW5nKSA9PiB7CiAgICBjb25zdCB2ID0gKHJlc29sdmVkIGFzIFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ+KVtrZXldOwogICAgaWYgKHYgJiYgU3RyaW5nKHYpLnRyaW0oKSkgcmV0dXJuIFN0cmluZyh2KS50cmltKCk7CiAgICByZXR1cm4gZmFsbGJhY2tba2V5XSA/PyAiIjsKICB9KTsKfQoKLyoqIEhvdyBtYW55IG1vcmUgZW1haWxzIG1heSBnbyBvdXQgdG9kYXkgZ2l2ZW4gdGhlIGRhaWx5IGNhcC4gKi8KZXhwb3J0IGZ1bmN0aW9uIHJlbWFpbmluZ1F1b3RhKGRhaWx5TGltaXQ6IG51bWJlciwgc2VudFRvZGF5OiBudW1iZXIpOiBudW1iZXIgewogIHJldHVybiBNYXRoLm1heCgwLCBkYWlseUxpbWl0IC0gc2VudFRvZGF5KTsKfQoKLyoqIFdoaWNoIGNvbnRhY3RzIG1heSBiZSBzZW50OiB3aXRoIHJldmlldyBvbiwgb25seSBhcHByb3ZlZCBvbmVzLiAqLwpleHBvcnQgZnVuY3Rpb24gc2VuZGFibGVTdGF0dXNlcyhyZXF1aXJlQXBwcm92YWw6IGJvb2xlYW4pOiBzdHJpbmdbXSB7CiAgcmV0dXJuIHJlcXVpcmVBcHByb3ZhbCA/IFsiYXBwcm92ZWQiXSA6IFsicGVuZGluZyIsICJhcHByb3ZlZCJdOwp9Cgpjb25zdCBNSU5VVEUgPSA2MF8wMDA7CmNvbnN0IEhPVVIgPSAzXzYwMF8wMDA7CmNvbnN0IERBWSA9IDg2XzQwMF8wMDA7CgovKiogV2hlbiBhIGpvYiB3YXMgcG9zdGVkLCByZWFkIGZyb20gd29yZGluZyBsaWtlICIxMyBob3VycyBhZ28iLCAicG9zdGVkIHllc3RlcmRheSIgb3IgYSBwbGFpbiBkYXRlLiAqLwpleHBvcnQgZnVuY3Rpb24gcGFyc2VQb3N0ZWRBdCh0ZXh0Pzogc3RyaW5nIHwgbnVsbCwgbm93OiBEYXRlID0gbmV3IERhdGUoKSwgYWxsb3dEYXRlID0gdHJ1ZSk6IHN0cmluZyB8IG51bGwgewogIGNvbnN0IHQgPSB0ZXh0ID8/ICIiOwogIGNvbnN0IHJlbCA9IHQubWF0Y2goLyhcZHsxLDR9KVxzKihtaW51dGVzP3xtaW5zP3xob3Vycz98aHJzP3xkYXlzP3x3ZWVrcz8pXHMrYWdvL2kpOwogIGlmIChyZWwpIHsKICAgIGNvbnN0IG4gPSBOdW1iZXIocmVsWzFdID8/IDApOwogICAgY29uc3QgdSA9IChyZWxbMl0gPz8gIiIpLnRvTG93ZXJDYXNlKCk7CiAgICBjb25zdCB1bml0ID0gL15taW4vLnRlc3QodSkgPyBNSU5VVEUgOiAvXmgvLnRlc3QodSkgPyBIT1VSIDogL15kLy50ZXN0KHUpID8gREFZIDogNyAqIERBWTsKICAgIHJldHVybiBuZXcgRGF0ZShub3cuZ2V0VGltZSgpIC0gbiAqIHVuaXQpLnRvSVNPU3RyaW5nKCk7CiAgfQogIGlmICgvXGIoPzpwb3N0ZWR8cHVibGlzaGVkKVxzKyg/OnRvZGF5fGp1c3Qgbm93KVxiL2kudGVzdCh0KSkgcmV0dXJuIG5vdy50b0lTT1N0cmluZygpOwogIGlmICgvXGIoPzpwb3N0ZWR8cHVibGlzaGVkKVxzK3llc3RlcmRheVxiL2kudGVzdCh0KSkgcmV0dXJuIG5ldyBEYXRlKG5vdy5nZXRUaW1lKCkgLSBEQVkpLnRvSVNPU3RyaW5nKCk7CiAgaWYgKGFsbG93RGF0ZSkgewogICAgY29uc3QgZCA9IHQubWF0Y2goL1xiKFxkezR9LVxkezJ9LVxkezJ9KVxiLyk7CiAgICBpZiAoZCkgewogICAgICBjb25zdCBzdGFtcCA9IG5ldyBEYXRlKGAke2RbMV19VDAwOjAwOjAwWmApOwogICAgICBpZiAoIU51bWJlci5pc05hTihzdGFtcC5nZXRUaW1lKCkpKSByZXR1cm4gc3RhbXAudG9JU09TdHJpbmcoKTsKICAgIH0KICB9CiAgcmV0dXJuIG51bGw7Cn0KCi8qKiAiMyBob3VycyBhZ28iIHdvcmRpbmcgZm9yIGEgc2F2ZWQgdGltZXN0YW1wOyAiIiB3aGVuIHRoZXJlIGlzIG5vdGhpbmcgdG8gc2F5LiAqLwpleHBvcnQgZnVuY3Rpb24gdGltZUFnbyhpc28/OiBzdHJpbmcgfCBudWxsLCBub3c6IERhdGUgPSBuZXcgRGF0ZSgpKTogc3RyaW5nIHsKICBjb25zdCB0aGVuID0gaXNvID8gbmV3IERhdGUoaXNvKSA6IG51bGw7CiAgaWYgKCF0aGVuIHx8IE51bWJlci5pc05hTih0aGVuLmdldFRpbWUoKSkpIHJldHVybiAiIjsKICBjb25zdCBtaW5zID0gTWF0aC5yb3VuZCgobm93LmdldFRpbWUoKSAtIHRoZW4uZ2V0VGltZSgpKSAvIE1JTlVURSk7CiAgaWYgKG1pbnMgPCAxKSByZXR1cm4gImp1c3Qgbm93IjsKICBpZiAobWlucyA8IDYwKSByZXR1cm4gYCR7bWluc30gbWluIGFnb2A7CiAgY29uc3QgaHJzID0gTWF0aC5yb3VuZChtaW5zIC8gNjApOwogIGlmIChocnMgPCAyNCkgcmV0dXJuIGAke2hyc30gaG91ciR7aHJzID09PSAxID8gIiIgOiAicyJ9IGFnb2A7CiAgY29uc3QgZGF5cyA9IE1hdGgucm91bmQoaHJzIC8gMjQpOwogIHJldHVybiBgJHtkYXlzfSBkYXkke2RheXMgPT09IDEgPyAiIiA6ICJzIn0gYWdvYDsKfQoKLyoqIFRoZSAid2hlbiBwb3N0ZWQiIGxpbmUgb24gYSBqb2IgY2FyZDsgZmFsbHMgYmFjayB0byB3aGVuIHRoZSBhcHAgZm91bmQgaXQuICovCmV4cG9ydCBmdW5jdGlvbiBwb3N0ZWRMYWJlbChwb3N0ZWRBdD86IHN0cmluZyB8IG51bGwsIGNyZWF0ZWRBdD86IHN0cmluZyB8IG51bGwsIG5vdzogRGF0ZSA9IG5ldyBEYXRlKCkpOiBzdHJpbmcgewogIGNvbnN0IHBvc3RlZCA9IHBvc3RlZEF0ID8gbmV3IERhdGUocG9zdGVkQXQpIDogbnVsbDsKICBpZiAocG9zdGVkICYmICFOdW1iZXIuaXNOYU4ocG9zdGVkLmdldFRpbWUoKSkpIHsKICAgIGlmIChwb3N0ZWQuZ2V0VGltZSgpID4gbm93LmdldFRpbWUoKSkgcmV0dXJuICJQb3N0ZWQgdG9kYXkiOwogICAgaWYgKG5vdy5nZXRUaW1lKCkgLSBwb3N0ZWQuZ2V0VGltZSgpIDwgREFZKSByZXR1cm4gYFBvc3RlZCAke3RpbWVBZ28ocG9zdGVkQXQsIG5vdyl9YDsKICAgIHJldHVybiBgUG9zdGVkICR7ZXhhY3RQb3N0ZWQocG9zdGVkQXQpfWA7CiAgfQogIHJldHVybiBjcmVhdGVkQXQgPyBgQWRkZWQgJHt0aW1lQWdvKGNyZWF0ZWRBdCwgbm93KX1gIDogIiI7Cn0KCi8qKiBEYXRlIGFuZCBjbG9jayB3b3JkaW5nIGZvciB0aGUgaG92ZXIgdG9vbHRpcCwgaW4gdGhlIHVzZXIncyBvd24gdGltZXpvbmUuICovCmV4cG9ydCBmdW5jdGlvbiBleGFjdFBvc3RlZChpc28/OiBzdHJpbmcgfCBudWxsKTogc3RyaW5nIHsKICBjb25zdCBkID0gaXNvID8gbmV3IERhdGUoaXNvKSA6IG51bGw7CiAgaWYgKCFkIHx8IE51bWJlci5pc05hTihkLmdldFRpbWUoKSkpIHJldHVybiAiIjsKICByZXR1cm4gZC50b0xvY2FsZVN0cmluZyhbXSwgeyBkYXk6ICJudW1lcmljIiwgbW9udGg6ICJzaG9ydCIsIGhvdXI6ICJudW1lcmljIiwgbWludXRlOiAiMi1kaWdpdCIgfSk7Cn0KCi8qKiBFeGFjdCBhZGRyZXNzIG1hdGNoaW5nIGF2b2lkcyBjb25mdXNpbmcgYW5uQGNvbXBhbnkgd2l0aCBqb2FubkBjb21wYW55LiAqLwpleHBvcnQgZnVuY3Rpb24gY29udGFpbnNFbWFpbEFkZHJlc3ModGV4dDogc3RyaW5nLCBlbWFpbDogc3RyaW5nKTogYm9vbGVhbiB7CiAgY29uc3QgYWRkcmVzc2VzOiBzdHJpbmdbXSA9IHRleHQudG9Mb3dlckNhc2UoKS5tYXRjaCgvW2EtejAtOS4hIyQlJicqKy89P15fYHt8fX4tXStAW2EtejAtOV0oPzpbYS16MC05Li1dKlthLXowLTldKT8vZykgPz8gW107CiAgcmV0dXJuIGFkZHJlc3Nlcy5pbmNsdWRlcyhlbWFpbC50b0xvd2VyQ2FzZSgpKTsKfQo=
+export type TemplateVars = {
+  first_name?: string | null | undefined;
+  name?: string | null | undefined;
+  company?: string | null | undefined;
+  job_title?: string | null | undefined;
+  job_url?: string | null | undefined;
+  job_id?: string | null | undefined;
+  job_reference?: string | null | undefined;
+  contact_title?: string | null | undefined;
+  linkedin?: string | null | undefined;
+};
+
+/** Validate link syntax, not reachability; extract only recognizable recruitment IDs. */
+export function jobReference(raw?: string | null): { job_url: string; job_id: string; job_reference: string } {
+  const input = raw?.trim() ?? "";
+  let job_url = "";
+  let job_id = "";
+  if (input && !input.startsWith("manual:")) {
+    let parsed: URL | undefined;
+    try {
+      parsed = new URL(input);
+      if (["http:", "https:"].includes(parsed.protocol) && parsed.hostname.includes(".") && !parsed.username && !parsed.password && !/\s/.test(input)) {
+        job_url = parsed.href;
+      }
+    } catch { /* A malformed URL may still contain a recognizable job ID. */ }
+    for (const key of ["jobId", "job_id", "jobid", "requisitionId", "requisition_id", "reqId", "currentJobId"]) {
+      const value = parsed?.searchParams.get(key);
+      if (value && /^(?=.*\d)[a-z\d_-]{3,40}$/i.test(value)) { job_id = value; break; }
+    }
+    if (!job_id) {
+      // Workday job slugs end with a requisition ID, not a title or location number.
+      try {
+        const candidate = parsed ?? new URL(`https://${input}`);
+        if (/(^|\.)myworkdayjobs\.com$/i.test(candidate.hostname)) {
+          const path = decodeURIComponent(candidate.pathname);
+          if (/\/job\//i.test(path)) {
+            job_id = path.match(/_((?:JR|R)[-_]?\d{3,}|\d{5,})(?=\/|$)/i)?.[1] ?? "";
+          }
+        }
+      } catch { /* No recognizable Workday path; never invent a requisition. */ }
+    }
+    if (!job_id) {
+      job_id = input.match(/(?:^|[^a-z\d])(JR\d{4,})(?=[^a-z\d]|$)/i)?.[1]
+        ?? input.match(/linkedin\.com\/jobs\/view\/(?:[^?#\s]*-)?(\d{6,})(?=[/?#]|$)/i)?.[1]
+        ?? input.match(/naukri\.com\/job-listings\/[^?#\s]*-(\d{10,})(?=[/?#]|$)/i)?.[1]
+        ?? "";
+    }
+  }
+  return { job_url, job_id, job_reference: [job_url ? `Job URL: ${job_url}` : "", job_id ? `Job ID: ${job_id}` : ""].filter(Boolean).join("\n") };
+}
+
+/** Yash's level band: SDE2 / 3–5 years and below. Lead, principal, staff, architect,
+ * manager, director-level titles and SDE3+ are out. Plain "Senior Software Engineer"
+ * stays in (usually 3–5 yrs in India) unless the text asks for more than 5 years. */
+const SENIOR_TITLE =
+  /\b(lead|leads|principal|staff|architect|architects|director|directors|head|heads|vp|vice president|chief|fellow|distinguished|manager|managers|sde\s*[-\s]?3\b|sde\s*iii\b|software\s*engineer\s*[-\s]?(3|iii)\b|senior\s+sde|sr\.?\s+sde|senior\s+staff|sr\.?\s*staff|tech lead|technical lead|team lead)\b/i;
+
+/** True when the job title is above the SDE2 / 3–5 years band (lead roles etc.). */
+export function isSeniorRole(title?: string | null): boolean {
+  return SENIOR_TITLE.test(title ?? "");
+}
+
+/** Highest "N years" experience bar mentioned in the text; 0 when none is stated. */
+export function maxYearsMentioned(text?: string | null): number {
+  let max = 0;
+  for (const m of (text ?? "").matchAll(/\b(\d{1,2})\s*\+?\s*years?\b/gi)) max = Math.max(max, Number(m[1]));
+  return max;
+}
+
+/** Combined check: senior title, or the posting asks for more than 5 years. */
+export function isAboveExperienceBand(title?: string | null, text?: string | null): boolean {
+  return isSeniorRole(title) || maxYearsMentioned(text) > 5;
+}
+
+/** Manual additions are intentional; only discovered jobs use the experience band. */
+export function isJobWithinExperiencePolicy(source: string | null | undefined, title?: string | null, text?: string | null): boolean {
+  return source === "manual" || !isAboveExperienceBand(title, text);
+}
+
+/** Replaces {{var}} placeholders. Unknown/missing vars fall back to sensible defaults. */
+export function renderTemplate(tpl: string, vars: TemplateVars): string {
+  const resolved = { ...vars, ...jobReference(vars.job_url) };
+  const fallback: Record<string, string> = {
+    first_name: "there",
+    name: "there",
+    company: "your company",
+    job_title: "the open role",
+    job_url: "",
+    contact_title: "",
+    linkedin: "",
+  };
+  return tpl.replace(/\{\{\s*(\w+)\s*\}\}/g, (_, key: string) => {
+    const v = (resolved as Record<string, string | null | undefined>)[key];
+    if (v && String(v).trim()) return String(v).trim();
+    return fallback[key] ?? "";
+  });
+}
+
+/** How many more emails may go out today given the daily cap. */
+export function remainingQuota(dailyLimit: number, sentToday: number): number {
+  return Math.max(0, dailyLimit - sentToday);
+}
+
+/** Which contacts may be sent: with review on, only approved ones. */
+export function sendableStatuses(requireApproval: boolean): string[] {
+  return requireApproval ? ["approved"] : ["pending", "approved"];
+}
+
+const MINUTE = 60_000;
+const HOUR = 3_600_000;
+const DAY = 86_400_000;
+
+/** When a job was posted, read from wording like "13 hours ago", "posted yesterday" or a plain date. */
+export function parsePostedAt(text?: string | null, now: Date = new Date(), allowDate = true): string | null {
+  const t = text ?? "";
+  const rel = t.match(/(\d{1,4})\s*(minutes?|mins?|hours?|hrs?|days?|weeks?)\s+ago/i);
+  if (rel) {
+    const n = Number(rel[1] ?? 0);
+    const u = (rel[2] ?? "").toLowerCase();
+    const unit = /^min/.test(u) ? MINUTE : /^h/.test(u) ? HOUR : /^d/.test(u) ? DAY : 7 * DAY;
+    return new Date(now.getTime() - n * unit).toISOString();
+  }
+  if (/\b(?:posted|published)\s+(?:today|just now)\b/i.test(t)) return now.toISOString();
+  if (/\b(?:posted|published)\s+yesterday\b/i.test(t)) return new Date(now.getTime() - DAY).toISOString();
+  if (allowDate) {
+    const d = t.match(/\b(\d{4}-\d{2}-\d{2})\b/);
+    if (d) {
+      const stamp = new Date(`${d[1]}T00:00:00Z`);
+      if (!Number.isNaN(stamp.getTime())) return stamp.toISOString();
+    }
+  }
+  return null;
+}
+
+/** "3 hours ago" wording for a saved timestamp; "" when there is nothing to say. */
+export function timeAgo(iso?: string | null, now: Date = new Date()): string {
+  const then = iso ? new Date(iso) : null;
+  if (!then || Number.isNaN(then.getTime())) return "";
+  const mins = Math.round((now.getTime() - then.getTime()) / MINUTE);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins} min ago`;
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return `${hrs} hour${hrs === 1 ? "" : "s"} ago`;
+  const days = Math.round(hrs / 24);
+  return `${days} day${days === 1 ? "" : "s"} ago`;
+}
+
+/** The "when posted" line on a job card; falls back to when the app found it. */
+export function postedLabel(postedAt?: string | null, createdAt?: string | null, now: Date = new Date()): string {
+  const posted = postedAt ? new Date(postedAt) : null;
+  if (posted && !Number.isNaN(posted.getTime())) {
+    if (posted.getTime() > now.getTime()) return "Posted today";
+    if (now.getTime() - posted.getTime() < DAY) return `Posted ${timeAgo(postedAt, now)}`;
+    return `Posted ${exactPosted(postedAt)}`;
+  }
+  return createdAt ? `Added ${timeAgo(createdAt, now)}` : "";
+}
+
+/** Date and clock wording for the hover tooltip, in the user's own timezone. */
+export function exactPosted(iso?: string | null): string {
+  const d = iso ? new Date(iso) : null;
+  if (!d || Number.isNaN(d.getTime())) return "";
+  return d.toLocaleString([], { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+}
+
+/** Exact address matching avoids confusing ann@company with joann@company. */
+export function containsEmailAddress(text: string, email: string): boolean {
+  const addresses: string[] = text.toLowerCase().match(/[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?/g) ?? [];
+  return addresses.includes(email.toLowerCase());
+}

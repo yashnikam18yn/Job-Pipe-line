@@ -1,1 +1,45 @@
-Ly8gRnJlZSAibGlrZWx5IGVtYWlsIiBidWlsZGVyOiBpbmZlcnMgYSBjb21wYW55J3MgZW1haWwgZm9ybWF0IGZyb20gcHVibGljIGV4YW1wbGVzLgpleHBvcnQgdHlwZSBQYXR0ZXJuID0gImZpcnN0Lmxhc3QiIHwgImZpcnN0bGFzdCIgfCAiZmlyc3QiIHwgImZsYXN0IiB8ICJmaXJzdF9sYXN0IiB8ICJmLmxhc3QiIHwgImZpcnN0bCI7Cgpjb25zdCBjbGVhbiA9IChzOiBzdHJpbmcpID0+IHMubm9ybWFsaXplKCJORkQiKS5yZXBsYWNlKC9bXHUwMzAwLVx1MDM2Zl0vZywgIiIpLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvW15hLXpdL2csICIiKTsKCmV4cG9ydCBmdW5jdGlvbiBidWlsZEVtYWlsKHA6IFBhdHRlcm4sIGZpcnN0OiBzdHJpbmcsIGxhc3Q6IHN0cmluZywgZG9tYWluOiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsIHsKICBjb25zdCBmID0gY2xlYW4oZmlyc3QpLCBsID0gY2xlYW4obGFzdCk7CiAgaWYgKCFmIHx8ICFsIHx8ICFkb21haW4pIHJldHVybiBudWxsOwogIGNvbnN0IGxvY2FsID0gewogICAgImZpcnN0Lmxhc3QiOiBgJHtmfS4ke2x9YCwKICAgIGZpcnN0bGFzdDogYCR7Zn0ke2x9YCwKICAgIGZpcnN0OiBmLAogICAgZmxhc3Q6IGAke2ZbMF19JHtsfWAsCiAgICBmaXJzdF9sYXN0OiBgJHtmfV8ke2x9YCwKICAgICJmLmxhc3QiOiBgJHtmWzBdfS4ke2x9YCwKICAgIGZpcnN0bDogYCR7Zn0ke2xbMF19YCwKICB9W3BdOwogIHJldHVybiBgJHtsb2NhbH1AJHtkb21haW4udG9Mb3dlckNhc2UoKX1gOwp9CgovKiogUGljayB0aGUgbW9zdCBjb21tb24gZm9ybWF0IGFtb25nIHJlYWwgYWRkcmVzc2VzIHNlZW4gYXQgdGhpcyBkb21haW47IGRlZmF1bHRzIHRvIGZpcnN0Lmxhc3QuICovCmV4cG9ydCBmdW5jdGlvbiBpbmZlclBhdHRlcm4oZW1haWxzOiBzdHJpbmdbXSwgZG9tYWluOiBzdHJpbmcpOiBQYXR0ZXJuIHsKICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICBjb25zdCBkID0gYEAke2RvbWFpbi50b0xvd2VyQ2FzZSgpfWA7CiAgZm9yIChjb25zdCByYXcgb2YgZW1haWxzKSB7CiAgICBjb25zdCBlID0gcmF3LnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoIWUuZW5kc1dpdGgoZCkpIGNvbnRpbnVlOwogICAgY29uc3QgbG9jYWwgPSBlLnNsaWNlKDAsIC1kLmxlbmd0aCk7CiAgICBpZiAoL14oaW5mb3xocnxjYXJlZXJzP3xqb2JzfGNvbnRhY3R8c3VwcG9ydHxzYWxlc3xoZWxsb3xhZG1pbnxyZWNydWl0XHcqfHRhbGVudHxub3JlcGx5fG5vLXJlcGx5KSQvLnRlc3QobG9jYWwpKSBjb250aW51ZTsKICAgIGxldCBwOiBQYXR0ZXJuIHwgbnVsbCA9IG51bGw7CiAgICBpZiAoL15bYS16XXsyLH1cLlthLXpdezIsfSQvLnRlc3QobG9jYWwpKSBwID0gImZpcnN0Lmxhc3QiOwogICAgZWxzZSBpZiAoL15bYS16XVwuW2Etel17Mix9JC8udGVzdChsb2NhbCkpIHAgPSAiZi5sYXN0IjsKICAgIGVsc2UgaWYgKC9eW2Etel17Mix9X1thLXpdezIsfSQvLnRlc3QobG9jYWwpKSBwID0gImZpcnN0X2xhc3QiOwogICAgaWYgKHApIGNvdW50c1twXSA9IChjb3VudHNbcF0gPz8gMCkgKyAxOwogIH0KICBjb25zdCBiZXN0ID0gT2JqZWN0LmVudHJpZXMoY291bnRzKS5zb3J0KChhLCBiKSA9PiBiWzFdIC0gYVsxXSlbMF07CiAgcmV0dXJuIChiZXN0Py5bMF0gYXMgUGF0dGVybikgPz8gImZpcnN0Lmxhc3QiOwp9CgpleHBvcnQgZnVuY3Rpb24gbGlua2VkaW5Ob3RlKGZpcnN0TmFtZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwgY29tcGFueTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCwgcm9sZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB7CiAgY29uc3QgaGkgPSBmaXJzdE5hbWUgPyBgSGkgJHtmaXJzdE5hbWV9LGAgOiAiSGksIjsKICBjb25zdCByID0gcm9sZSA/IGAgZm9yIHRoZSAke3JvbGV9IHJvbGVgIDogIiI7CiAgY29uc3Qgbm90ZSA9IGAke2hpfSBJJ20gYSBKYXZhIGJhY2tlbmQgZW5naW5lZXIgKDIuNSsgeXJzLCBEYXNzYXVsdCBTeXN0w6htZXMpIGludGVyZXN0ZWQgaW4gb3Bwb3J0dW5pdGllcyBhdCAke2NvbXBhbnkgPz8gInlvdXIgY29tcGFueSJ9JHtyfS4gQ291bGQgSSBzaGFyZSBteSByZXN1bWUgb3IgYmUgcmVmZXJyZWQgdG8gdGhlIGhpcmluZyB0ZWFtPyBUaGFua3MhYDsKICByZXR1cm4gbm90ZS5zbGljZSgwLCAzMDApOyAvLyBMaW5rZWRJbiBjb25uZWN0aW9uLW5vdGUgbGltaXQKfQo=
+// Free "likely email" builder: infers a company's email format from public examples.
+export type Pattern = "first.last" | "firstlast" | "first" | "flast" | "first_last" | "f.last" | "firstl";
+
+const clean = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, "");
+
+export function buildEmail(p: Pattern, first: string, last: string, domain: string): string | null {
+  const f = clean(first), l = clean(last);
+  if (!f || !l || !domain) return null;
+  const local = {
+    "first.last": `${f}.${l}`,
+    firstlast: `${f}${l}`,
+    first: f,
+    flast: `${f[0]}${l}`,
+    first_last: `${f}_${l}`,
+    "f.last": `${f[0]}.${l}`,
+    firstl: `${f}${l[0]}`,
+  }[p];
+  return `${local}@${domain.toLowerCase()}`;
+}
+
+/** Pick the most common format among real addresses seen at this domain; defaults to first.last. */
+export function inferPattern(emails: string[], domain: string): Pattern {
+  const counts: Record<string, number> = {};
+  const d = `@${domain.toLowerCase()}`;
+  for (const raw of emails) {
+    const e = raw.toLowerCase();
+    if (!e.endsWith(d)) continue;
+    const local = e.slice(0, -d.length);
+    if (/^(info|hr|careers?|jobs|contact|support|sales|hello|admin|recruit\w*|talent|noreply|no-reply)$/.test(local)) continue;
+    let p: Pattern | null = null;
+    if (/^[a-z]{2,}\.[a-z]{2,}$/.test(local)) p = "first.last";
+    else if (/^[a-z]\.[a-z]{2,}$/.test(local)) p = "f.last";
+    else if (/^[a-z]{2,}_[a-z]{2,}$/.test(local)) p = "first_last";
+    if (p) counts[p] = (counts[p] ?? 0) + 1;
+  }
+  const best = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  return (best?.[0] as Pattern) ?? "first.last";
+}
+
+export function linkedinNote(firstName: string | null | undefined, company: string | null | undefined, role: string | null | undefined): string {
+  const hi = firstName ? `Hi ${firstName},` : "Hi,";
+  const r = role ? ` for the ${role} role` : "";
+  const note = `${hi} I'm a Java backend engineer (2.5+ yrs, Dassault Systèmes) interested in opportunities at ${company ?? "your company"}${r}. Could I share my resume or be referred to the hiring team? Thanks!`;
+  return note.slice(0, 300); // LinkedIn connection-note limit
+}

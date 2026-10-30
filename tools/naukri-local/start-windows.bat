@@ -1,1 +1,9 @@
-QGVjaG8gb2ZmCmNkIC9kICIlfmRwMCIKaWYgbm90IGV4aXN0IC52ZW52XFNjcmlwdHNccHl0aG9uLmV4ZSAoCmVjaG8gUnVuIHNldHVwLXdpbmRvd3MuYmF0IGZpcnN0LgpwYXVzZQpleGl0IC9iCikKLnZlbnZcU2NyaXB0c1xweXRob24gbmF1a3JpX2xvY2FsLnB5IHdhdGNoCnBhdXNl
+@echo off
+cd /d "%~dp0"
+if not exist .venv\Scripts\python.exe (
+echo Run setup-windows.bat first.
+pause
+exit /b
+)
+.venv\Scripts\python naukri_local.py watch
+pause

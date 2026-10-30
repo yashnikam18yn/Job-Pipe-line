@@ -1,1 +1,27 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjb250YWN0U3VtbWFyeSB9IGZyb20gIkAvbGliL2NvbnRhY3RTdW1tYXJ5IjsKCmNvbnN0IG5vdyA9IG5ldyBEYXRlKCIyMDI2LTEwLTI4VDE4OjAwOjAwWiIpOwpkZXNjcmliZSgidHJ1dGhmdWwgb3V0cmVhY2ggY291bnRzIiwgKCkgPT4gewogIGl0KCJjb3VudHMgc3VjY2Vzc2Z1bCBzZW5kcyBzZXBhcmF0ZWx5IGZyb20gZmFpbGVkIGF0dGVtcHRzIiwgKCkgPT4gewogICAgZXhwZWN0KGNvbnRhY3RTdW1tYXJ5KFsKICAgICAgeyBzZW5kX3N0YXR1czogInNlbnQiLCBzZW50X2F0OiAiMjAyNi0xMC0yOFQxMDowMDowMFoiLCBlbWFpbF9zdGF0dXM6ICJndWVzc2VkIiB9LAogICAgICB7IHNlbmRfc3RhdHVzOiAiZmFpbGVkIiwgc2VudF9hdDogbnVsbCwgZW1haWxfc3RhdHVzOiAiZ3Vlc3NlZCIgfSwKICAgIF0sIG51bGwsIG5vdykuc2VudCkudG9CZSgxKTsKICB9KTsKICBpdCgiZG9lcyBub3QgZGVzY3JpYmUgZ3Vlc3NlZCBvciBjYXRjaC1hbGwgY29udGFjdHMgYXMgdmVyaWZpZWQiLCAoKSA9PiB7CiAgICBleHBlY3QoY29udGFjdFN1bW1hcnkoWyJ2ZXJpZmllZCIsICJndWVzc2VkIiwgImNhdGNoLWFsbCIsIG51bGxdLm1hcCgoZW1haWxfc3RhdHVzKSA9PiAoeyBlbWFpbF9zdGF0dXMsIHNlbmRfc3RhdHVzOiAicGVuZGluZyIsIHNlbnRfYXQ6IG51bGwgfSkpLCBudWxsLCBub3cpLnZlcmlmaWVkKS50b0JlKDEpOwogIH0pOwogIGl0KCJvbmx5IGNvdW50cyBhcHByb3ZlZCBhbmQgbmV2ZXItc2VudCByZWNpcGllbnRzIGFzIHdhaXRpbmciLCAoKSA9PiB7CiAgICBleHBlY3QoY29udGFjdFN1bW1hcnkoWwogICAgICB7IHNlbmRfc3RhdHVzOiAiYXBwcm92ZWQiLCBzZW50X2F0OiBudWxsLCBlbWFpbF9zdGF0dXM6IG51bGwgfSwKICAgICAgeyBzZW5kX3N0YXR1czogImFwcHJvdmVkIiwgc2VudF9hdDogIjIwMjYtMTAtMjhUMTA6MDA6MDBaIiwgZW1haWxfc3RhdHVzOiBudWxsIH0sCiAgICAgIHsgc2VuZF9zdGF0dXM6ICJwZW5kaW5nIiwgc2VudF9hdDogbnVsbCwgZW1haWxfc3RhdHVzOiBudWxsIH0sCiAgICBdLCBudWxsLCBub3cpLnBlbmRpbmcpLnRvQmUoMSk7CiAgfSk7CiAgaXQoImhvbm9ycyB0aGUgbWFudWFsIHJlc2V0IHdpdGhvdXQgY2hhbmdpbmcgaGlzdG9yaWNhbCBzZW50IHRvdGFscyIsICgpID0+IHsKICAgIGNvbnN0IHJvd3MgPSBbIjIwMjYtMTAtMjdUMjM6MDA6MDBaIiwgIjIwMjYtMTAtMjhUMTA6MDA6MDBaIiwgIjIwMjYtMTAtMjhUMTY6MDA6MDBaIl0ubWFwKChzZW50X2F0KSA9PiAoeyBzZW5kX3N0YXR1czogInNlbnQiLCBzZW50X2F0LCBlbWFpbF9zdGF0dXM6IG51bGwgfSkpOwogICAgZXhwZWN0KGNvbnRhY3RTdW1tYXJ5KHJvd3MsICIyMDI2LTEwLTI4VDEyOjAwOjAwWiIsIG5vdykpLnRvTWF0Y2hPYmplY3QoeyBzZW50VG9kYXk6IDEsIHNlbnQ6IDMgfSk7CiAgICBleHBlY3QoY29udGFjdFN1bW1hcnkocm93cywgIjIwMjYtMTAtMjdUMTI6MDA6MDBaIiwgbm93KS5zZW50VG9kYXkpLnRvQmUoMik7CiAgfSk7Cn0pOw==
+import { describe, expect, it } from "vitest";
+import { contactSummary } from "@/lib/contactSummary";
+
+const now = new Date("2026-10-28T18:00:00Z");
+describe("truthful outreach counts", () => {
+  it("counts successful sends separately from failed attempts", () => {
+    expect(contactSummary([
+      { send_status: "sent", sent_at: "2026-10-28T10:00:00Z", email_status: "guessed" },
+      { send_status: "failed", sent_at: null, email_status: "guessed" },
+    ], null, now).sent).toBe(1);
+  });
+  it("does not describe guessed or catch-all contacts as verified", () => {
+    expect(contactSummary(["verified", "guessed", "catch-all", null].map((email_status) => ({ email_status, send_status: "pending", sent_at: null })), null, now).verified).toBe(1);
+  });
+  it("only counts approved and never-sent recipients as waiting", () => {
+    expect(contactSummary([
+      { send_status: "approved", sent_at: null, email_status: null },
+      { send_status: "approved", sent_at: "2026-10-28T10:00:00Z", email_status: null },
+      { send_status: "pending", sent_at: null, email_status: null },
+    ], null, now).pending).toBe(1);
+  });
+  it("honors the manual reset without changing historical sent totals", () => {
+    const rows = ["2026-10-27T23:00:00Z", "2026-10-28T10:00:00Z", "2026-10-28T16:00:00Z"].map((sent_at) => ({ send_status: "sent", sent_at, email_status: null }));
+    expect(contactSummary(rows, "2026-10-28T12:00:00Z", now)).toMatchObject({ sentToday: 1, sent: 3 });
+    expect(contactSummary(rows, "2026-10-27T12:00:00Z", now).sentToday).toBe(2);
+  });
+});

@@ -1,1 +1,14 @@
-QGVjaG8gb2ZmCmNkIC9kICIlfmRwMCIKcHkgLTMgLW0gdmVudiAudmVudgppZiBlcnJvcmxldmVsIDEgZ290byBmYWlsZWQKLnZlbnZcU2NyaXB0c1xweXRob24gLW0gcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dAppZiBlcnJvcmxldmVsIDEgZ290byBmYWlsZWQKLnZlbnZcU2NyaXB0c1xweXRob24gLW0gcGxheXdyaWdodCBpbnN0YWxsIGNocm9taXVtCmlmIGVycm9ybGV2ZWwgMSBnb3RvIGZhaWxlZAoudmVudlxTY3JpcHRzXHB5dGhvbiBuYXVrcmlfbG9jYWwucHkgbG9naW4KcGF1c2UKZXhpdCAvYgo6ZmFpbGVkCmVjaG8gU2V0dXAgZmFpbGVkLiBJbnN0YWxsIFB5dGhvbiAzIGZyb20gcHl0aG9uLm9yZywgdGhlbiB0cnkgYWdhaW4uCnBhdXNl
+@echo off
+cd /d "%~dp0"
+py -3 -m venv .venv
+if errorlevel 1 goto failed
+.venv\Scripts\python -m pip install -r requirements.txt
+if errorlevel 1 goto failed
+.venv\Scripts\python -m playwright install chromium
+if errorlevel 1 goto failed
+.venv\Scripts\python naukri_local.py login
+pause
+exit /b
+:failed
+echo Setup failed. Install Python 3 from python.org, then try again.
+pause

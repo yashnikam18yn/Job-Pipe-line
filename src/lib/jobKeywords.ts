@@ -1,1 +1,23 @@
-LyoqIENvbW1hcy9uZXdsaW5lcyBzZXBhcmF0ZSBzZWFyY2hlczsgc3BhY2VzIHdpdGhpbiBhIHJvbGUgc3RheSB0b2dldGhlci4gKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlSm9iS2V5d29yZHModmFsdWU6IHN0cmluZyk6IHN0cmluZ1tdIHsKICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgcmV0dXJuIHZhbHVlLnNwbGl0KC9bLFxuXSsvKS5tYXAoKHdvcmQpID0+IHdvcmQudHJpbSgpKS5maWx0ZXIoKHdvcmQpID0+IHsKICAgIGNvbnN0IGtleSA9IHdvcmQudG9Mb3dlckNhc2UoKTsKICAgIGlmICgha2V5IHx8IHNlZW4uaGFzKGtleSkpIHJldHVybiBmYWxzZTsKICAgIHNlZW4uYWRkKGtleSk7CiAgICByZXR1cm4gdHJ1ZTsKICB9KTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNlYXJjaEVhY2hLZXl3b3JkPFQgZXh0ZW5kcyB7IHVybDogc3RyaW5nIH0+KHZhbHVlOiBzdHJpbmcsIHNlYXJjaDogKGtleXdvcmQ6IHN0cmluZykgPT4gUHJvbWlzZTxUW10+KTogUHJvbWlzZTxUW10+IHsKICBjb25zdCB3b3JkcyA9IHBhcnNlSm9iS2V5d29yZHModmFsdWUpOwogIGNvbnN0IGpvYnMgPSBuZXcgTWFwPHN0cmluZywgVD4oKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IHdvcmRzLmxlbmd0aDsgaSArPSAyKSB7CiAgICBjb25zdCBiYXRjaGVzID0gYXdhaXQgUHJvbWlzZS5hbGwod29yZHMuc2xpY2UoaSwgaSArIDIpLm1hcCgod29yZCkgPT4gc2VhcmNoKHdvcmQpKSk7CiAgICBmb3IgKGNvbnN0IGpvYiBvZiBiYXRjaGVzLmZsYXQoKSkgaWYgKCFqb2JzLmhhcyhqb2IudXJsKSkgam9icy5zZXQoam9iLnVybCwgam9iKTsKICB9CiAgcmV0dXJuIFsuLi5qb2JzLnZhbHVlcygpXTsKfQ==
+/** Commas/newlines separate searches; spaces within a role stay together. */
+export function parseJobKeywords(value: string): string[] {
+  const seen = new Set<string>();
+  return value.split(/[,\n]+/).map((word) => word.trim()).filter((word) => {
+    const key = word.toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+export async function searchEachKeyword<T extends { url: string }>(value: string, search: (keyword: string) => Promise<T[]>, concurrency = 2, onBatch?: (fresh: T[]) => Promise<void>): Promise<T[]> {
+  const words = parseJobKeywords(value);
+  const jobs = new Map<string, T>();
+  const size = Math.max(1, Math.min(6, Math.floor(concurrency) || 1));
+  for (let i = 0; i < words.length; i += size) {
+    const batches = await Promise.all(words.slice(i, i + size).map((word) => search(word)));
+    const fresh: T[] = [];
+    for (const job of batches.flat()) if (!jobs.has(job.url)) { jobs.set(job.url, job); fresh.push(job); }
+    if (onBatch && fresh.length) await onBatch(fresh);
+  }
+  return [...jobs.values()];
+}

@@ -1,1 +1,29 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjb250YWN0c0Zyb21Sb3dzLCBjb250YWN0c0Zyb21UZXh0LCBzYW1lRG9tYWluIH0gZnJvbSAiLi9pbnRlcm5hbERhdGEiOwoKZGVzY3JpYmUoImludGVybmFsIGRhdGEiLCAoKSA9PiB7CiAgaXQoInJlYWRzIG5hbWUgYW5kIGNvbXBhbnkgY29sdW1ucyBmcm9tIGEgc2hlZXQgYW5kIGRyb3BzIGdtYWlsIiwgKCkgPT4gewogICAgY29uc3QgciA9IGNvbnRhY3RzRnJvbVJvd3MoW1siSFIgTmFtZSIsICJDb21wYW55IiwgIkVtYWlsIl0sIFsiTmVoYSBTIiwgIkNhcGdlbWluaSIsICJOZWhhLlNAY2FwZ2VtaW5pLmNvbSJdLCBbIlgiLCAiWSIsICJ4QGdtYWlsLmNvbSJdXSk7CiAgICBleHBlY3QocikudG9FcXVhbChbeyBlbWFpbDogIm5laGEuc0BjYXBnZW1pbmkuY29tIiwgZG9tYWluOiAiY2FwZ2VtaW5pLmNvbSIsIG5hbWU6ICJOZWhhIFMiLCBjb21wYW55OiAiQ2FwZ2VtaW5pIiwgdGl0bGU6IG51bGwgfV0pOwogIH0pOwogIGl0KCJwdWxscyBlbWFpbHMgb3V0IG9mIFBERiB0ZXh0IGFuZCBkZWR1cGVzIiwgKCkgPT4gewogICAgY29uc3QgciA9IGNvbnRhY3RzRnJvbVRleHQoIjEuIFRDUyBockB0Y3MuY29tXG4yLiBUQ1MgaHJAdGNzLmNvbVxuSW5mb3N5cyBhLmJAaW5mb3N5cy5jb20iKTsKICAgIGV4cGVjdChyLm1hcCgoYykgPT4gYy5lbWFpbCkpLnRvRXF1YWwoWyJockB0Y3MuY29tIiwgImEuYkBpbmZvc3lzLmNvbSJdKTsKICAgIGV4cGVjdChyWzBdIS5jb21wYW55KS50b0JlKCJUQ1MiKTsKICB9KTsKICBpdCgibWF0Y2hlcyBzdWJkb21haW5zIiwgKCkgPT4gewogICAgZXhwZWN0KHNhbWVEb21haW4oImluLmlibS5jb20iLCAiaWJtLmNvbSIpKS50b0JlKHRydWUpOwogICAgZXhwZWN0KHNhbWVEb21haW4oInRjcy5jb20iLCAiaW5mb3N5cy5jb20iKSkudG9CZShmYWxzZSk7CiAgfSk7Cn0pOwoKaW1wb3J0IHsgcGVvcGxlRnJvbVBkZkl0ZW1zIH0gZnJvbSAiLi9pbnRlcm5hbERhdGEiOwpkZXNjcmliZSgicGRmIHBlb3BsZSB0YWJsZSIsICgpID0+IHsKICBpdCgicmVhZHMgbmFtZSwgdGl0bGUsIExpbmtlZEluLCBjb21wYW55IGFuZCB3ZWJzaXRlIGRvbWFpbiBwZXIgcm93IiwgKCkgPT4gewogICAgbGV0IHkgPSAxMDA7IGNvbnN0IEkgPSAoc3RyOiBzdHJpbmcsIHg6IG51bWJlcikgPT4geyBpZiAoeCA8IDgwKSB5IC09IDEwOyByZXR1cm4geyBzdHIsIHgsIHkgfTsgfTsKICAgIGNvbnN0IHIgPSBwZW9wbGVGcm9tUGRmSXRlbXMoW0koIjIiLCA2OSksIEkoIk5hbWUiLCA5MiksIEkoIkpvYiBUaXRsZSIsIDE1NiksIEkoIkxpbmtlZGluIFVSTCIsIDIzNCksIEkoIkNvbXBhbnkgTmFtZSIsIDMxOCksIEkoIkNvbXBhbnkgV2Vic2l0ZSIsIDQ4MSksCiAgICAgIEkoIjMiLCA2OSksIEkoIkNoZXRuYSBHb2dpYSIsIDkyKSwgSSgiQ2hpZWYgSHVtYW4gUmVzb3VyY2VzIE9mZmljZXIiLCAxNTYpLCBJKCJodHRwOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9jaGV0bmEtZ29naWEiLCAyMzQpLCBJKCJHb0t3aWsiLCAzMTgpLCBJKCJodHRwOi8vd3d3Lmdva3dpay5jby8iLCA0ODEpLCBJKCJodHRwczovL3R3aXR0ZXIuY29tL2dva3dpayIsIDYwMyksCiAgICAgIEkoIjQiLCA2OSksIEkoIk5vIFNpdGUiLCA5MiksIEkoImh0dHA6Ly93d3cubGlua2VkaW4uY29tL2luL3giLCAyMzQpLCBJKCJBY21lIiwgMzE4KV0pOwogICAgZXhwZWN0KHIpLnRvRXF1YWwoW3sgbmFtZTogIkNoZXRuYSBHb2dpYSIsIHRpdGxlOiAiQ2hpZWYgSHVtYW4gUmVzb3VyY2VzIE9mZmljZXIiLCBsaW5rZWRpbl91cmw6ICJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vY2hldG5hLWdvZ2lhIiwgY29tcGFueTogIkdvS3dpayIsIGRvbWFpbjogImdva3dpay5jbyIgfV0pOwogIH0pOwp9KTsK
+import { describe, expect, it } from "vitest";
+import { contactsFromRows, contactsFromText, sameDomain } from "./internalData";
+
+describe("internal data", () => {
+  it("reads name and company columns from a sheet and drops gmail", () => {
+    const r = contactsFromRows([["HR Name", "Company", "Email"], ["Neha S", "Capgemini", "Neha.S@capgemini.com"], ["X", "Y", "x@gmail.com"]]);
+    expect(r).toEqual([{ email: "neha.s@capgemini.com", domain: "capgemini.com", name: "Neha S", company: "Capgemini", title: null }]);
+  });
+  it("pulls emails out of PDF text and dedupes", () => {
+    const r = contactsFromText("1. TCS hr@tcs.com\n2. TCS hr@tcs.com\nInfosys a.b@infosys.com");
+    expect(r.map((c) => c.email)).toEqual(["hr@tcs.com", "a.b@infosys.com"]);
+    expect(r[0]!.company).toBe("TCS");
+  });
+  it("matches subdomains", () => {
+    expect(sameDomain("in.ibm.com", "ibm.com")).toBe(true);
+    expect(sameDomain("tcs.com", "infosys.com")).toBe(false);
+  });
+});
+
+import { peopleFromPdfItems } from "./internalData";
+describe("pdf people table", () => {
+  it("reads name, title, LinkedIn, company and website domain per row", () => {
+    let y = 100; const I = (str: string, x: number) => { if (x < 80) y -= 10; return { str, x, y }; };
+    const r = peopleFromPdfItems([I("2", 69), I("Name", 92), I("Job Title", 156), I("Linkedin URL", 234), I("Company Name", 318), I("Company Website", 481),
+      I("3", 69), I("Chetna Gogia", 92), I("Chief Human Resources Officer", 156), I("http://www.linkedin.com/in/chetna-gogia", 234), I("GoKwik", 318), I("http://www.gokwik.co/", 481), I("https://twitter.com/gokwik", 603),
+      I("4", 69), I("No Site", 92), I("http://www.linkedin.com/in/x", 234), I("Acme", 318)]);
+    expect(r).toEqual([{ name: "Chetna Gogia", title: "Chief Human Resources Officer", linkedin_url: "https://www.linkedin.com/in/chetna-gogia", company: "GoKwik", domain: "gokwik.co" }]);
+  });
+});

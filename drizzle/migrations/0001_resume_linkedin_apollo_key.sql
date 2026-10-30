@@ -1,1 +1,25 @@
-QUxURVIgVEFCTEUgcHVibGljLm91dHJlYWNoX3NldHRpbmdzCiAgQUREIENPTFVNTiBsaW5rZWRpbl91cmwgdGV4dCBOT1QgTlVMTCBERUZBVUxUICdodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4veWFzaC1uaWthbS0zNDA0YmIyMjMvJywKICBBREQgQ09MVU1OIGF0dGFjaF9yZXN1bWUgYm9vbGVhbiBOT1QgTlVMTCBERUZBVUxUIHRydWUsCiAgQUREIENPTFVNTiByZXN1bWVfcGF0aCB0ZXh0LAogIEFERCBDT0xVTU4gcmVzdW1lX2ZpbGVuYW1lIHRleHQsCiAgQUREIENPTFVNTiBhcG9sbG9fc3RhdHVzIHRleHQgTk9UIE5VTEwgREVGQVVMVCAndW5rbm93bicsCiAgQUREIENPTFVNTiBhcG9sbG9fZXJyb3IgdGV4dCwKICBBREQgQ09MVU1OIGFwb2xsb19jaGVja2VkX2F0IHRpbWVzdGFtcHR6OwoKQUxURVIgVEFCTEUgcHVibGljLm91dHJlYWNoX3NldHRpbmdzIEFMVEVSIENPTFVNTiBrZXl3b3JkcyBTRVQgREVGQVVMVCAnSmF2YSBCYWNrZW5kIERldmVsb3Blcic7CkFMVEVSIFRBQkxFIHB1YmxpYy5vdXRyZWFjaF9zZXR0aW5ncyBBTFRFUiBDT0xVTU4gdGVtcGxhdGVfc3ViamVjdCBTRVQgREVGQVVMVCAnSmF2YSBCYWNrZW5kIEVuZ2luZWVyICgyLjUrIHlycykg4oCTIHt7am9iX3RpdGxlfX0gYXQge3tjb21wYW55fX0nOwpBTFRFUiBUQUJMRSBwdWJsaWMub3V0cmVhY2hfc2V0dGluZ3MgQUxURVIgQ09MVU1OIHRlbXBsYXRlX2JvZHkgU0VUIERFRkFVTFQgRSdIaSB7e2ZpcnN0X25hbWV9fSxcblxuSSBjYW1lIGFjcm9zcyB0aGUge3tqb2JfdGl0bGV9fSBvcGVuaW5nIGF0IHt7Y29tcGFueX19IGFuZCB3YW50ZWQgdG8gcmVhY2ggb3V0IGRpcmVjdGx5LlxuXG5JJydtIGEgU29mdHdhcmUgRW5naW5lZXIgU3BlY2lhbGlzdCBhdCBEYXNzYXVsdCBTeXN0w6htZXMgd2l0aCAyLjUrIHllYXJzIGluIEphdmEsIFNwcmluZyBCb290LCBtaWNyb3NlcnZpY2VzLCBLYWZrYS9SYWJiaXRNUSwgUmVkaXMgYW5kIFJlYWN0LiBSZWNlbnRseSBJIGJ1aWx0IGEgMkQgdmVoaWNsZSByZW5kZXJpbmcgcGxhdGZvcm0gdXNlZCBieSAyMCsgZ2xvYmFsIHRlYW1zIChSZWRpcyBjYWNoaW5nIGN1dCBsb2FkIHRpbWVzIGJ5IDM1JSkgYW5kIDNEIGNvbmZpZ3VyYXRvcnMgZGVwbG95ZWQgYWNyb3NzIDUwKyBkZWFsZXJzaGlwcy5cblxuSm9iIGxpbms6IHt7am9iX3VybH19XG5MaW5rZWRJbjoge3tsaW5rZWRpbn19XG5cbkknJ3ZlIGF0dGFjaGVkIG15IHJlc3VtZS4gV291bGQgeW91IGJlIG9wZW4gdG8gYSBxdWljayBjaGF0LCBvciByZWZlcnJpbmcgbWUgZm9yIHRoaXMgcm9sZT9cblxuVGhhbmtzLFxuWWFzaCBOaWthbVxuKzkxIDkwMjE1NzU2NTcnOwoKQ1JFQVRFIFRBQkxFIHB1YmxpYy5hcG9sbG9fa2V5cyAoCiAgdXNlcl9pZCB1dWlkIFBSSU1BUlkgS0VZLAogIGFwaV9rZXkgdGV4dCBOT1QgTlVMTCwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcHR6IE5PVCBOVUxMIERFRkFVTFQgbm93KCkKKTsKR1JBTlQgQUxMIE9OIHB1YmxpYy5hcG9sbG9fa2V5cyBUTyBzZXJ2aWNlX3JvbGU7CkFMVEVSIFRBQkxFIHB1YmxpYy5hcG9sbG9fa2V5cyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwoKQ1JFQVRFIFBPTElDWSAib3duIHJlc3VtZSByZWFkIiBPTiBzdG9yYWdlLm9iamVjdHMgRk9SIFNFTEVDVCBUTyBhdXRoZW50aWNhdGVkIFVTSU5HIChidWNrZXRfaWQgPSAncmVzdW1lcycgQU5EIChzdG9yYWdlLmZvbGRlcm5hbWUobmFtZSkpWzFdID0gYXV0aC51aWQoKTo6dGV4dCk7CkNSRUFURSBQT0xJQ1kgIm93biByZXN1bWUgaW5zZXJ0IiBPTiBzdG9yYWdlLm9iamVjdHMgRk9SIElOU0VSVCBUTyBhdXRoZW50aWNhdGVkIFdJVEggQ0hFQ0sgKGJ1Y2tldF9pZCA9ICdyZXN1bWVzJyBBTkQgKHN0b3JhZ2UuZm9sZGVybmFtZShuYW1lKSlbMV0gPSBhdXRoLnVpZCgpOjp0ZXh0KTsKQ1JFQVRFIFBPTElDWSAib3duIHJlc3VtZSB1cGRhdGUiIE9OIHN0b3JhZ2Uub2JqZWN0cyBGT1IgVVBEQVRFIFRPIGF1dGhlbnRpY2F0ZWQgVVNJTkcgKGJ1Y2tldF9pZCA9ICdyZXN1bWVzJyBBTkQgKHN0b3JhZ2UuZm9sZGVybmFtZShuYW1lKSlbMV0gPSBhdXRoLnVpZCgpOjp0ZXh0KTsKQ1JFQVRFIFBPTElDWSAib3duIHJlc3VtZSBkZWxldGUiIE9OIHN0b3JhZ2Uub2JqZWN0cyBGT1IgREVMRVRFIFRPIGF1dGhlbnRpY2F0ZWQgVVNJTkcgKGJ1Y2tldF9pZCA9ICdyZXN1bWVzJyBBTkQgKHN0b3JhZ2UuZm9sZGVybmFtZShuYW1lKSlbMV0gPSBhdXRoLnVpZCgpOjp0ZXh0KTs=
+ALTER TABLE public.outreach_settings
+  ADD COLUMN linkedin_url text NOT NULL DEFAULT 'https://www.linkedin.com/in/yash-nikam-3404bb223/',
+  ADD COLUMN attach_resume boolean NOT NULL DEFAULT true,
+  ADD COLUMN resume_path text,
+  ADD COLUMN resume_filename text,
+  ADD COLUMN apollo_status text NOT NULL DEFAULT 'unknown',
+  ADD COLUMN apollo_error text,
+  ADD COLUMN apollo_checked_at timestamptz;
+
+ALTER TABLE public.outreach_settings ALTER COLUMN keywords SET DEFAULT 'Java Backend Developer';
+ALTER TABLE public.outreach_settings ALTER COLUMN template_subject SET DEFAULT 'Java Backend Engineer (2.5+ yrs) – {{job_title}} at {{company}}';
+ALTER TABLE public.outreach_settings ALTER COLUMN template_body SET DEFAULT E'Hi {{first_name}},\n\nI came across the {{job_title}} opening at {{company}} and wanted to reach out directly.\n\nI''m a Software Engineer Specialist at Dassault Systèmes with 2.5+ years in Java, Spring Boot, microservices, Kafka/RabbitMQ, Redis and React. Recently I built a 2D vehicle rendering platform used by 20+ global teams (Redis caching cut load times by 35%) and 3D configurators deployed across 50+ dealerships.\n\nJob link: {{job_url}}\nLinkedIn: {{linkedin}}\n\nI''ve attached my resume. Would you be open to a quick chat, or referring me for this role?\n\nThanks,\nYash Nikam\n+91 9021575657';
+
+CREATE TABLE public.apollo_keys (
+  user_id uuid PRIMARY KEY,
+  api_key text NOT NULL,
+  updated_at timestamptz NOT NULL DEFAULT now()
+);
+GRANT ALL ON public.apollo_keys TO service_role;
+ALTER TABLE public.apollo_keys ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "own resume read" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'resumes' AND (storage.foldername(name))[1] = auth.uid()::text);
+CREATE POLICY "own resume insert" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'resumes' AND (storage.foldername(name))[1] = auth.uid()::text);
+CREATE POLICY "own resume update" ON storage.objects FOR UPDATE TO authenticated USING (bucket_id = 'resumes' AND (storage.foldername(name))[1] = auth.uid()::text);
+CREATE POLICY "own resume delete" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'resumes' AND (storage.foldername(name))[1] = auth.uid()::text);

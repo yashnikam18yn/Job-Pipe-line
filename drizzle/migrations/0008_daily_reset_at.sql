@@ -1,1 +1,1 @@
-QUxURVIgVEFCTEUgcHVibGljLm91dHJlYWNoX3NldHRpbmdzIEFERCBDT0xVTU4gSUYgTk9UIEVYSVNUUyBkYWlseV9yZXNldF9hdCB0aW1lc3RhbXB0ejs=
+ALTER TABLE public.outreach_settings ADD COLUMN IF NOT EXISTS daily_reset_at timestamptz;

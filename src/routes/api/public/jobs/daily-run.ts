@@ -1,1 +1,29 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IGF1dGhlbnRpY2F0ZUNyb25SZXF1ZXN0IH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY3Jvbi1hdXRoIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FwaS9wdWJsaWMvam9icy9kYWlseS1ydW4iKSh7CiAgc2VydmVyOiB7CiAgICBoYW5kbGVyczogewogICAgICBQT1NUOiBhc3luYyAoeyByZXF1ZXN0IH0pID0+IHsKICAgICAgICBjb25zdCBhdXRoRmFpbHVyZSA9IGF3YWl0IGF1dGhlbnRpY2F0ZUNyb25SZXF1ZXN0KHJlcXVlc3QpOwogICAgICAgIGlmIChhdXRoRmFpbHVyZSkgcmV0dXJuIGF1dGhGYWlsdXJlOwoKICAgICAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgICAgIGNvbnN0IHsgcnVuU3RlcCB9ID0gYXdhaXQgaW1wb3J0KCJAL2xpYi9vdXRyZWFjaC5zZXJ2ZXIiKTsKICAgICAgICBjb25zdCB7IGRhdGE6IHVzZXJzIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluCiAgICAgICAgICAuZnJvbSgib3V0cmVhY2hfc2V0dGluZ3MiKQogICAgICAgICAgLnNlbGVjdCgidXNlcl9pZCIpCiAgICAgICAgICAuZXEoImF1dG9fZW5hYmxlZCIsIHRydWUpOwogICAgICAgIGNvbnN0IHJlc3VsdHM6IFJlY29yZDxzdHJpbmcsIHN0cmluZ1tdPiA9IHt9OwogICAgICAgIGZvciAoY29uc3QgdSBvZiB1c2VycyA/PyBbXSkgewogICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmVzdWx0c1t1LnVzZXJfaWRdID0gYXdhaXQgcnVuU3RlcChzdXBhYmFzZUFkbWluLCB1LnVzZXJfaWQsIHsgb3JpZ2luOiBuZXcgVVJMKHJlcXVlc3QudXJsKS5vcmlnaW4gfSk7CiAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoImRhaWx5LXJ1biBmYWlsZWQiLCB1LnVzZXJfaWQsIGUpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IG9rOiB0cnVlLCB1c2VyczogT2JqZWN0LmtleXMocmVzdWx0cykubGVuZ3RoIH0pOwogICAgICB9LAogICAgfSwKICB9LAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import { authenticateCronRequest } from "@/integrations/supabase/cron-auth";
+
+export const Route = createFileRoute("/api/public/jobs/daily-run")({
+  server: {
+    handlers: {
+      POST: async ({ request }) => {
+        const authFailure = await authenticateCronRequest(request);
+        if (authFailure) return authFailure;
+
+        const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+        const { runStep } = await import("@/lib/outreach.server");
+        const { data: users } = await supabaseAdmin
+          .from("outreach_settings")
+          .select("user_id")
+          .eq("auto_enabled", true);
+        const results: Record<string, string[]> = {};
+        for (const u of users ?? []) {
+          try {
+            results[u.user_id] = await runStep(supabaseAdmin, u.user_id, { origin: new URL(request.url).origin });
+          } catch (e) {
+            console.error("daily-run failed", u.user_id, e);
+          }
+        }
+        return Response.json({ ok: true, users: Object.keys(results).length });
+      },
+    },
+  },
+});

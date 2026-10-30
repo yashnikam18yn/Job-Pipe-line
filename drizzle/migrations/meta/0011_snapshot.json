@@ -1,1 +1,18 @@
-ewogICJpZCI6ICJiYTVkZWRkNS1jZmI5LTQ2YjAtYTU1NS05ZDBmMzEzYWY1NWIiLAogICJwcmV2SWQiOiAiZmMxNGViYTgtY2NiZS00NDczLWFjMTctNDhhNzdkZTAxYzZhIiwKICAidmVyc2lvbiI6ICI3IiwKICAiZGlhbGVjdCI6ICJwb3N0Z3Jlc3FsIiwKICAidGFibGVzIjoge30sCiAgImVudW1zIjoge30sCiAgInNjaGVtYXMiOiB7fSwKICAidmlld3MiOiB7fSwKICAic2VxdWVuY2VzIjoge30sCiAgInJvbGVzIjoge30sCiAgInBvbGljaWVzIjoge30sCiAgIl9tZXRhIjogewogICAgImNvbHVtbnMiOiB7fSwKICAgICJzY2hlbWFzIjoge30sCiAgICAidGFibGVzIjoge30KICB9Cn0K
+{
+  "id": "ba5dedd5-cfb9-46b0-a555-9d0f313af55b",
+  "prevId": "fc14eba8-ccbe-4473-ac17-48a77de01c6a",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {},
+  "enums": {},
+  "schemas": {},
+  "views": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

@@ -1,1 +1,26 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFBsdXMsIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBwYXJzZUpvYktleXdvcmRzIH0gZnJvbSAiQC9saWIvam9iS2V5d29yZHMiOwoKZXhwb3J0IGZ1bmN0aW9uIEpvYktleXdvcmRzSW5wdXQoeyB2YWx1ZSwgb25DaGFuZ2UgfTogeyB2YWx1ZTogc3RyaW5nOyBvbkNoYW5nZTogKHZhbHVlOiBzdHJpbmcpID0+IHZvaWQgfSkgewogIGNvbnN0IFtkcmFmdCwgc2V0RHJhZnRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IGtleXdvcmRzID0gcGFyc2VKb2JLZXl3b3Jkcyh2YWx1ZSk7CiAgZnVuY3Rpb24gYWRkKCkgewogICAgb25DaGFuZ2UocGFyc2VKb2JLZXl3b3JkcyhbLi4ua2V5d29yZHMsIGRyYWZ0XS5qb2luKCIsICIpKS5qb2luKCIsICIpKTsKICAgIHNldERyYWZ0KCIiKTsKICB9CiAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAge2tleXdvcmRzLm1hcCgoa2V5d29yZCkgPT4gPHNwYW4ga2V5PXtrZXl3b3JkfSBjbGFzc05hbWU9ImlubGluZS1mbGV4IG1heC13LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJnLXNlY29uZGFyeSBweC0yIHRleHQtc20gdGV4dC1zZWNvbmRhcnktZm9yZWdyb3VuZCI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtaW4tdy0wIGJyZWFrLXdvcmRzIj57a2V5d29yZH08L3NwYW4+CiAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBjbGFzc05hbWU9InNpemUtNyBzaHJpbmstMCIgYXJpYS1sYWJlbD17YFJlbW92ZSAke2tleXdvcmR9YH0gdGl0bGU9e2BSZW1vdmUgJHtrZXl3b3JkfWB9IG9uQ2xpY2s9eygpID0+IG9uQ2hhbmdlKGtleXdvcmRzLmZpbHRlcigod29yZCkgPT4gd29yZCAhPT0ga2V5d29yZCkuam9pbigiLCAiKSl9PjxYIC8+PC9CdXR0b24+CiAgICAgIDwvc3Bhbj4pfQogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgIDxJbnB1dCBhcmlhLWxhYmVsPSJKb2Iga2V5d29yZHMiIHBsYWNlaG9sZGVyPSJKYXZhIERldmVsb3BlciwgU3ByaW5nIEJvb3QsIFNERSAyIiB2YWx1ZT17ZHJhZnR9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0RHJhZnQoZS50YXJnZXQudmFsdWUpfSBvbkJsdXI9e2FkZH0gb25LZXlEb3duPXsoZSkgPT4geyBpZiAoZS5rZXkgPT09ICJFbnRlciIpIHsgZS5wcmV2ZW50RGVmYXVsdCgpOyBhZGQoKTsgfSB9fSAvPgogICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0iaWNvbiIgYXJpYS1sYWJlbD0iQWRkIGtleXdvcmQiIHRpdGxlPSJBZGQga2V5d29yZCIgZGlzYWJsZWQ9eyFkcmFmdC50cmltKCl9IG9uQ2xpY2s9e2FkZH0+PFBsdXMgLz48L0J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGl2PjsKfQ==
+import { useState } from "react";
+import { Plus, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { parseJobKeywords } from "@/lib/jobKeywords";
+
+export function JobKeywordsInput({ value, onChange }: { value: string; onChange: (value: string) => void }) {
+  const [draft, setDraft] = useState("");
+  const keywords = parseJobKeywords(value);
+  function add() {
+    onChange(parseJobKeywords([...keywords, draft].join(", ")).join(", "));
+    setDraft("");
+  }
+  return <div className="space-y-2">
+    <div className="flex flex-wrap gap-2">
+      {keywords.map((keyword) => <span key={keyword} className="inline-flex max-w-full items-center gap-1 rounded-md border bg-secondary px-2 text-sm text-secondary-foreground">
+        <span className="min-w-0 break-words">{keyword}</span>
+        <Button type="button" variant="ghost" size="icon" className="size-7 shrink-0" aria-label={`Remove ${keyword}`} title={`Remove ${keyword}`} onClick={() => onChange(keywords.filter((word) => word !== keyword).join(", "))}><X /></Button>
+      </span>)}
+    </div>
+    <div className="flex gap-2">
+      <Input aria-label="Job keywords" placeholder="Java Developer, Spring Boot, SDE 2" value={draft} onChange={(e) => setDraft(e.target.value)} onBlur={add} onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); add(); } }} />
+      <Button type="button" variant="outline" size="icon" aria-label="Add keyword" title="Add keyword" disabled={!draft.trim()} onClick={add}><Plus /></Button>
+    </div>
+  </div>;
+}

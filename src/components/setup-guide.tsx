@@ -1,1 +1,110 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrLCBDb3B5LCBFeHRlcm5hbExpbmsgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gInNvbm5lciI7Cgpjb25zdCBQVUJMSVNIRURfVVJMID0gImh0dHBzOi8vcm9sZS1yYWRhci1vdXRyZWFjaC5sb3ZhYmxlLmFwcCI7Cgpjb25zdCBHVUlERV9LRVkgPSAic2V0dXAtZ3VpZGUtY2hlY2tlZCI7CnR5cGUgR3VpZGVTdGF0ZSA9IFJlY29yZDxzdHJpbmcsIGJvb2xlYW4+OwoKZnVuY3Rpb24gbG9hZENoZWNrcygpOiBHdWlkZVN0YXRlIHsKICB0cnkgeyByZXR1cm4gSlNPTi5wYXJzZShsb2NhbFN0b3JhZ2UuZ2V0SXRlbShHVUlERV9LRVkpID8/ICJ7fSIpIGFzIEd1aWRlU3RhdGU7IH0gY2F0Y2ggeyByZXR1cm4ge307IH0KfQoKZnVuY3Rpb24gU3RlcCh7IGlkLCB0aXRsZSwgY2hpbGRyZW4gfTogeyBpZDogc3RyaW5nOyB0aXRsZTogc3RyaW5nOyBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlIH0pIHsKICBjb25zdCBbZG9uZSwgc2V0RG9uZV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgdXNlRWZmZWN0KCgpID0+IHsgc2V0RG9uZSghIWxvYWRDaGVja3MoKVtpZF0pOyB9LCBbaWRdKTsKICBjb25zdCB0b2dnbGUgPSAoKSA9PiB7CiAgICBjb25zdCBuZXh0ID0geyAuLi5sb2FkQ2hlY2tzKCksIFtpZF06ICFkb25lIH07CiAgICBzZXREb25lKCFkb25lKTsKICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKEdVSURFX0tFWSwgSlNPTi5zdHJpbmdpZnkobmV4dCkpOwogIH07CiAgcmV0dXJuICgKICAgIDxsaSBjbGFzc05hbWU9ImZsZXggZ2FwLTMiPgogICAgICA8YnV0dG9uCiAgICAgICAgYXJpYS1sYWJlbD17ZG9uZSA/IGBVbmNoZWNrOiAke3RpdGxlfWAgOiBgTWFyayBkb25lOiAke3RpdGxlfWB9CiAgICAgICAgY2xhc3NOYW1lPXtgbXQtMC41IGZsZXggc2l6ZS01IHNocmluay0wIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkIGJvcmRlciAke2RvbmUgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCIgOiAiIn1gfQogICAgICAgIG9uQ2xpY2s9e3RvZ2dsZX0KICAgICAgPgogICAgICAgIHtkb25lICYmIDxDaGVjayBjbGFzc05hbWU9InNpemUtMy41IiAvPn0KICAgICAgPC9idXR0b24+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIj4KICAgICAgICA8cCBjbGFzc05hbWU9e2Bmb250LW1lZGl1bSAke2RvbmUgPyAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGxpbmUtdGhyb3VnaCIgOiAiIn1gfT57dGl0bGV9PC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHNwYWNlLXktMSB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2NoaWxkcmVufTwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvbGk+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIFNldHVwR3VpZGUoKSB7CiAgY29uc3QgW2NvcGllZCwgc2V0Q29waWVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTQgbGc6Z3JpZC1jb2xzLTIiPgogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImNhcmQtZWxldmF0ZWQgc3BhY2UteS00IHAtNSI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibGFiZWwtbW9ubyI+VXNlIGl0IGZyb20gYW5vdGhlciBsYXB0b3A8L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPkV2ZXJ5dGhpbmcgbGl2ZXMgaW4gdGhlIGNsb3VkIOKAlCBqb2JzLCBjb250YWN0cywgc2V0dGluZ3MsIHJlc3VtZS4gU2lnbiBpbiBhbmQgaXQncyBhbGwgdGhlcmUsIGluY2x1ZGluZyB3aGF0IHlvdSBsZWZ0IGhhbGYtZmluaXNoZWQuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxvbCBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICA8U3RlcCBpZD0ibGFwdG9wLXVybCIgdGl0bGU9Ik9wZW4gdGhlIHB1Ymxpc2hlZCBhcHAiPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICA8YSBocmVmPXtQVUJMSVNIRURfVVJMfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiPntQVUJMSVNIRURfVVJMfTwvYT4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBjbGFzc05hbWU9Im10LTIiCiAgICAgICAgICAgICAgb25DbGljaz17YXN5bmMgKCkgPT4gewogICAgICAgICAgICAgICAgdHJ5IHsgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQoUFVCTElTSEVEX1VSTCk7IHNldENvcGllZCh0cnVlKTsgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWQoZmFsc2UpLCAyMDAwKTsgdG9hc3Quc3VjY2VzcygiTGluayBjb3BpZWQiKTsgfQogICAgICAgICAgICAgICAgY2F0Y2ggeyB0b2FzdC5lcnJvcigiQ291bGRuJ3QgY29weSDigJQgc2VsZWN0IHRoZSBsaW5rIGFuZCBjb3B5IGl0Iik7IH0KICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAge2NvcGllZCA/IDxDaGVjayAvPiA6IDxDb3B5IC8+fSB7Y29waWVkID8gIkNvcGllZCIgOiAiQ29weSBsaW5rIn0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxwPldvcmtzIG9uIGFueSBsYXB0b3AncyBicm93c2VyIOKAlCBDaHJvbWUsIEVkZ2UsIEZpcmVmb3guIE5vIGluc3RhbGwgbmVlZGVkLjwvcD4KICAgICAgICAgIDwvU3RlcD4KICAgICAgICAgIDxTdGVwIGlkPSJsYXB0b3Atc2lnbmluIiB0aXRsZT0iU2lnbiBpbiB3aXRoIHRoZSBzYW1lIGVtYWlsIHlvdSB1c2UgaGVyZSI+CiAgICAgICAgICAgIDxwPlVzZSB0aGUgc2FtZSBhY2NvdW50IGFzIHRoaXMgZGFzaGJvYXJkLiBJZiB5b3UgZm9yZ290IHRoZSBwYXNzd29yZCwgdXNlICJGb3Jnb3QgcGFzc3dvcmQiIG9uIHRoZSBzaWduLWluIHBhZ2Ug4oCUIGEgcmVzZXQgbGluayBhcnJpdmVzIGJ5IGVtYWlsLjwvcD4KICAgICAgICAgIDwvU3RlcD4KICAgICAgICAgIDxTdGVwIGlkPSJsYXB0b3AtY2hlY2siIHRpdGxlPSJDaGVjayB5b3VyIGRhdGEgY2FtZSBhY3Jvc3MiPgogICAgICAgICAgICA8cD5PcGVuIHRoZSBKb2JzIGFuZCBSZXZpZXcgcXVldWUgdGFicyDigJQgeW91IHNob3VsZCBzZWUgeW91ciBleGlzdGluZyBqb2JzIGFuZCBjb250YWN0cy4gSWYgYW55dGhpbmcgbG9va3MgZW1wdHksIHdhaXQgYSBmZXcgc2Vjb25kcyBhbmQgcmVmcmVzaCBvbmNlLjwvcD4KICAgICAgICAgIDwvU3RlcD4KICAgICAgICAgIDxTdGVwIGlkPSJsYXB0b3Atbm90ZSIgdGl0bGU9Iktub3cgd2hhdCBzdGF5cyBvbiB0aGlzIGxhcHRvcCI+CiAgICAgICAgICAgIDxwPlRoZSBkb3dubG9hZC1hYmxlIE5hdWtyaSBsb2NhbCB0b29sIG9ubHkgcnVucyBvbiB0aGUgY29tcHV0ZXIgd2hlcmUgeW91IGluc3RhbGxlZCBpdC4gRXZlcnl0aGluZyBlbHNlIHdvcmtzIGZyb20gYW55IGxhcHRvcC4gU2VuZGluZywgdHJhY2tpbmcsIGFuZCBzZXR0aW5ncyBhcmUgc2hhcmVkLCBzbyBkb24ndCBydW4gIlNlbmQgd2FpdGluZyBlbWFpbHMiIG9uIHR3byBsYXB0b3BzIGF0IHRoZSBzYW1lIHRpbWUg4oCUIGFwcHJvdmUgYW5kIHNlbmQgZnJvbSBvbmUgcGxhY2UgdG8ga2VlcCBjb3VudHMgY2xlYW4uPC9wPgogICAgICAgICAgPC9TdGVwPgogICAgICAgIDwvb2w+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iY2FyZC1lbGV2YXRlZCBzcGFjZS15LTQgcC01Ij4KICAgICAgICA8ZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJsYWJlbC1tb25vIj5Db25uZWN0IHlvdXIgR2l0SHViIGFjY291bnQ8L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPlRoaXMgaXMgZG9uZSBpbiB0aGUgTG92YWJsZSBlZGl0b3IsIG5vdCBpbnNpZGUgdGhpcyBkYXNoYm9hcmQuIEl0IGNyZWF0ZXMgYSBwcml2YXRlIHJlcG8gYW5kIGtlZXBzIGl0IGluIHN5bmMgYXV0b21hdGljYWxseS48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPG9sIGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgIDxTdGVwIGlkPSJnaC1zZXR0aW5ncyIgdGl0bGU9Ik9wZW4gUHJvamVjdCBzZXR0aW5ncyDihpIgR2l0Ij4KICAgICAgICAgICAgPHA+SW4gdGhlIExvdmFibGUgZWRpdG9yICh3aGVyZSB5b3UgdHlwZSByZXF1ZXN0cyksIG9wZW4gPGI+UHJvamVjdCBzZXR0aW5nczwvYj4g4oaSIDxiPkdpdDwvYj4uIFlvdSBjYW4gYWxzbyB1c2UgdGhlICsgbWVudSBuZXh0IHRvIHRoZSBjaGF0IGJveCDihpIgUHJvamVjdCDihpIgR2l0SHViLjwvcD4KICAgICAgICAgIDwvU3RlcD4KICAgICAgICAgIDxTdGVwIGlkPSJnaC1jb25uZWN0IiB0aXRsZT0iQ29ubmVjdCBHaXRIdWIiPgogICAgICAgICAgICA8cD5DbGljayA8Yj5Db25uZWN0IEdpdEh1YjwvYj4uIExvdmFibGUgc2lnbnMgeW91IGluIHRvIEdpdEh1YiBhbmQgY3JlYXRlcyBhIG5ldyA8Yj5wcml2YXRlPC9iPiByZXBvc2l0b3J5IOKAlCBpdCBjYW4ndCBsaW5rIGEgcmVwbyB0aGF0IGFscmVhZHkgZXhpc3RzLiBBdXRob3JpemUgd2hlbiBhc2tlZC48L3A+CiAgICAgICAgICA8L1N0ZXA+CiAgICAgICAgICA8U3RlcCBpZD0iZ2gtc3luYyIgdGl0bGU9IkxldCBpdCBzeW5jIj4KICAgICAgICAgICAgPHA+QWZ0ZXIgY29ubmVjdGluZywgZXZlcnkgY2hhbmdlIG1hZGUgaGVyZSBpcyBjb21taXR0ZWQgdG8gdGhlIHJlcG8gYXV0b21hdGljYWxseS4gVG8gZ2V0IHRoZSBjb2RlIG9uIGFub3RoZXIgbGFwdG9wOiBzaWduIGluIHRvIEdpdEh1Yiwgb3BlbiB0aGUgcmVwbywgYW5kIGNsb25lIG9yIGRvd25sb2FkIGl0IGFzIGEgWklQLjwvcD4KICAgICAgICAgIDwvU3RlcD4KICAgICAgICAgIDxTdGVwIGlkPSJnaC1jbG9uZSIgdGl0bGU9IkNsb25lIG9uIGFub3RoZXIgbGFwdG9wIChvcHRpb25hbCkiPgogICAgICAgICAgICA8cD48c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57ImdpdCBjbG9uZSA8cmVwbyBVUkw+In08L3NwYW4+IHRoZW4gcnVuIGl0IGxvY2FsbHkgd2l0aCA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj5ucG0gaW5zdGFsbCAmJiBucG0gcnVuIGRldjwvc3Bhbj4uIFRoZSBwdWJsaXNoZWQgbGluayBhYm92ZSBpcyBlbm91Z2ggZm9yIGRhaWx5IHVzZSDigJQgY2xvbmluZyBpcyBvbmx5IGlmIHlvdSB3YW50IHRoZSByYXcgY29kZS48L3A+CiAgICAgICAgICA8L1N0ZXA+CiAgICAgICAgPC9vbD4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Cb3RoIHRoZSBwdWJsaXNoZWQgbGluayBhbmQgR2l0SHViIHN0YXkgaW4gc3luYyB3aXRoIGVhY2ggb3RoZXIg4oCUIG5vIGNvbmZsaWN0LiBJZiBMb3ZhYmxlIGV2ZXIgc2F5cyB0aGUgcmVwbyBhbmQgdGhlIGFwcCBoYXZlIGRpdmVyZ2VkLCBtZXJnZSB0aGUgbmV3ZXN0IDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIj5sb3ZhYmxlLXN5bmM8L3NwYW4+IGJyYW5jaCBpbnRvIHRoZSBtYWluIGJyYW5jaCBvbiBHaXRIdWIuPC9wPgogICAgICA8L3NlY3Rpb24+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gR3VpZGVMaW5rKCkgewogIHJldHVybiAoCiAgICA8YSBocmVmPXtQVUJMSVNIRURfVVJMfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIj4KICAgICAgPEV4dGVybmFsTGluayBjbGFzc05hbWU9InNpemUtMyIgLz4gcHVibGlzaGVkIGFwcAogICAgPC9hPgogICk7Cn0K
+import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Check, Copy, ExternalLink } from "lucide-react";
+import { toast } from "sonner";
+
+const PUBLISHED_URL = "https://role-radar-outreach.lovable.app";
+
+const GUIDE_KEY = "setup-guide-checked";
+type GuideState = Record<string, boolean>;
+
+function loadChecks(): GuideState {
+  try { return JSON.parse(localStorage.getItem(GUIDE_KEY) ?? "{}") as GuideState; } catch { return {}; }
+}
+
+function Step({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
+  const [done, setDone] = useState(false);
+  useEffect(() => { setDone(!!loadChecks()[id]); }, [id]);
+  const toggle = () => {
+    const next = { ...loadChecks(), [id]: !done };
+    setDone(!done);
+    localStorage.setItem(GUIDE_KEY, JSON.stringify(next));
+  };
+  return (
+    <li className="flex gap-3">
+      <button
+        aria-label={done ? `Uncheck: ${title}` : `Mark done: ${title}`}
+        className={`mt-0.5 flex size-5 shrink-0 items-center justify-center rounded border ${done ? "border-primary bg-primary text-primary-foreground" : ""}`}
+        onClick={toggle}
+      >
+        {done && <Check className="size-3.5" />}
+      </button>
+      <div className="min-w-0">
+        <p className={`font-medium ${done ? "text-muted-foreground line-through" : ""}`}>{title}</p>
+        <div className="mt-1 space-y-1 text-sm text-muted-foreground">{children}</div>
+      </div>
+    </li>
+  );
+}
+
+export function SetupGuide() {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="grid gap-4 lg:grid-cols-2">
+      <section className="card-elevated space-y-4 p-5">
+        <div>
+          <p className="label-mono">Use it from another laptop</p>
+          <p className="mt-1 text-sm text-muted-foreground">Everything lives in the cloud — jobs, contacts, settings, resume. Sign in and it's all there, including what you left half-finished.</p>
+        </div>
+        <ol className="space-y-4">
+          <Step id="laptop-url" title="Open the published app">
+            <p>
+              <a href={PUBLISHED_URL} target="_blank" rel="noreferrer" className="text-primary hover:underline">{PUBLISHED_URL}</a>
+            </p>
+            <Button
+              size="sm"
+              variant="outline"
+              className="mt-2"
+              onClick={async () => {
+                try { await navigator.clipboard.writeText(PUBLISHED_URL); setCopied(true); setTimeout(() => setCopied(false), 2000); toast.success("Link copied"); }
+                catch { toast.error("Couldn't copy — select the link and copy it"); }
+              }}
+            >
+              {copied ? <Check /> : <Copy />} {copied ? "Copied" : "Copy link"}
+            </Button>
+            <p>Works on any laptop's browser — Chrome, Edge, Firefox. No install needed.</p>
+          </Step>
+          <Step id="laptop-signin" title="Sign in with the same email you use here">
+            <p>Use the same account as this dashboard. If you forgot the password, use "Forgot password" on the sign-in page — a reset link arrives by email.</p>
+          </Step>
+          <Step id="laptop-check" title="Check your data came across">
+            <p>Open the Jobs and Review queue tabs — you should see your existing jobs and contacts. If anything looks empty, wait a few seconds and refresh once.</p>
+          </Step>
+          <Step id="laptop-note" title="Know what stays on this laptop">
+            <p>The download-able Naukri local tool only runs on the computer where you installed it. Everything else works from any laptop. Sending, tracking, and settings are shared, so don't run "Send waiting emails" on two laptops at the same time — approve and send from one place to keep counts clean.</p>
+          </Step>
+        </ol>
+      </section>
+
+      <section className="card-elevated space-y-4 p-5">
+        <div>
+          <p className="label-mono">Connect your GitHub account</p>
+          <p className="mt-1 text-sm text-muted-foreground">This is done in the Lovable editor, not inside this dashboard. It creates a private repo and keeps it in sync automatically.</p>
+        </div>
+        <ol className="space-y-4">
+          <Step id="gh-settings" title="Open Project settings → Git">
+            <p>In the Lovable editor (where you type requests), open <b>Project settings</b> → <b>Git</b>. You can also use the + menu next to the chat box → Project → GitHub.</p>
+          </Step>
+          <Step id="gh-connect" title="Connect GitHub">
+            <p>Click <b>Connect GitHub</b>. Lovable signs you in to GitHub and creates a new <b>private</b> repository — it can't link a repo that already exists. Authorize when asked.</p>
+          </Step>
+          <Step id="gh-sync" title="Let it sync">
+            <p>After connecting, every change made here is committed to the repo automatically. To get the code on another laptop: sign in to GitHub, open the repo, and clone or download it as a ZIP.</p>
+          </Step>
+          <Step id="gh-clone" title="Clone on another laptop (optional)">
+            <p><span className="font-mono text-xs">{"git clone <repo URL>"}</span> then run it locally with <span className="font-mono text-xs">npm install && npm run dev</span>. The published link above is enough for daily use — cloning is only if you want the raw code.</p>
+          </Step>
+        </ol>
+        <p className="text-xs text-muted-foreground">Both the published link and GitHub stay in sync with each other — no conflict. If Lovable ever says the repo and the app have diverged, merge the newest <span className="font-mono">lovable-sync</span> branch into the main branch on GitHub.</p>
+      </section>
+    </div>
+  );
+}
+
+export function GuideLink() {
+  return (
+    <a href={PUBLISHED_URL} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-primary hover:underline">
+      <ExternalLink className="size-3" /> published app
+    </a>
+  );
+}

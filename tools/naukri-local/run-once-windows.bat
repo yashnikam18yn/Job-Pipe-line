@@ -1,1 +1,4 @@
-QGVjaG8gb2ZmCmNkIC9kICIlfmRwMCIKLnZlbnZcU2NyaXB0c1xweXRob24gbmF1a3JpX2xvY2FsLnB5IHJ1bgpwYXVzZQ==
+@echo off
+cd /d "%~dp0"
+.venv\Scripts\python naukri_local.py run
+pause

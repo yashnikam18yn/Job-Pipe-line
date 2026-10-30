@@ -1,0 +1,2 @@
+ALTER TABLE public.outreach_settings ADD COLUMN sender_email text;
+COMMENT ON COLUMN public.outreach_settings.sender_email IS 'Preferred From address; sends must verify it matches the connected Gmail account. NULL uses the connected account.';

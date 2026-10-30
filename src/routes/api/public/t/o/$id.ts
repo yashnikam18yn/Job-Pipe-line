@@ -1,1 +1,24 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7Cgpjb25zdCBHSUYgPSBVaW50OEFycmF5LmZyb20oYXRvYigiUjBsR09EbGhBUUFCQUlBQUFBQUFBUC8vL3lINUJBRUFBQUFBTEFBQUFBQUJBQUVBQUFJQlJBQTciKSwgKGMpID0+IGMuY2hhckNvZGVBdCgwKSk7CmNvbnN0IFVVSUQgPSAvXlswLTlhLWYtXXszNn0kL2k7CgovLyBFbWFpbCBvcGVuIHBpeGVsLiBPbmx5IGJ1bXBzIGEgY291bnRlciBvbiB0aGUgbWF0Y2hpbmcgY29udGFjdDsgcmV0dXJucyBub3RoaW5nIHByaXZhdGUuCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FwaS9wdWJsaWMvdC9vLyRpZCIpKHsKICBzZXJ2ZXI6IHsKICAgIGhhbmRsZXJzOiB7CiAgICAgIEdFVDogYXN5bmMgKHsgcGFyYW1zIH0pID0+IHsKICAgICAgICBpZiAoVVVJRC50ZXN0KHBhcmFtcy5pZCkpIHsKICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHsgc3VwYWJhc2VBZG1pbiB9ID0gYXdhaXQgaW1wb3J0KCJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQuc2VydmVyIik7CiAgICAgICAgICAgIGNvbnN0IHsgZGF0YTogYyB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJjb250YWN0cyIpLnNlbGVjdCgib3Blbl9jb3VudCwgb3BlbmVkX2F0LCBzZW5kX3N0YXR1cyIpLmVxKCJpZCIsIHBhcmFtcy5pZCkubWF5YmVTaW5nbGUoKTsKICAgICAgICAgICAgaWYgKGMgJiYgYy5zZW5kX3N0YXR1cyA9PT0gInNlbnQiKSB7CiAgICAgICAgICAgICAgYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJjb250YWN0cyIpLnVwZGF0ZSh7IG9wZW5fY291bnQ6IChjLm9wZW5fY291bnQgPz8gMCkgKyAxLCBvcGVuZWRfYXQ6IGMub3BlbmVkX2F0ID8/IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KS5lcSgiaWQiLCBwYXJhbXMuaWQpOwogICAgICAgICAgICB9CiAgICAgICAgICB9IGNhdGNoIChlKSB7IGNvbnNvbGUuZXJyb3IoIm9wZW4gcGl4ZWwiLCBlKTsgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEdJRiwgeyBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiaW1hZ2UvZ2lmIiwgIkNhY2hlLUNvbnRyb2wiOiAibm8tc3RvcmUsIG1heC1hZ2U9MCIgfSB9KTsKICAgICAgfSwKICAgIH0sCiAgfSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+
+const GIF = Uint8Array.from(atob("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"), (c) => c.charCodeAt(0));
+const UUID = /^[0-9a-f-]{36}$/i;
+
+// Email open pixel. Only bumps a counter on the matching contact; returns nothing private.
+export const Route = createFileRoute("/api/public/t/o/$id")({
+  server: {
+    handlers: {
+      GET: async ({ params }) => {
+        if (UUID.test(params.id)) {
+          try {
+            const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+            const { data: c } = await supabaseAdmin.from("contacts").select("open_count, opened_at, send_status").eq("id", params.id).maybeSingle();
+            if (c && c.send_status === "sent") {
+              await supabaseAdmin.from("contacts").update({ open_count: (c.open_count ?? 0) + 1, opened_at: c.opened_at ?? new Date().toISOString() }).eq("id", params.id);
+            }
+          } catch (e) { console.error("open pixel", e); }
+        }
+        return new Response(GIF, { headers: { "Content-Type": "image/gif", "Cache-Control": "no-store, max-age=0" } });
+      },
+    },
+  },
+});

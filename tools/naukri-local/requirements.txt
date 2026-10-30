@@ -1,1 +1,1 @@
-cGxheXdyaWdodD49MS41MCw8Mg==
+playwright>=1.50,<2

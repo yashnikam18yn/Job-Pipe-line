@@ -1,1 +1,525 @@
-ZXhwb3J0IHR5cGUgSnNvbiA9CiAgfCBzdHJpbmcKICB8IG51bWJlcgogIHwgYm9vbGVhbgogIHwgbnVsbAogIHwgeyBba2V5OiBzdHJpbmddOiBKc29uIHwgdW5kZWZpbmVkIH0KICB8IEpzb25bXQoKZXhwb3J0IHR5cGUgRGF0YWJhc2UgPSB7CiAgLy8gQWxsb3dzIHRvIGF1dG9tYXRpY2FsbHkgaW5zdGFudGlhdGUgY3JlYXRlQ2xpZW50IHdpdGggcmlnaHQgb3B0aW9ucwogIC8vIGluc3RlYWQgb2YgY3JlYXRlQ2xpZW50PERhdGFiYXNlLCB7IFBvc3RncmVzdFZlcnNpb246ICdYWCcgfT4oVVJMLCBLRVkpCiAgX19JbnRlcm5hbFN1cGFiYXNlOiB7CiAgICBQb3N0Z3Jlc3RWZXJzaW9uOiAiMTQuMTgiCiAgfQogIHB1YmxpYzogewogICAgVGFibGVzOiB7CiAgICAgIGFwb2xsb19rZXlzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhcGlfa2V5OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYXBpX2tleTogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhcGlfa2V5Pzogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFtdCiAgICAgIH0KICAgICAgY29udGFjdHM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGFwb2xsb19pZDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgYm91bmNlX3JlYXNvbjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGFueTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBjdXN0b21fYm9keTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3VzdG9tX3N1YmplY3Q6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGRlbGl2ZXJ5X3N0YXR1czogc3RyaW5nIHwgbnVsbAogICAgICAgICAgZW1haWw6IHN0cmluZwogICAgICAgICAgZW1haWxfc3RhdHVzOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBlcnJvcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgZmlyc3RfbmFtZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgZ21haWxfbWVzc2FnZV9pZDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgam9iX2lkOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBsaW5rZWRpbl91cmw6IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5hbWU6IHN0cmluZwogICAgICAgICAgb3Blbl9jb3VudDogbnVtYmVyCiAgICAgICAgICBvcGVuZWRfYXQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHJlc3VtZV9vcGVuX2NvdW50OiBudW1iZXIKICAgICAgICAgIHJlc3VtZV9vcGVuZWRfYXQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNlbmRfc3RhdHVzOiBzdHJpbmcKICAgICAgICAgIHNlbnRfYXQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRpdGxlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBhcG9sbG9faWQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBib3VuY2VfcmVhc29uPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGFueT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGN1c3RvbV9ib2R5Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3VzdG9tX3N1YmplY3Q/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBkZWxpdmVyeV9zdGF0dXM/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBlbWFpbDogc3RyaW5nCiAgICAgICAgICBlbWFpbF9zdGF0dXM/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBlcnJvcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGZpcnN0X25hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBnbWFpbF9tZXNzYWdlX2lkPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIGpvYl9pZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGxpbmtlZGluX3VybD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5hbWU/OiBzdHJpbmcKICAgICAgICAgIG9wZW5fY291bnQ/OiBudW1iZXIKICAgICAgICAgIG9wZW5lZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHJlc3VtZV9vcGVuX2NvdW50PzogbnVtYmVyCiAgICAgICAgICByZXN1bWVfb3BlbmVkX2F0Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VuZF9zdGF0dXM/OiBzdHJpbmcKICAgICAgICAgIHNlbnRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB0aXRsZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGFwb2xsb19pZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGJvdW5jZV9yZWFzb24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjb21wYW55Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgY3VzdG9tX2JvZHk/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjdXN0b21fc3ViamVjdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGRlbGl2ZXJ5X3N0YXR1cz86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGVtYWlsPzogc3RyaW5nCiAgICAgICAgICBlbWFpbF9zdGF0dXM/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBlcnJvcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGZpcnN0X25hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBnbWFpbF9tZXNzYWdlX2lkPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIGpvYl9pZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGxpbmtlZGluX3VybD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5hbWU/OiBzdHJpbmcKICAgICAgICAgIG9wZW5fY291bnQ/OiBudW1iZXIKICAgICAgICAgIG9wZW5lZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHJlc3VtZV9vcGVuX2NvdW50PzogbnVtYmVyCiAgICAgICAgICByZXN1bWVfb3BlbmVkX2F0Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VuZF9zdGF0dXM/OiBzdHJpbmcKICAgICAgICAgIHNlbnRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB0aXRsZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJfaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogWwogICAgICAgICAgewogICAgICAgICAgICBmb3JlaWduS2V5TmFtZTogImNvbnRhY3RzX2pvYl9pZF9ma2V5IgogICAgICAgICAgICBjb2x1bW5zOiBbImpvYl9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogImpvYnMiCiAgICAgICAgICAgIHJlZmVyZW5jZWRDb2x1bW5zOiBbImlkIl0KICAgICAgICAgIH0sCiAgICAgICAgXQogICAgICB9CiAgICAgIGh1bnRlcl9rZXlzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhcGlfa2V5OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYXBpX2tleTogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhcGlfa2V5Pzogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFtdCiAgICAgIH0KICAgICAgaW50ZXJuYWxfY29udGFjdHM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNvbXBhbnk6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgZG9tYWluOiBzdHJpbmcKICAgICAgICAgIGVtYWlsOiBzdHJpbmcKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICAgIG5hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNvdXJjZV9maWxlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB0aXRsZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgY29tcGFueT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGRvbWFpbjogc3RyaW5nCiAgICAgICAgICBlbWFpbDogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNvdXJjZV9maWxlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdGl0bGU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBjb21wYW55Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZG9tYWluPzogc3RyaW5nCiAgICAgICAgICBlbWFpbD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIG5hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzb3VyY2VfZmlsZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRpdGxlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIGludGVybmFsX3Blb3BsZTogewogICAgICAgIFJvdzogewogICAgICAgICAgY29tcGFueTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBkb21haW46IHN0cmluZwogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgbGlua2VkaW5fdXJsOiBzdHJpbmcKICAgICAgICAgIG5hbWU6IHN0cmluZwogICAgICAgICAgc291cmNlX2ZpbGU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRpdGxlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBjb21wYW55Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZG9tYWluOiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBsaW5rZWRpbl91cmw6IHN0cmluZwogICAgICAgICAgbmFtZTogc3RyaW5nCiAgICAgICAgICBzb3VyY2VfZmlsZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRpdGxlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY29tcGFueT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGRvbWFpbj86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIGxpbmtlZGluX3VybD86IHN0cmluZwogICAgICAgICAgbmFtZT86IHN0cmluZwogICAgICAgICAgc291cmNlX2ZpbGU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB0aXRsZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJfaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogW10KICAgICAgfQogICAgICBqb2JzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBjb21wYW55OiBzdHJpbmcKICAgICAgICAgIGNvbXBhbnlfZG9tYWluOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGRlc2NyaXB0aW9uOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBlcnJvcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgcG9zdGVkX2F0OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzb3VyY2U6IHN0cmluZwogICAgICAgICAgc3RhdHVzOiBzdHJpbmcKICAgICAgICAgIHRpdGxlOiBzdHJpbmcKICAgICAgICAgIHVybDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgY29tcGFueT86IHN0cmluZwogICAgICAgICAgY29tcGFueV9kb21haW4/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBkZXNjcmlwdGlvbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGVycm9yPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHBvc3RlZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNvdXJjZT86IHN0cmluZwogICAgICAgICAgc3RhdHVzPzogc3RyaW5nCiAgICAgICAgICB0aXRsZT86IHN0cmluZwogICAgICAgICAgdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY29tcGFueT86IHN0cmluZwogICAgICAgICAgY29tcGFueV9kb21haW4/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBkZXNjcmlwdGlvbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGVycm9yPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHBvc3RlZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNvdXJjZT86IHN0cmluZwogICAgICAgICAgc3RhdHVzPzogc3RyaW5nCiAgICAgICAgICB0aXRsZT86IHN0cmluZwogICAgICAgICAgdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcl9pZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIG5hdWtyaV9idW1wczogewogICAgICAgIFJvdzogewogICAgICAgICAgYnVtcF9kYXRlOiBzdHJpbmcKICAgICAgICAgIGRvbmVfYXQ6IHN0cmluZwogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgc2xvdDogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBidW1wX2RhdGU6IHN0cmluZwogICAgICAgICAgZG9uZV9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHNsb3Q6IHN0cmluZwogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgYnVtcF9kYXRlPzogc3RyaW5nCiAgICAgICAgICBkb25lX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgc2xvdD86IHN0cmluZwogICAgICAgICAgdXNlcl9pZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIG91dHJlYWNoX3NldHRpbmdzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhcG9sbG9fY2hlY2tlZF9hdDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgYXBvbGxvX2Vycm9yOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhcG9sbG9fc3RhdHVzOiBzdHJpbmcKICAgICAgICAgIGF0dGFjaF9yZXN1bWU6IGJvb2xlYW4KICAgICAgICAgIGF1dG9fZW5hYmxlZDogYm9vbGVhbgogICAgICAgICAgY29udGFjdHNfcGVyX2pvYjogbnVtYmVyCiAgICAgICAgICBkYWlseV9saW1pdDogbnVtYmVyCiAgICAgICAgICBkYWlseV9yZXNldF9hdDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaHVudGVyX2Vycm9yOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBodW50ZXJfc3RhdHVzOiBzdHJpbmcKICAgICAgICAgIGtleXdvcmRzOiBzdHJpbmcKICAgICAgICAgIGxpbmtlZGluX3VybDogc3RyaW5nCiAgICAgICAgICBsb2NhdGlvbjogc3RyaW5nCiAgICAgICAgICByZXF1aXJlX2FwcHJvdmFsOiBib29sZWFuCiAgICAgICAgICByZXN1bWVfZmlsZW5hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHJlc3VtZV9wYXRoOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzbm92X2Vycm9yOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzbm92X3N0YXR1czogc3RyaW5nCiAgICAgICAgICB0YXJnZXRfdGl0bGVzOiBzdHJpbmdbXQogICAgICAgICAgdGVtcGxhdGVfYm9keTogc3RyaW5nCiAgICAgICAgICB0ZW1wbGF0ZV9zdWJqZWN0OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgdXNlX2ludGVybmFsX2VtYWlsczogYm9vbGVhbgogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYXBvbGxvX2NoZWNrZWRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhcG9sbG9fZXJyb3I/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhcG9sbG9fc3RhdHVzPzogc3RyaW5nCiAgICAgICAgICBhdHRhY2hfcmVzdW1lPzogYm9vbGVhbgogICAgICAgICAgYXV0b19lbmFibGVkPzogYm9vbGVhbgogICAgICAgICAgY29udGFjdHNfcGVyX2pvYj86IG51bWJlcgogICAgICAgICAgZGFpbHlfbGltaXQ/OiBudW1iZXIKICAgICAgICAgIGRhaWx5X3Jlc2V0X2F0Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaHVudGVyX2Vycm9yPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaHVudGVyX3N0YXR1cz86IHN0cmluZwogICAgICAgICAga2V5d29yZHM/OiBzdHJpbmcKICAgICAgICAgIGxpbmtlZGluX3VybD86IHN0cmluZwogICAgICAgICAgbG9jYXRpb24/OiBzdHJpbmcKICAgICAgICAgIHJlcXVpcmVfYXBwcm92YWw/OiBib29sZWFuCiAgICAgICAgICByZXN1bWVfZmlsZW5hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByZXN1bWVfcGF0aD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNub3ZfZXJyb3I/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzbm92X3N0YXR1cz86IHN0cmluZwogICAgICAgICAgdGFyZ2V0X3RpdGxlcz86IHN0cmluZ1tdCiAgICAgICAgICB0ZW1wbGF0ZV9ib2R5Pzogc3RyaW5nCiAgICAgICAgICB0ZW1wbGF0ZV9zdWJqZWN0Pzogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VfaW50ZXJuYWxfZW1haWxzPzogYm9vbGVhbgogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgYXBvbGxvX2NoZWNrZWRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhcG9sbG9fZXJyb3I/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhcG9sbG9fc3RhdHVzPzogc3RyaW5nCiAgICAgICAgICBhdHRhY2hfcmVzdW1lPzogYm9vbGVhbgogICAgICAgICAgYXV0b19lbmFibGVkPzogYm9vbGVhbgogICAgICAgICAgY29udGFjdHNfcGVyX2pvYj86IG51bWJlcgogICAgICAgICAgZGFpbHlfbGltaXQ/OiBudW1iZXIKICAgICAgICAgIGRhaWx5X3Jlc2V0X2F0Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaHVudGVyX2Vycm9yPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaHVudGVyX3N0YXR1cz86IHN0cmluZwogICAgICAgICAga2V5d29yZHM/OiBzdHJpbmcKICAgICAgICAgIGxpbmtlZGluX3VybD86IHN0cmluZwogICAgICAgICAgbG9jYXRpb24/OiBzdHJpbmcKICAgICAgICAgIHJlcXVpcmVfYXBwcm92YWw/OiBib29sZWFuCiAgICAgICAgICByZXN1bWVfZmlsZW5hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByZXN1bWVfcGF0aD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNub3ZfZXJyb3I/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzbm92X3N0YXR1cz86IHN0cmluZwogICAgICAgICAgdGFyZ2V0X3RpdGxlcz86IHN0cmluZ1tdCiAgICAgICAgICB0ZW1wbGF0ZV9ib2R5Pzogc3RyaW5nCiAgICAgICAgICB0ZW1wbGF0ZV9zdWJqZWN0Pzogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VfaW50ZXJuYWxfZW1haWxzPzogYm9vbGVhbgogICAgICAgICAgdXNlcl9pZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIHNub3Zfa2V5czogewogICAgICAgIFJvdzogewogICAgICAgICAgY2xpZW50X2lkOiBzdHJpbmcKICAgICAgICAgIGNsaWVudF9zZWNyZXQ6IHN0cmluZwogICAgICAgICAgdXBkYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBjbGllbnRfaWQ6IHN0cmluZwogICAgICAgICAgY2xpZW50X3NlY3JldDogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBjbGllbnRfaWQ/OiBzdHJpbmcKICAgICAgICAgIGNsaWVudF9zZWNyZXQ/OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogW10KICAgICAgfQogICAgfQogICAgVmlld3M6IHsKICAgICAgW18gaW4gbmV2ZXJdOiBuZXZlcgogICAgfQogICAgRnVuY3Rpb25zOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIEVudW1zOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIENvbXBvc2l0ZVR5cGVzOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICB9Cn0KCnR5cGUgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzID0gT21pdDxEYXRhYmFzZSwgIl9fSW50ZXJuYWxTdXBhYmFzZSI+Cgp0eXBlIERlZmF1bHRTY2hlbWEgPSBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRXh0cmFjdDxrZXlvZiBEYXRhYmFzZSwgInB1YmxpYyI+XQoKZXhwb3J0IHR5cGUgVGFibGVzPAogIERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJiBEZWZhdWx0U2NoZW1hWyJWaWV3cyJdKQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgVGFibGVOYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgKERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdICYKICAgICAgICBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJWaWV3cyJdKQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gKERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdICYKICAgICAgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVmlld3MiXSlbVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgUm93OiBpbmZlciBSCiAgICB9CiAgICA/IFIKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJgogICAgICAgIERlZmF1bHRTY2hlbWFbIlZpZXdzIl0pCiAgICA/IChEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXSAmCiAgICAgICAgRGVmYXVsdFNjaGVtYVsiVmlld3MiXSlbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc10gZXh0ZW5kcyB7CiAgICAgICAgUm93OiBpbmZlciBSCiAgICAgIH0KICAgICAgPyBSCiAgICAgIDogbmV2ZXIKICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIFRhYmxlc0luc2VydDwKICBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0KICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIFRhYmxlTmFtZSBleHRlbmRzIChEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdCiAgICA6IG5ldmVyKSA9IG5ldmVyLAo+ID0gRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXVtUYWJsZU5hbWVdIGV4dGVuZHMgewogICAgICBJbnNlcnQ6IGluZmVyIEkKICAgIH0KICAgID8gSQogICAgOiBuZXZlcgogIDogRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNdIGV4dGVuZHMgewogICAgICAgIEluc2VydDogaW5mZXIgSQogICAgICB9CiAgICAgID8gSQogICAgICA6IG5ldmVyCiAgICA6IG5ldmVyCgpleHBvcnQgdHlwZSBUYWJsZXNVcGRhdGU8CiAgRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBUYWJsZU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl1bVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgVXBkYXRlOiBpbmZlciBVCiAgICB9CiAgICA/IFUKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXVtEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zXSBleHRlbmRzIHsKICAgICAgICBVcGRhdGU6IGluZmVyIFUKICAgICAgfQogICAgICA/IFUKICAgICAgOiBuZXZlcgogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgRW51bXM8CiAgRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiRW51bXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgRW51bU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiRW51bXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkVudW1zIl1bRW51bU5hbWVdCiAgOiBEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJFbnVtcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIkVudW1zIl1bRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zXQogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgQ29tcG9zaXRlVHlwZXM8CiAgUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBDb21wb3NpdGVUeXBlTmFtZSBleHRlbmRzIChQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiQ29tcG9zaXRlVHlwZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IERhdGFiYXNlV2l0aG91dEludGVybmFsc1tQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJDb21wb3NpdGVUeXBlcyJdW0NvbXBvc2l0ZVR5cGVOYW1lXQogIDogUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIkNvbXBvc2l0ZVR5cGVzIl1bUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNdCiAgICA6IG5ldmVyCgpleHBvcnQgY29uc3QgQ29uc3RhbnRzID0gewogIHB1YmxpYzogewogICAgRW51bXM6IHt9LAogIH0sCn0gYXMgY29uc3QK
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export type Database = {
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.18"
+  }
+  public: {
+    Tables: {
+      apollo_keys: {
+        Row: {
+          api_key: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          api_key: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          api_key?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      contacts: {
+        Row: {
+          apollo_id: string | null
+          bounce_reason: string | null
+          company: string | null
+          created_at: string
+          custom_body: string | null
+          custom_subject: string | null
+          delivery_status: string | null
+          email: string
+          email_status: string | null
+          error: string | null
+          first_name: string | null
+          gmail_message_id: string | null
+          id: string
+          job_id: string | null
+          linkedin_url: string | null
+          name: string
+          open_count: number
+          opened_at: string | null
+          resume_open_count: number
+          resume_opened_at: string | null
+          send_status: string
+          sent_at: string | null
+          title: string | null
+          user_id: string
+        }
+        Insert: {
+          apollo_id?: string | null
+          bounce_reason?: string | null
+          company?: string | null
+          created_at?: string
+          custom_body?: string | null
+          custom_subject?: string | null
+          delivery_status?: string | null
+          email: string
+          email_status?: string | null
+          error?: string | null
+          first_name?: string | null
+          gmail_message_id?: string | null
+          id?: string
+          job_id?: string | null
+          linkedin_url?: string | null
+          name?: string
+          open_count?: number
+          opened_at?: string | null
+          resume_open_count?: number
+          resume_opened_at?: string | null
+          send_status?: string
+          sent_at?: string | null
+          title?: string | null
+          user_id: string
+        }
+        Update: {
+          apollo_id?: string | null
+          bounce_reason?: string | null
+          company?: string | null
+          created_at?: string
+          custom_body?: string | null
+          custom_subject?: string | null
+          delivery_status?: string | null
+          email?: string
+          email_status?: string | null
+          error?: string | null
+          first_name?: string | null
+          gmail_message_id?: string | null
+          id?: string
+          job_id?: string | null
+          linkedin_url?: string | null
+          name?: string
+          open_count?: number
+          opened_at?: string | null
+          resume_open_count?: number
+          resume_opened_at?: string | null
+          send_status?: string
+          sent_at?: string | null
+          title?: string | null
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "contacts_job_id_fkey"
+            columns: ["job_id"]
+            isOneToOne: false
+            referencedRelation: "jobs"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      hunter_keys: {
+        Row: {
+          api_key: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          api_key: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          api_key?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      internal_contacts: {
+        Row: {
+          company: string | null
+          created_at: string
+          domain: string
+          email: string
+          id: string
+          name: string | null
+          source_file: string | null
+          title: string | null
+          user_id: string
+        }
+        Insert: {
+          company?: string | null
+          created_at?: string
+          domain: string
+          email: string
+          id?: string
+          name?: string | null
+          source_file?: string | null
+          title?: string | null
+          user_id: string
+        }
+        Update: {
+          company?: string | null
+          created_at?: string
+          domain?: string
+          email?: string
+          id?: string
+          name?: string | null
+          source_file?: string | null
+          title?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      internal_people: {
+        Row: {
+          company: string | null
+          created_at: string
+          domain: string
+          id: string
+          linkedin_url: string
+          name: string
+          source_file: string | null
+          title: string | null
+          user_id: string
+        }
+        Insert: {
+          company?: string | null
+          created_at?: string
+          domain: string
+          id?: string
+          linkedin_url: string
+          name: string
+          source_file?: string | null
+          title?: string | null
+          user_id: string
+        }
+        Update: {
+          company?: string | null
+          created_at?: string
+          domain?: string
+          id?: string
+          linkedin_url?: string
+          name?: string
+          source_file?: string | null
+          title?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      jobs: {
+        Row: {
+          company: string
+          company_domain: string | null
+          created_at: string
+          description: string | null
+          error: string | null
+          id: string
+          posted_at: string | null
+          source: string
+          status: string
+          title: string
+          url: string | null
+          user_id: string
+        }
+        Insert: {
+          company?: string
+          company_domain?: string | null
+          created_at?: string
+          description?: string | null
+          error?: string | null
+          id?: string
+          posted_at?: string | null
+          source?: string
+          status?: string
+          title?: string
+          url?: string | null
+          user_id: string
+        }
+        Update: {
+          company?: string
+          company_domain?: string | null
+          created_at?: string
+          description?: string | null
+          error?: string | null
+          id?: string
+          posted_at?: string | null
+          source?: string
+          status?: string
+          title?: string
+          url?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      naukri_bumps: {
+        Row: {
+          bump_date: string
+          done_at: string
+          id: string
+          slot: string
+          user_id: string
+        }
+        Insert: {
+          bump_date: string
+          done_at?: string
+          id?: string
+          slot: string
+          user_id: string
+        }
+        Update: {
+          bump_date?: string
+          done_at?: string
+          id?: string
+          slot?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      outreach_settings: {
+        Row: {
+          apollo_checked_at: string | null
+          apollo_error: string | null
+          apollo_status: string
+          attach_resume: boolean
+          auto_enabled: boolean
+          contacts_per_job: number
+          daily_limit: number
+          daily_reset_at: string | null
+          hunter_error: string | null
+          hunter_status: string
+          keywords: string
+          linkedin_url: string
+          location: string
+          require_approval: boolean
+          resume_filename: string | null
+          resume_path: string | null
+          sender_email: string | null
+          snov_error: string | null
+          snov_status: string
+          target_titles: string[]
+          template_body: string
+          template_subject: string
+          updated_at: string
+          use_internal_emails: boolean
+          user_id: string
+        }
+        Insert: {
+          apollo_checked_at?: string | null
+          apollo_error?: string | null
+          apollo_status?: string
+          attach_resume?: boolean
+          auto_enabled?: boolean
+          contacts_per_job?: number
+          daily_limit?: number
+          daily_reset_at?: string | null
+          hunter_error?: string | null
+          hunter_status?: string
+          keywords?: string
+          linkedin_url?: string
+          location?: string
+          require_approval?: boolean
+          resume_filename?: string | null
+          resume_path?: string | null
+          sender_email?: string | null
+          snov_error?: string | null
+          snov_status?: string
+          target_titles?: string[]
+          template_body?: string
+          template_subject?: string
+          updated_at?: string
+          use_internal_emails?: boolean
+          user_id: string
+        }
+        Update: {
+          apollo_checked_at?: string | null
+          apollo_error?: string | null
+          apollo_status?: string
+          attach_resume?: boolean
+          auto_enabled?: boolean
+          contacts_per_job?: number
+          daily_limit?: number
+          daily_reset_at?: string | null
+          hunter_error?: string | null
+          hunter_status?: string
+          keywords?: string
+          linkedin_url?: string
+          location?: string
+          require_approval?: boolean
+          resume_filename?: string | null
+          resume_path?: string | null
+          sender_email?: string | null
+          snov_error?: string | null
+          snov_status?: string
+          target_titles?: string[]
+          template_body?: string
+          template_subject?: string
+          updated_at?: string
+          use_internal_emails?: boolean
+          user_id?: string
+        }
+        Relationships: []
+      }
+      snov_keys: {
+        Row: {
+          client_id: string
+          client_secret: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          client_id: string
+          client_secret: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          client_id?: string
+          client_secret?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+}
+
+type DatabaseWithoutInternals = Omit<Database, "__InternalSupabase">
+
+type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
+
+export type Tables<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+      Row: infer R
+    }
+    ? R
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
+    : never
+
+export type TablesInsert<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Insert: infer I
+    }
+    ? I
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
+    : never
+
+export type TablesUpdate<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Update: infer U
+    }
+    ? U
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
+    : never
+
+export type Enums<
+  DefaultSchemaEnumNameOrOptions extends
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof DatabaseWithoutInternals },
+  EnumName extends (DefaultSchemaEnumNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never) = never,
+> = DefaultSchemaEnumNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
+
+export type CompositeTypes<
+  PublicCompositeTypeNameOrOptions extends
+    | keyof DefaultSchema["CompositeTypes"]
+    | { schema: keyof DatabaseWithoutInternals },
+  CompositeTypeName extends (PublicCompositeTypeNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    : never) = never,
+> = PublicCompositeTypeNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
+  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
+
+export const Constants = {
+  public: {
+    Enums: {},
+  },
+} as const

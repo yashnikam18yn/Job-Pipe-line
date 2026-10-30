@@ -1,1 +1,96 @@
-Ly8gQnJvd3Nlci1zYWZlIHBhcnNpbmcgb2YgdXBsb2FkZWQgSFIgbGlzdHMgKEV4Y2VsL0NTViByb3dzIG9yIFBERiB0ZXh0KSBpbnRvIGNvbnRhY3RzLgpleHBvcnQgdHlwZSBJbnRlcm5hbENvbnRhY3QgPSB7IGVtYWlsOiBzdHJpbmc7IGRvbWFpbjogc3RyaW5nOyBuYW1lOiBzdHJpbmcgfCBudWxsOyBjb21wYW55OiBzdHJpbmcgfCBudWxsOyB0aXRsZTogc3RyaW5nIHwgbnVsbCB9OwoKY29uc3QgRU1BSUxfUkUgPSAvW2EtejAtOS5fJSstXStAW2EtejAtOS4tXStcLlthLXpdezIsfS9naTsKY29uc3QgRlJFRSA9IG5ldyBTZXQoWyJnbWFpbC5jb20iLCAieWFob28uY29tIiwgInlhaG9vLmNvLmluIiwgImhvdG1haWwuY29tIiwgIm91dGxvb2suY29tIiwgImxpdmUuY29tIiwgInJlZGlmZm1haWwuY29tIiwgImljbG91ZC5jb20iLCAiYW9sLmNvbSIsICJwcm90b25tYWlsLmNvbSIsICJ5bWFpbC5jb20iLCAibXNuLmNvbSJdKTsKCmV4cG9ydCBjb25zdCBpc0ZyZWVNYWlsID0gKGRvbWFpbjogc3RyaW5nKSA9PiBGUkVFLmhhcyhkb21haW4udG9Mb3dlckNhc2UoKSk7Cgpjb25zdCBjbGVhbiA9IChzOiB1bmtub3duKSA9PiBTdHJpbmcocyA/PyAiIikucmVwbGFjZSgvXHMrL2csICIgIikudHJpbSgpOwpjb25zdCBjb21wYW55RnJvbURvbWFpbiA9IChkOiBzdHJpbmcpID0+IHsKICBjb25zdCBiYXNlID0gZC5zcGxpdCgiLiIpLnNsaWNlKC0zKS5maW5kKChwKSA9PiAhWyJjbyIsICJjb20iLCAiaW4iLCAibmV0IiwgIm9yZyIsICJ3d3ciLCAiY2FyZWVycyIsICJtYWlsIl0uaW5jbHVkZXMocCkpID8/IGQ7CiAgcmV0dXJuIGJhc2UuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyBiYXNlLnNsaWNlKDEpOwp9OwoKZnVuY3Rpb24gcHVzaChvdXQ6IE1hcDxzdHJpbmcsIEludGVybmFsQ29udGFjdD4sIGVtYWlsOiBzdHJpbmcsIGV4dHJhOiB7IG5hbWU/OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOyBjb21wYW55Pzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsgdGl0bGU/OiBzdHJpbmcgfCB1bmRlZmluZWQgfSkgewogIGNvbnN0IGUgPSBlbWFpbC50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1suXSskLywgIiIpOwogIGNvbnN0IGRvbWFpbiA9IGUuc3BsaXQoIkAiKVsxXSA/PyAiIjsKICBpZiAoIWRvbWFpbiB8fCBpc0ZyZWVNYWlsKGRvbWFpbikgfHwgb3V0LmhhcyhlKSkgcmV0dXJuOwogIG91dC5zZXQoZSwgeyBlbWFpbDogZSwgZG9tYWluLCBuYW1lOiBleHRyYS5uYW1lIHx8IG51bGwsIGNvbXBhbnk6IGV4dHJhLmNvbXBhbnkgfHwgY29tcGFueUZyb21Eb21haW4oZG9tYWluKSwgdGl0bGU6IGV4dHJhLnRpdGxlIHx8IG51bGwgfSk7Cn0KCi8qKiBSb3dzIGZyb20gYSBzcHJlYWRzaGVldDsgdGhlIGhlYWRlciByb3cgKGlmIGFueSkgZGVjaWRlcyB3aGljaCBjb2x1bW4gaXMgbmFtZSAvIGNvbXBhbnkgLyB0aXRsZS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbnRhY3RzRnJvbVJvd3Mocm93czogdW5rbm93bltdW10pOiBJbnRlcm5hbENvbnRhY3RbXSB7CiAgY29uc3Qgb3V0ID0gbmV3IE1hcDxzdHJpbmcsIEludGVybmFsQ29udGFjdD4oKTsKICBsZXQgY29sID0geyBuYW1lOiAtMSwgY29tcGFueTogLTEsIHRpdGxlOiAtMSB9OwogIGZvciAoY29uc3QgcmF3IG9mIHJvd3MpIHsKICAgIGNvbnN0IHJvdyA9IHJhdy5tYXAoY2xlYW4pOwogICAgY29uc3QgbG93ZXIgPSByb3cubWFwKChjKSA9PiBjLnRvTG93ZXJDYXNlKCkpOwogICAgY29uc3QgZW1haWxzID0gcm93LmpvaW4oIiAiKS5tYXRjaChFTUFJTF9SRSk7CiAgICBpZiAoIWVtYWlscykgewogICAgICBjb25zdCBmaW5kID0gKHJlOiBSZWdFeHApID0+IGxvd2VyLmZpbmRJbmRleCgoYykgPT4gcmUudGVzdChjKSk7CiAgICAgIGNvbnN0IGggPSB7IG5hbWU6IGZpbmQoL14oaHIgfGNvbnRhY3QgfGZ1bGwgKT9uYW1lfF5wZXJzb24vKSwgY29tcGFueTogZmluZCgvY29tcGFueXxvcmdhbmlbc3pdYXRpb258ZW1wbG95ZXJ8ZmlybS8pLCB0aXRsZTogZmluZCgvdGl0bGV8ZGVzaWduYXRpb258cm9sZXxwb3NpdGlvbi8pIH07CiAgICAgIGlmIChoLm5hbWUgPj0gMCB8fCBoLmNvbXBhbnkgPj0gMCkgY29sID0gaDsKICAgICAgY29udGludWU7CiAgICB9CiAgICBmb3IgKGNvbnN0IGUgb2YgZW1haWxzKSBwdXNoKG91dCwgZSwgeyBuYW1lOiByb3dbY29sLm5hbWVdLCBjb21wYW55OiByb3dbY29sLmNvbXBhbnldLCB0aXRsZTogcm93W2NvbC50aXRsZV0gfSk7CiAgfQogIHJldHVybiBbLi4ub3V0LnZhbHVlcygpXTsKfQoKLyoqIEZyZWUgdGV4dCAoZS5nLiBhIFBERik6IGVhY2ggZW1haWwsIHdpdGggdGhlIHJlc3Qgb2YgaXRzIGxpbmUgYXMgYSBjb21wYW55IGhpbnQgd2hlbiBzaG9ydC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbnRhY3RzRnJvbVRleHQodGV4dDogc3RyaW5nKTogSW50ZXJuYWxDb250YWN0W10gewogIGNvbnN0IG91dCA9IG5ldyBNYXA8c3RyaW5nLCBJbnRlcm5hbENvbnRhY3Q+KCk7CiAgZm9yIChjb25zdCBsaW5lIG9mIHRleHQuc3BsaXQoL1xuLykpIHsKICAgIGNvbnN0IGVtYWlscyA9IGxpbmUubWF0Y2goRU1BSUxfUkUpOwogICAgaWYgKCFlbWFpbHMpIGNvbnRpbnVlOwogICAgY29uc3QgcmVzdCA9IGNsZWFuKGxpbmUucmVwbGFjZShFTUFJTF9SRSwgIiAiKS5yZXBsYWNlKC9eXGQrWy4pXT9ccyovLCAiIikucmVwbGFjZSgvW3wsO10rL2csICIgIikpOwogICAgZm9yIChjb25zdCBlIG9mIGVtYWlscykgcHVzaChvdXQsIGUsIHsgbmFtZTogbnVsbCwgY29tcGFueTogcmVzdCAmJiByZXN0Lmxlbmd0aCA8PSA2MCA/IHJlc3QgOiBudWxsIH0pOwogIH0KICByZXR1cm4gWy4uLm91dC52YWx1ZXMoKV07Cn0KCi8qKiBUcnVlIHdoZW4gYW4gdXBsb2FkZWQgY29udGFjdCBiZWxvbmdzIHRvIHRoZSBqb2IncyBjb21wYW55IGRvbWFpbiAoc3ViZG9tYWlucyBsaWtlIGluLmlibS5jb20gY291bnQpLiAqLwpleHBvcnQgY29uc3Qgc2FtZURvbWFpbiA9IChjb250YWN0RG9tYWluOiBzdHJpbmcsIGpvYkRvbWFpbjogc3RyaW5nKSA9PiB7CiAgY29uc3QgYSA9IGNvbnRhY3REb21haW4udG9Mb3dlckNhc2UoKSwgYiA9IGpvYkRvbWFpbi50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL153d3dcLi8sICIiKTsKICByZXR1cm4gYSA9PT0gYiB8fCBhLmVuZHNXaXRoKCIuIiArIGIpIHx8IGIuZW5kc1dpdGgoIi4iICsgYSk7Cn07CgovLyAtLS0tIFBERiB0YWJsZXMgb2YgSFIgcGVvcGxlIChuYW1lLCB0aXRsZSwgTGlua2VkSW4sIGNvbXBhbnksIHdlYnNpdGUpIHdpdGhvdXQgZW1haWxzIC0tLS0KZXhwb3J0IHR5cGUgSW50ZXJuYWxQZXJzb24gPSB7IG5hbWU6IHN0cmluZzsgdGl0bGU6IHN0cmluZyB8IG51bGw7IGxpbmtlZGluX3VybDogc3RyaW5nOyBjb21wYW55OiBzdHJpbmcgfCBudWxsOyBkb21haW46IHN0cmluZyB9OwpleHBvcnQgdHlwZSBQZGZJdGVtID0geyBzdHI6IHN0cmluZzsgeDogbnVtYmVyOyB5OiBudW1iZXIgfTsKCmNvbnN0IFNPQ0lBTCA9IC9saW5rZWRpblwuY29tfGZhY2Vib29rXC5jb218dHdpdHRlclwuY29tfGluc3RhZ3JhbVwuY29tfHhcLmNvbVwvfHlvdXR1YmVcLmNvbS9pOwpleHBvcnQgY29uc3QgZG9tYWluRnJvbVVybCA9ICh1OiBzdHJpbmcpID0+IHsKICB0cnkgeyByZXR1cm4gbmV3IFVSTCh1LnN0YXJ0c1dpdGgoImh0dHAiKSA/IHUgOiBgaHR0cDovLyR7dX1gKS5ob3N0bmFtZS5yZXBsYWNlKC9ed3d3XC4vLCAiIikudG9Mb3dlckNhc2UoKTsgfSBjYXRjaCB7IHJldHVybiAiIjsgfQp9OwoKLyoqIEl0ZW1zIG9mIG9uZSBwYWdlLCBpbiByZWFkaW5nIG9yZGVyLiBSb3dzIHN0YXJ0IHdpdGggYSByb3cgbnVtYmVyIGluIHRoZSBmaXJzdCBjb2x1bW47IGNvbHVtbnMgY29tZSBmcm9tIHRoZSBoZWFkZXIgcm93LiAqLwpleHBvcnQgZnVuY3Rpb24gcGVvcGxlRnJvbVBkZkl0ZW1zKGl0ZW1zOiBQZGZJdGVtW10pOiBJbnRlcm5hbFBlcnNvbltdIHsKICBjb25zdCBoZWFkID0gKHJlOiBSZWdFeHApID0+IGl0ZW1zLmZpbmQoKGkpID0+IHJlLnRlc3QoaS5zdHIudHJpbSgpKSk/Lng7CiAgY29uc3QgeE5hbWUgPSBoZWFkKC9ebmFtZSQvaSksIHhUaXRsZSA9IGhlYWQoL14oam9iIHRpdGxlfHRpdGxlfGRlc2lnbmF0aW9uKSQvaSksIHhMaSA9IGhlYWQoL15saW5rZWRpbiggdXJsKT8kL2kpLCB4Q28gPSBoZWFkKC9eY29tcGFueSggbmFtZSk/JC9pKTsKICBpZiAoeE5hbWUgPT09IHVuZGVmaW5lZCB8fCB4Q28gPT09IHVuZGVmaW5lZCkgcmV0dXJuIFtdOwogIGNvbnN0IHlIZWFkID0gaXRlbXMuZmluZCgoaSkgPT4gL15uYW1lJC9pLnRlc3QoaS5zdHIudHJpbSgpKSkhLnk7CiAgY29uc3QgaGVhZGVyUm93ID0gaXRlbXMuZmlsdGVyKChpKSA9PiBNYXRoLmFicyhpLnkgLSB5SGVhZCkgPCAxLjUgJiYgaS5zdHIudHJpbSgpICYmIGkueCA+PSB4TmFtZSAtIDMpOwogIGNvbnN0IGNvbHMgPSBbLi4ubmV3IFNldChbeE5hbWUsIHhUaXRsZSA/PyB4TmFtZSArIDEsIHhMaSA/PyB4Q28gLSAxLCB4Q28sIC4uLmhlYWRlclJvdy5tYXAoKGkpID0+IGkueCldKV0uc29ydCgoYSwgYikgPT4gYSAtIGIpOwogIGNvbnN0IGNvbE9mID0gKHg6IG51bWJlcikgPT4geyBsZXQgYyA9IC0xOyBmb3IgKGNvbnN0IHYgb2YgY29scykgaWYgKHggPj0gdiAtIDMpIGMgPSB2OyByZXR1cm4gYzsgfTsKICBjb25zdCBvdXQ6IEludGVybmFsUGVyc29uW10gPSBbXTsKICBsZXQgcm93OiBQZGZJdGVtW10gPSBbXTsKICBjb25zdCBmbHVzaCA9ICgpID0+IHsKICAgIGlmICghcm93Lmxlbmd0aCkgcmV0dXJuOwogICAgY29uc3QgdGV4dCA9ICh4OiBudW1iZXIgfCB1bmRlZmluZWQpID0+IHggPT09IHVuZGVmaW5lZCA/ICIiIDogY2xlYW4ocm93LmZpbHRlcigoaSkgPT4gY29sT2YoaS54KSA9PT0geCAmJiAhL15odHRwcz86L2kudGVzdChpLnN0cikpLm1hcCgoaSkgPT4gaS5zdHIpLmpvaW4oIiAiKSk7CiAgICBjb25zdCBsaSA9IHJvdy5maW5kKChpKSA9PiAvbGlua2VkaW5cLmNvbVwvaW5cLy9pLnRlc3QoaS5zdHIpKT8uc3RyLnRyaW0oKTsKICAgIGNvbnN0IHNpdGUgPSByb3cuZmluZCgoaSkgPT4gL15odHRwcz86XC9cLy9pLnRlc3QoaS5zdHIudHJpbSgpKSAmJiAhU09DSUFMLnRlc3QoaS5zdHIpKT8uc3RyLnRyaW0oKTsKICAgIGNvbnN0IG5hbWUgPSB0ZXh0KHhOYW1lKSwgZG9tYWluID0gc2l0ZSA/IGRvbWFpbkZyb21Vcmwoc2l0ZSkgOiAiIjsKICAgIGlmIChsaSAmJiBuYW1lICYmIGRvbWFpbiAmJiAhaXNGcmVlTWFpbChkb21haW4pKSBvdXQucHVzaCh7IG5hbWUsIHRpdGxlOiB0ZXh0KHhUaXRsZSkgfHwgbnVsbCwgbGlua2VkaW5fdXJsOiBsaS5yZXBsYWNlKC9eaHR0cDovLCAiaHR0cHM6IiksIGNvbXBhbnk6IHRleHQoeENvKSB8fCBudWxsLCBkb21haW4gfSk7CiAgICByb3cgPSBbXTsKICB9OwogIGZvciAoY29uc3QgaXQgb2YgaXRlbXMpIHsKICAgIGlmICghaXQuc3RyLnRyaW0oKSkgY29udGludWU7CiAgICBpZiAoaXQueCA8IHhOYW1lIC0gMykgeyBmbHVzaCgpOyBjb250aW51ZTsgfSAvLyByb3cgbnVtYmVyIGNvbHVtbiBzdGFydHMgYSBuZXcgcGVyc29uCiAgICBpZiAoaGVhZGVyUm93LmluY2x1ZGVzKGl0KSkgY29udGludWU7CiAgICByb3cucHVzaChpdCk7CiAgfQogIGZsdXNoKCk7CiAgcmV0dXJuIG91dDsKfQo=
+// Browser-safe parsing of uploaded HR lists (Excel/CSV rows or PDF text) into contacts.
+export type InternalContact = { email: string; domain: string; name: string | null; company: string | null; title: string | null };
+
+const EMAIL_RE = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/gi;
+const FREE = new Set(["gmail.com", "yahoo.com", "yahoo.co.in", "hotmail.com", "outlook.com", "live.com", "rediffmail.com", "icloud.com", "aol.com", "protonmail.com", "ymail.com", "msn.com"]);
+
+export const isFreeMail = (domain: string) => FREE.has(domain.toLowerCase());
+
+const clean = (s: unknown) => String(s ?? "").replace(/\s+/g, " ").trim();
+const companyFromDomain = (d: string) => {
+  const base = d.split(".").slice(-3).find((p) => !["co", "com", "in", "net", "org", "www", "careers", "mail"].includes(p)) ?? d;
+  return base.charAt(0).toUpperCase() + base.slice(1);
+};
+
+function push(out: Map<string, InternalContact>, email: string, extra: { name?: string | null | undefined; company?: string | null | undefined; title?: string | undefined }) {
+  const e = email.toLowerCase().replace(/[.]+$/, "");
+  const domain = e.split("@")[1] ?? "";
+  if (!domain || isFreeMail(domain) || out.has(e)) return;
+  out.set(e, { email: e, domain, name: extra.name || null, company: extra.company || companyFromDomain(domain), title: extra.title || null });
+}
+
+/** Rows from a spreadsheet; the header row (if any) decides which column is name / company / title. */
+export function contactsFromRows(rows: unknown[][]): InternalContact[] {
+  const out = new Map<string, InternalContact>();
+  let col = { name: -1, company: -1, title: -1 };
+  for (const raw of rows) {
+    const row = raw.map(clean);
+    const lower = row.map((c) => c.toLowerCase());
+    const emails = row.join(" ").match(EMAIL_RE);
+    if (!emails) {
+      const find = (re: RegExp) => lower.findIndex((c) => re.test(c));
+      const h = { name: find(/^(hr |contact |full )?name|^person/), company: find(/company|organi[sz]ation|employer|firm/), title: find(/title|designation|role|position/) };
+      if (h.name >= 0 || h.company >= 0) col = h;
+      continue;
+    }
+    for (const e of emails) push(out, e, { name: row[col.name], company: row[col.company], title: row[col.title] });
+  }
+  return [...out.values()];
+}
+
+/** Free text (e.g. a PDF): each email, with the rest of its line as a company hint when short. */
+export function contactsFromText(text: string): InternalContact[] {
+  const out = new Map<string, InternalContact>();
+  for (const line of text.split(/\n/)) {
+    const emails = line.match(EMAIL_RE);
+    if (!emails) continue;
+    const rest = clean(line.replace(EMAIL_RE, " ").replace(/^\d+[.)]?\s*/, "").replace(/[|,;]+/g, " "));
+    for (const e of emails) push(out, e, { name: null, company: rest && rest.length <= 60 ? rest : null });
+  }
+  return [...out.values()];
+}
+
+/** True when an uploaded contact belongs to the job's company domain (subdomains like in.ibm.com count). */
+export const sameDomain = (contactDomain: string, jobDomain: string) => {
+  const a = contactDomain.toLowerCase(), b = jobDomain.toLowerCase().replace(/^www\./, "");
+  return a === b || a.endsWith("." + b) || b.endsWith("." + a);
+};
+
+// ---- PDF tables of HR people (name, title, LinkedIn, company, website) without emails ----
+export type InternalPerson = { name: string; title: string | null; linkedin_url: string; company: string | null; domain: string };
+export type PdfItem = { str: string; x: number; y: number };
+
+const SOCIAL = /linkedin\.com|facebook\.com|twitter\.com|instagram\.com|x\.com\/|youtube\.com/i;
+export const domainFromUrl = (u: string) => {
+  try { return new URL(u.startsWith("http") ? u : `http://${u}`).hostname.replace(/^www\./, "").toLowerCase(); } catch { return ""; }
+};
+
+/** Items of one page, in reading order. Rows start with a row number in the first column; columns come from the header row. */
+export function peopleFromPdfItems(items: PdfItem[]): InternalPerson[] {
+  const head = (re: RegExp) => items.find((i) => re.test(i.str.trim()))?.x;
+  const xName = head(/^name$/i), xTitle = head(/^(job title|title|designation)$/i), xLi = head(/^linkedin( url)?$/i), xCo = head(/^company( name)?$/i);
+  if (xName === undefined || xCo === undefined) return [];
+  const yHead = items.find((i) => /^name$/i.test(i.str.trim()))!.y;
+  const headerRow = items.filter((i) => Math.abs(i.y - yHead) < 1.5 && i.str.trim() && i.x >= xName - 3);
+  const cols = [...new Set([xName, xTitle ?? xName + 1, xLi ?? xCo - 1, xCo, ...headerRow.map((i) => i.x)])].sort((a, b) => a - b);
+  const colOf = (x: number) => { let c = -1; for (const v of cols) if (x >= v - 3) c = v; return c; };
+  const out: InternalPerson[] = [];
+  let row: PdfItem[] = [];
+  const flush = () => {
+    if (!row.length) return;
+    const text = (x: number | undefined) => x === undefined ? "" : clean(row.filter((i) => colOf(i.x) === x && !/^https?:/i.test(i.str)).map((i) => i.str).join(" "));
+    const li = row.find((i) => /linkedin\.com\/in\//i.test(i.str))?.str.trim();
+    const site = row.find((i) => /^https?:\/\//i.test(i.str.trim()) && !SOCIAL.test(i.str))?.str.trim();
+    const name = text(xName), domain = site ? domainFromUrl(site) : "";
+    if (li && name && domain && !isFreeMail(domain)) out.push({ name, title: text(xTitle) || null, linkedin_url: li.replace(/^http:/, "https:"), company: text(xCo) || null, domain });
+    row = [];
+  };
+  for (const it of items) {
+    if (!it.str.trim()) continue;
+    if (it.x < xName - 3) { flush(); continue; } // row number column starts a new person
+    if (headerRow.includes(it)) continue;
+    row.push(it);
+  }
+  flush();
+  return out;
+}

@@ -1,1 +1,8 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBidWlsZEVtYWlsLCBpbmZlclBhdHRlcm4sIGxpbmtlZGluTm90ZSB9IGZyb20gIi4vZW1haWxHdWVzcyI7CmRlc2NyaWJlKCJlbWFpbEd1ZXNzIiwgKCkgPT4gewogIGl0KCJkZWZhdWx0cyB0byBmaXJzdC5sYXN0IiwgKCkgPT4gZXhwZWN0KGJ1aWxkRW1haWwoaW5mZXJQYXR0ZXJuKFtdLCAiY2dpLmNvbSIpLCAiUHJpeWEiLCAiU2hhcm1hIiwgImNnaS5jb20iKSkudG9CZSgicHJpeWEuc2hhcm1hQGNnaS5jb20iKSk7CiAgaXQoImxlYXJucyBmLmxhc3QgZnJvbSBleGFtcGxlcywgaWdub3Jpbmcgcm9sZSBpbmJveGVzIiwgKCkgPT4gZXhwZWN0KGluZmVyUGF0dGVybihbImhyQHguY29tIiwgImEua3VtYXJAeC5jb20iLCAici5zaGFoQHguY29tIiwgImpvaG4uZG9lQHguY29tIl0sICJ4LmNvbSIpKS50b0JlKCJmLmxhc3QiKSk7CiAgaXQoImlnbm9yZXMgb3RoZXIgZG9tYWlucyIsICgpID0+IGV4cGVjdChpbmZlclBhdHRlcm4oWyJhLmJAeS5jb20iLCAiYS5rdW1hckB5LmNvbSJdLCAieC5jb20iKSkudG9CZSgiZmlyc3QubGFzdCIpKTsKICBpdCgibm90ZSBmaXRzIExpbmtlZEluIDMwMC1jaGFyIGxpbWl0IiwgKCkgPT4gZXhwZWN0KGxpbmtlZGluTm90ZSgiQSIsICJCIi5yZXBlYXQoNDAwKSwgbnVsbCkubGVuZ3RoKS50b0JlTGVzc1RoYW5PckVxdWFsKDMwMCkpOwp9KTsK
+import { describe, it, expect } from "vitest";
+import { buildEmail, inferPattern, linkedinNote } from "./emailGuess";
+describe("emailGuess", () => {
+  it("defaults to first.last", () => expect(buildEmail(inferPattern([], "cgi.com"), "Priya", "Sharma", "cgi.com")).toBe("priya.sharma@cgi.com"));
+  it("learns f.last from examples, ignoring role inboxes", () => expect(inferPattern(["hr@x.com", "a.kumar@x.com", "r.shah@x.com", "john.doe@x.com"], "x.com")).toBe("f.last"));
+  it("ignores other domains", () => expect(inferPattern(["a.b@y.com", "a.kumar@y.com"], "x.com")).toBe("first.last"));
+  it("note fits LinkedIn 300-char limit", () => expect(linkedinNote("A", "B".repeat(400), null).length).toBeLessThanOrEqual(300));
+});

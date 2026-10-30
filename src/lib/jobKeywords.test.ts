@@ -1,1 +1,13 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHsgcGFyc2VKb2JLZXl3b3Jkcywgc2VhcmNoRWFjaEtleXdvcmQgfSBmcm9tICIuL2pvYktleXdvcmRzIjsKCmRlc2NyaWJlKCJtdWx0aXBsZSBqb2Iga2V5d29yZHMiLCAoKSA9PiB7CiAgaXQoImtlZXBzIG11bHRpLXdvcmQgcm9sZXMgYW5kIHJlbW92ZXMgZW1wdHkgb3IgZHVwbGljYXRlIGVudHJpZXMiLCAoKSA9PiB7CiAgICBleHBlY3QocGFyc2VKb2JLZXl3b3JkcygiSmF2YSBEZXZlbG9wZXIsIFNwcmluZyBCb290XG5TREUgMiwgamF2YSBkZXZlbG9wZXIsICwiKSkudG9FcXVhbChbIkphdmEgRGV2ZWxvcGVyIiwgIlNwcmluZyBCb290IiwgIlNERSAyIl0pOwogIH0pOwogIGl0KCJzZWFyY2hlcyBlYWNoIGtleXdvcmQgc2VwYXJhdGVseSBhbmQgaW5jbHVkZXMgYSBzaGFyZWQgam9iIG9ubHkgb25jZSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNlYXJjaCA9IHZpLmZuKGFzeW5jIChrZXl3b3JkOiBzdHJpbmcpID0+IFt7IHVybDogInNoYXJlZCIgfSwgeyB1cmw6IGtleXdvcmQgfV0pOwogICAgZXhwZWN0KGF3YWl0IHNlYXJjaEVhY2hLZXl3b3JkKCJKYXZhIERldmVsb3BlciwgU3ByaW5nIEJvb3QiLCBzZWFyY2gpKS50b0VxdWFsKFt7IHVybDogInNoYXJlZCIgfSwgeyB1cmw6ICJKYXZhIERldmVsb3BlciIgfSwgeyB1cmw6ICJTcHJpbmcgQm9vdCIgfV0pOwogICAgZXhwZWN0KHNlYXJjaC5tb2NrLmNhbGxzKS50b0VxdWFsKFtbIkphdmEgRGV2ZWxvcGVyIl0sIFsiU3ByaW5nIEJvb3QiXV0pOwogIH0pOwp9KTs=
+import { describe, expect, it, vi } from "vitest";
+import { parseJobKeywords, searchEachKeyword } from "./jobKeywords";
+
+describe("multiple job keywords", () => {
+  it("keeps multi-word roles and removes empty or duplicate entries", () => {
+    expect(parseJobKeywords("Java Developer, Spring Boot\nSDE 2, java developer, ,")).toEqual(["Java Developer", "Spring Boot", "SDE 2"]);
+  });
+  it("searches each keyword separately and includes a shared job only once", async () => {
+    const search = vi.fn(async (keyword: string) => [{ url: "shared" }, { url: keyword }]);
+    expect(await searchEachKeyword("Java Developer, Spring Boot", search)).toEqual([{ url: "shared" }, { url: "Java Developer" }, { url: "Spring Boot" }]);
+    expect(search.mock.calls).toEqual([["Java Developer"], ["Spring Boot"]]);
+  });
+});

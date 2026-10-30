@@ -1,1 +1,23 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7Cgpjb25zdCBVVUlEID0gL15bMC05YS1mLV17MzZ9JC9pOwoKLy8gVHJhY2tlZCAiVmlldyBteSByZXN1bWUiIGxpbms6IHJlY29yZHMgdGhlIGNsaWNrLCB0aGVuIHJlZGlyZWN0cyB0byBhIHNob3J0LWxpdmVkIGxpbmsgdG8gdGhlIHJlc3VtZS4KZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvYXBpL3B1YmxpYy90L3IvJGlkIikoewogIHNlcnZlcjogewogICAgaGFuZGxlcnM6IHsKICAgICAgR0VUOiBhc3luYyAoeyBwYXJhbXMgfSkgPT4gewogICAgICAgIGlmICghVVVJRC50ZXN0KHBhcmFtcy5pZCkpIHJldHVybiBuZXcgUmVzcG9uc2UoIk5vdCBmb3VuZCIsIHsgc3RhdHVzOiA0MDQgfSk7CiAgICAgICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgICAgICBjb25zdCB7IGRhdGE6IGMgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgiY29udGFjdHMiKS5zZWxlY3QoInVzZXJfaWQsIHNlbmRfc3RhdHVzLCByZXN1bWVfb3Blbl9jb3VudCwgcmVzdW1lX29wZW5lZF9hdCIpLmVxKCJpZCIsIHBhcmFtcy5pZCkubWF5YmVTaW5nbGUoKTsKICAgICAgICBpZiAoIWMgfHwgYy5zZW5kX3N0YXR1cyAhPT0gInNlbnQiKSByZXR1cm4gbmV3IFJlc3BvbnNlKCJOb3QgZm91bmQiLCB7IHN0YXR1czogNDA0IH0pOwogICAgICAgIGNvbnN0IHsgZGF0YTogcyB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJvdXRyZWFjaF9zZXR0aW5ncyIpLnNlbGVjdCgicmVzdW1lX3BhdGgiKS5lcSgidXNlcl9pZCIsIGMudXNlcl9pZCkubWF5YmVTaW5nbGUoKTsKICAgICAgICBpZiAoIXM/LnJlc3VtZV9wYXRoKSByZXR1cm4gbmV3IFJlc3BvbnNlKCJSZXN1bWUgbm90IGF2YWlsYWJsZSIsIHsgc3RhdHVzOiA0MDQgfSk7CiAgICAgICAgYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJjb250YWN0cyIpLnVwZGF0ZSh7IHJlc3VtZV9vcGVuX2NvdW50OiAoYy5yZXN1bWVfb3Blbl9jb3VudCA/PyAwKSArIDEsIHJlc3VtZV9vcGVuZWRfYXQ6IGMucmVzdW1lX29wZW5lZF9hdCA/PyBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSkuZXEoImlkIiwgcGFyYW1zLmlkKTsKICAgICAgICBjb25zdCB7IGRhdGE6IHVybCB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5zdG9yYWdlLmZyb20oInJlc3VtZXMiKS5jcmVhdGVTaWduZWRVcmwocy5yZXN1bWVfcGF0aCwgNjAgKiAxMCk7CiAgICAgICAgaWYgKCF1cmw/LnNpZ25lZFVybCkgcmV0dXJuIG5ldyBSZXNwb25zZSgiUmVzdW1lIG5vdCBhdmFpbGFibGUiLCB7IHN0YXR1czogNDA0IH0pOwogICAgICAgIHJldHVybiBSZXNwb25zZS5yZWRpcmVjdCh1cmwuc2lnbmVkVXJsLCAzMDIpOwogICAgICB9LAogICAgfSwKICB9LAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+
+const UUID = /^[0-9a-f-]{36}$/i;
+
+// Tracked "View my resume" link: records the click, then redirects to a short-lived link to the resume.
+export const Route = createFileRoute("/api/public/t/r/$id")({
+  server: {
+    handlers: {
+      GET: async ({ params }) => {
+        if (!UUID.test(params.id)) return new Response("Not found", { status: 404 });
+        const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+        const { data: c } = await supabaseAdmin.from("contacts").select("user_id, send_status, resume_open_count, resume_opened_at").eq("id", params.id).maybeSingle();
+        if (!c || c.send_status !== "sent") return new Response("Not found", { status: 404 });
+        const { data: s } = await supabaseAdmin.from("outreach_settings").select("resume_path").eq("user_id", c.user_id).maybeSingle();
+        if (!s?.resume_path) return new Response("Resume not available", { status: 404 });
+        await supabaseAdmin.from("contacts").update({ resume_open_count: (c.resume_open_count ?? 0) + 1, resume_opened_at: c.resume_opened_at ?? new Date().toISOString() }).eq("id", params.id);
+        const { data: url } = await supabaseAdmin.storage.from("resumes").createSignedUrl(s.resume_path, 60 * 10);
+        if (!url?.signedUrl) return new Response("Resume not available", { status: 404 });
+        return Response.redirect(url.signedUrl, 302);
+      },
+    },
+  },
+});

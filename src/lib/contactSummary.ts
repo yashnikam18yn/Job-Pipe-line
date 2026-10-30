@@ -1,1 +1,15 @@
-dHlwZSBTdW1tYXJ5Q29udGFjdCA9IHsgc2VuZF9zdGF0dXM6IHN0cmluZzsgc2VudF9hdDogc3RyaW5nIHwgbnVsbDsgZW1haWxfc3RhdHVzOiBzdHJpbmcgfCBudWxsIH07CgovKiogQ291bnQgYWN0dWFsIHNlbmRzLCBub3QgYXR0ZW1wdHMsIGFuZCBob25vciB0aGUgc2FtZSBVVEMvbWFudWFsIHJlc2V0IGFzIHNlbmRpbmcuICovCmV4cG9ydCBmdW5jdGlvbiBjb250YWN0U3VtbWFyeShjb250YWN0czogU3VtbWFyeUNvbnRhY3RbXSwgcmVzZXRBdDogc3RyaW5nIHwgbnVsbCwgbm93ID0gbmV3IERhdGUoKSkgewogIGNvbnN0IG1pZG5pZ2h0ID0gbmV3IERhdGUobm93KTsKICBtaWRuaWdodC5zZXRVVENIb3VycygwLCAwLCAwLCAwKTsKICBjb25zdCBkYXkgPSBtaWRuaWdodC50b0lTT1N0cmluZygpOwogIGNvbnN0IHN0YXJ0ID0gcmVzZXRBdCAmJiByZXNldEF0ID4gZGF5ID8gcmVzZXRBdCA6IGRheTsKICByZXR1cm4gewogICAgc2VudDogY29udGFjdHMuZmlsdGVyKChjKSA9PiBjLnNlbmRfc3RhdHVzID09PSAic2VudCIpLmxlbmd0aCwKICAgIHNlbnRUb2RheTogY29udGFjdHMuZmlsdGVyKChjKSA9PiBjLnNlbmRfc3RhdHVzID09PSAic2VudCIgJiYgYy5zZW50X2F0ICYmIGMuc2VudF9hdCA+PSBzdGFydCkubGVuZ3RoLAogICAgcGVuZGluZzogY29udGFjdHMuZmlsdGVyKChjKSA9PiBjLnNlbmRfc3RhdHVzID09PSAiYXBwcm92ZWQiICYmICFjLnNlbnRfYXQpLmxlbmd0aCwKICAgIHZlcmlmaWVkOiBjb250YWN0cy5maWx0ZXIoKGMpID0+IGMuZW1haWxfc3RhdHVzID09PSAidmVyaWZpZWQiKS5sZW5ndGgsCiAgfTsKfQ==
+type SummaryContact = { send_status: string; sent_at: string | null; email_status: string | null };
+
+/** Count actual sends, not attempts, and honor the same UTC/manual reset as sending. */
+export function contactSummary(contacts: SummaryContact[], resetAt: string | null, now = new Date()) {
+  const midnight = new Date(now);
+  midnight.setUTCHours(0, 0, 0, 0);
+  const day = midnight.toISOString();
+  const start = resetAt && resetAt > day ? resetAt : day;
+  return {
+    sent: contacts.filter((c) => c.send_status === "sent").length,
+    sentToday: contacts.filter((c) => c.send_status === "sent" && c.sent_at && c.sent_at >= start).length,
+    pending: contacts.filter((c) => c.send_status === "approved" && !c.sent_at).length,
+    verified: contacts.filter((c) => c.email_status === "verified").length,
+  };
+}

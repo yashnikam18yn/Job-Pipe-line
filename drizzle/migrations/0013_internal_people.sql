@@ -1,1 +1,18 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5pbnRlcm5hbF9wZW9wbGUgKAogIGlkIHV1aWQgUFJJTUFSWSBLRVkgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSwKICB1c2VyX2lkIHV1aWQgTk9UIE5VTEwsCiAgbmFtZSB0ZXh0IE5PVCBOVUxMLAogIHRpdGxlIHRleHQsCiAgbGlua2VkaW5fdXJsIHRleHQgTk9UIE5VTEwsCiAgY29tcGFueSB0ZXh0LAogIGRvbWFpbiB0ZXh0IE5PVCBOVUxMLAogIHNvdXJjZV9maWxlIHRleHQsCiAgY3JlYXRlZF9hdCB0aW1lc3RhbXB0eiBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIFVOSVFVRSAodXNlcl9pZCwgbGlua2VkaW5fdXJsKQopOwpDUkVBVEUgSU5ERVggaW50ZXJuYWxfcGVvcGxlX3VzZXJfZG9tYWluIE9OIHB1YmxpYy5pbnRlcm5hbF9wZW9wbGUgKHVzZXJfaWQsIGRvbWFpbik7CkdSQU5UIFNFTEVDVCwgSU5TRVJULCBVUERBVEUsIERFTEVURSBPTiBwdWJsaWMuaW50ZXJuYWxfcGVvcGxlIFRPIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIEFMTCBPTiBwdWJsaWMuaW50ZXJuYWxfcGVvcGxlIFRPIHNlcnZpY2Vfcm9sZTsKQUxURVIgVEFCTEUgcHVibGljLmludGVybmFsX3Blb3BsZSBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwpDUkVBVEUgUE9MSUNZICJvd24gaW50ZXJuYWwgcGVvcGxlIiBPTiBwdWJsaWMuaW50ZXJuYWxfcGVvcGxlIEZPUiBBTEwgVE8gYXV0aGVudGljYXRlZAogIFVTSU5HICh1c2VyX2lkID0gYXV0aC51aWQoKSkgV0lUSCBDSEVDSyAodXNlcl9pZCA9IGF1dGgudWlkKCkpOw==
+CREATE TABLE public.internal_people (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  name text NOT NULL,
+  title text,
+  linkedin_url text NOT NULL,
+  company text,
+  domain text NOT NULL,
+  source_file text,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (user_id, linkedin_url)
+);
+CREATE INDEX internal_people_user_domain ON public.internal_people (user_id, domain);
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.internal_people TO authenticated;
+GRANT ALL ON public.internal_people TO service_role;
+ALTER TABLE public.internal_people ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "own internal people" ON public.internal_people FOR ALL TO authenticated
+  USING (user_id = auth.uid()) WITH CHECK (user_id = auth.uid());

@@ -1,1 +1,46 @@
-Ly8gQnJvd3Nlci1zYWZlIGhlbHBlcnMgZm9yIHRoZSBOYXVrcmkgInByb2ZpbGUgYnVtcCIgcmVtaW5kZXIgdGFiLgovLyBSZWNvcmRzIG1hbnVhbCByZXZpZXdzOyB1bmNoYW5nZWQgc2F2ZXMgZG8gbm90IGVzdGFibGlzaCByZWNydWl0ZXIgdmlzaWJpbGl0eS4KLy8gQWxsIHRpbWVzIGFyZSBJU1QgKEFzaWEvS29sa2F0YSkuCgpleHBvcnQgdHlwZSBCdW1wU2xvdCA9ICJtb3JuaW5nIiB8ICJldmVuaW5nIjsKCmV4cG9ydCBjb25zdCBTTE9UX1dJTkRPV1M6IFJlY29yZDxCdW1wU2xvdCwgeyBzdGFydDogbnVtYmVyOyBlbmQ6IG51bWJlcjsgbGFiZWw6IHN0cmluZyB9PiA9IHsKICBtb3JuaW5nOiB7IHN0YXJ0OiA2LCBlbmQ6IDEyLCBsYWJlbDogIk1vcm5pbmcgwrcgNiBBTSDigJMgMTIgUE0gSVNUIiB9LAogIGV2ZW5pbmc6IHsgc3RhcnQ6IDE3LCBlbmQ6IDIzLCBsYWJlbDogIkV2ZW5pbmcgwrcgNSBQTSDigJMgMTEgUE0gSVNUIiB9LAp9OwoKY29uc3QgZHRmID0gbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQoImVuLUNBIiwgewogIHRpbWVab25lOiAiQXNpYS9Lb2xrYXRhIiwKICB5ZWFyOiAibnVtZXJpYyIsCiAgbW9udGg6ICIyLWRpZ2l0IiwKICBkYXk6ICIyLWRpZ2l0IiwKICBob3VyOiAiMi1kaWdpdCIsCiAgaG91ckN5Y2xlOiAiaDIzIiwKfSk7CgovKiogSVNUIGNhbGVuZGFyIGRhdGUgKFlZWVktTU0tREQpIGFuZCBob3VyICgwLTIzKSBmb3IgYW4gaW5zdGFudC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGlzdFBhcnRzKG5vdzogRGF0ZSk6IHsgZGF0ZTogc3RyaW5nOyBob3VyOiBudW1iZXIgfSB7CiAgY29uc3QgcGFydHMgPSBkdGYuZm9ybWF0VG9QYXJ0cyhub3cpOwogIGNvbnN0IGdldCA9ICh0OiBzdHJpbmcpID0+IHBhcnRzLmZpbmQoKHApID0+IHAudHlwZSA9PT0gdCk/LnZhbHVlID8/ICIiOwogIHJldHVybiB7IGRhdGU6IGAke2dldCgieWVhciIpfS0ke2dldCgibW9udGgiKX0tJHtnZXQoImRheSIpfWAsIGhvdXI6IE51bWJlcihnZXQoImhvdXIiKSkgfTsKfQoKLyoqIFdoaWNoIHNsb3QncyB3aW5kb3cgaXMgb3BlbiByaWdodCBub3csIG9yIG51bGwgb3V0c2lkZSBib3RoIHdpbmRvd3MuICovCmV4cG9ydCBmdW5jdGlvbiBkdWVTbG90KG5vdzogRGF0ZSk6IEJ1bXBTbG90IHwgbnVsbCB7CiAgY29uc3QgeyBob3VyIH0gPSBpc3RQYXJ0cyhub3cpOwogIGZvciAoY29uc3Qgc2xvdCBvZiBbIm1vcm5pbmciLCAiZXZlbmluZyJdIGFzIGNvbnN0KSB7CiAgICBjb25zdCB3ID0gU0xPVF9XSU5ET1dTW3Nsb3RdOwogICAgaWYgKGhvdXIgPj0gdy5zdGFydCAmJiBob3VyIDwgdy5lbmQpIHJldHVybiBzbG90OwogIH0KICByZXR1cm4gbnVsbDsKfQoKLyoqICI4OjQyIEFNIiBpbiBJU1QgZm9yIGEgc3RvcmVkIHRpbWVzdGFtcC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGZtdERvbmVBdChpc286IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIG5ldyBEYXRlKGlzbykudG9Mb2NhbGVUaW1lU3RyaW5nKCJlbi1JTiIsIHsgdGltZVpvbmU6ICJBc2lhL0tvbGthdGEiLCBob3VyOiAibnVtZXJpYyIsIG1pbnV0ZTogIjItZGlnaXQiIH0pOwp9CgovKiogIjI4IE9jdCIgaW4gSVNUIGZvciBhIFlZWVktTU0tREQgYnVtcCBkYXRlLiAqLwpleHBvcnQgZnVuY3Rpb24gZm10QnVtcERhdGUoZGF0ZTogc3RyaW5nKTogc3RyaW5nIHsKICByZXR1cm4gbmV3IERhdGUoYCR7ZGF0ZX1UMTI6MDA6MDArMDU6MzBgKS50b0xvY2FsZURhdGVTdHJpbmcoImVuLUlOIiwgeyB0aW1lWm9uZTogIkFzaWEvS29sa2F0YSIsIGRheTogIm51bWVyaWMiLCBtb250aDogInNob3J0IiB9KTsKfQo=
+// Browser-safe helpers for the Naukri "profile bump" reminder tab.
+// Records manual reviews; unchanged saves do not establish recruiter visibility.
+// All times are IST (Asia/Kolkata).
+
+export type BumpSlot = "morning" | "evening";
+
+export const SLOT_WINDOWS: Record<BumpSlot, { start: number; end: number; label: string }> = {
+  morning: { start: 6, end: 12, label: "Morning · 6 AM – 12 PM IST" },
+  evening: { start: 17, end: 23, label: "Evening · 5 PM – 11 PM IST" },
+};
+
+const dtf = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Kolkata",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  hour: "2-digit",
+  hourCycle: "h23",
+});
+
+/** IST calendar date (YYYY-MM-DD) and hour (0-23) for an instant. */
+export function istParts(now: Date): { date: string; hour: number } {
+  const parts = dtf.formatToParts(now);
+  const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
+  return { date: `${get("year")}-${get("month")}-${get("day")}`, hour: Number(get("hour")) };
+}
+
+/** Which slot's window is open right now, or null outside both windows. */
+export function dueSlot(now: Date): BumpSlot | null {
+  const { hour } = istParts(now);
+  for (const slot of ["morning", "evening"] as const) {
+    const w = SLOT_WINDOWS[slot];
+    if (hour >= w.start && hour < w.end) return slot;
+  }
+  return null;
+}
+
+/** "8:42 AM" in IST for a stored timestamp. */
+export function fmtDoneAt(iso: string): string {
+  return new Date(iso).toLocaleTimeString("en-IN", { timeZone: "Asia/Kolkata", hour: "numeric", minute: "2-digit" });
+}
+
+/** "28 Oct" in IST for a YYYY-MM-DD bump date. */
+export function fmtBumpDate(date: string): string {
+  return new Date(`${date}T12:00:00+05:30`).toLocaleDateString("en-IN", { timeZone: "Asia/Kolkata", day: "numeric", month: "short" });
+}

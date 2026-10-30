@@ -1,1 +1,304 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyByZXF1aXJlU3VwYWJhc2VBdXRoIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvYXV0aC1taWRkbGV3YXJlIjsKaW1wb3J0IHsgeiB9IGZyb20gInpvZCI7CgpleHBvcnQgY29uc3QgYWRkSm9iRm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoaTogdW5rbm93bikgPT4KICAgIHoKICAgICAgLm9iamVjdCh7IHVybDogei5zdHJpbmcoKS51cmwoKS5tYXgoMjAwMCkub3B0aW9uYWwoKSwgdGV4dDogei5zdHJpbmcoKS5tYXgoMjAwMDApLm9wdGlvbmFsKCkgfSkKICAgICAgLnJlZmluZSgodikgPT4gdi51cmwgfHwgdi50ZXh0LCAiUHJvdmlkZSBhIGxpbmsgb3IgZGVzY3JpcHRpb24iKQogICAgICAucGFyc2UoaSksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEsIGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgbSA9IGF3YWl0IGltcG9ydCgiLi9vdXRyZWFjaC5zZXJ2ZXIiKTsKICAgIGNvbnN0IGlkID0gYXdhaXQgbS5hZGRKb2IoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQsIGRhdGEpOwogICAgcmV0dXJuIHsgaWQgfTsKICB9KTsKCmV4cG9ydCBjb25zdCBwcm9jZXNzSm9iRm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoaTogdW5rbm93bikgPT4gei5vYmplY3QoeyBqb2JJZDogei5zdHJpbmcoKS51dWlkKCkgfSkucGFyc2UoaSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSwgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCBtID0gYXdhaXQgaW1wb3J0KCIuL291dHJlYWNoLnNlcnZlciIpOwogICAgY29uc3QgcyA9IGF3YWl0IG0uZ2V0U2V0dGluZ3MoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQpOwogICAgYXdhaXQgY29udGV4dC5zdXBhYmFzZS5mcm9tKCJqb2JzIikudXBkYXRlKHsgc3RhdHVzOiAibmV3IiB9KS5lcSgiaWQiLCBkYXRhLmpvYklkKTsKICAgIGNvbnN0IG4gPSBhd2FpdCBtLnByb2Nlc3NKb2IoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQsIGRhdGEuam9iSWQsIHMpOwogICAgcmV0dXJuIHsgY29udGFjdHM6IG4gfTsKICB9KTsKCmV4cG9ydCBjb25zdCBzZW5kUGVuZGluZ0ZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGQ6IHsgY29tcGFueT86IHN0cmluZyB9IHwgdW5kZWZpbmVkKSA9PiAoeyBjb21wYW55OiB0eXBlb2YgZD8uY29tcGFueSA9PT0gInN0cmluZyIgJiYgZC5jb21wYW55LnRyaW0oKSA/IGQuY29tcGFueS50cmltKCkuc2xpY2UoMCwgMjAwKSA6IG51bGwgfSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCwgZGF0YSB9KSA9PiB7CiAgICBjb25zdCBtID0gYXdhaXQgaW1wb3J0KCIuL291dHJlYWNoLnNlcnZlciIpOwogICAgY29uc3QgcyA9IGF3YWl0IG0uZ2V0U2V0dGluZ3MoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQpOwogICAgY29uc3QgeyBjb3VudCB9ID0gYXdhaXQgY29udGV4dC5zdXBhYmFzZS5mcm9tKCJjb250YWN0cyIpLnNlbGVjdCgiaWQiLCB7IGNvdW50OiAiZXhhY3QiLCBoZWFkOiB0cnVlIH0pCiAgICAgIC5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKS5lcSgic2VuZF9zdGF0dXMiLCAic2VudCIpLmd0ZSgic2VudF9hdCIsIG0uc2VuZENvdW50U3RhcnQocyBhcyB7IGRhaWx5X3Jlc2V0X2F0Pzogc3RyaW5nIHwgbnVsbCB9KSk7CiAgICBjb25zdCBzZW50ID0gYXdhaXQgbS5zZW5kUGVuZGluZyhjb250ZXh0LnN1cGFiYXNlLCBjb250ZXh0LnVzZXJJZCwgcywgNTAsIGF3YWl0IHJlcU9yaWdpbigpLCBkYXRhLmNvbXBhbnkpOwogICAgY29uc3QgY2FwUmVhY2hlZCA9ICFkYXRhLmNvbXBhbnkgJiYgKGNvdW50ID8/IDApID49IHMuZGFpbHlfbGltaXQ7CiAgICByZXR1cm4geyBzZW50LCBjYXBSZWFjaGVkLCBzZW50VG9kYXk6IGNvdW50ID8/IDAsIGRhaWx5TGltaXQ6IHMuZGFpbHlfbGltaXQgfTsKICB9KTsKCmV4cG9ydCBjb25zdCByZXNldERhaWx5TGltaXRGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBjb250ZXh0LnN1cGFiYXNlLmZyb20oIm91dHJlYWNoX3NldHRpbmdzIikKICAgICAgLnVwZGF0ZSh7IGRhaWx5X3Jlc2V0X2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSkuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgcnVuTm93Rm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgbSA9IGF3YWl0IGltcG9ydCgiLi9vdXRyZWFjaC5zZXJ2ZXIiKTsKICAgIHJldHVybiB7IGxvZzogYXdhaXQgbS5ydW5TdGVwKGNvbnRleHQuc3VwYWJhc2UsIGNvbnRleHQudXNlcklkLCB7IGZ1bGw6IHRydWUsIG9yaWdpbjogYXdhaXQgcmVxT3JpZ2luKCkgfSkgfTsKICB9KTsKCmV4cG9ydCBjb25zdCBhcG9sbG9LZXlJbmZvRm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJhcG9sbG9fa2V5cyIpLnNlbGVjdCgiYXBpX2tleSwgdXBkYXRlZF9hdCIpLmVxKCJ1c2VyX2lkIiwgY29udGV4dC51c2VySWQpLm1heWJlU2luZ2xlKCk7CiAgICByZXR1cm4gZGF0YSA/IHsgaGFzS2V5OiB0cnVlLCBsYXN0NDogZGF0YS5hcGlfa2V5LnNsaWNlKC00KSwgdXBkYXRlZEF0OiBkYXRhLnVwZGF0ZWRfYXQgfSA6IHsgaGFzS2V5OiBmYWxzZSwgbGFzdDQ6IG51bGwsIHVwZGF0ZWRBdDogbnVsbCB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IHNhdmVBcG9sbG9LZXlGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmlucHV0VmFsaWRhdG9yKChpOiB1bmtub3duKSA9PiB6Lm9iamVjdCh7IGFwaUtleTogei5zdHJpbmcoKS50cmltKCkubWluKDEwKS5tYXgoMjAwKSB9KS5wYXJzZShpKSkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhLCBjb250ZXh0IH0pID0+IHsKICAgIC8vIENoZWNrIHRoZSBrZXkgd29ya3MgYmVmb3JlIHNhdmluZyBpdAogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goImh0dHBzOi8vYXBpLmFwb2xsby5pby92MS9hdXRoL2hlYWx0aCIsIHsKICAgICAgaGVhZGVyczogeyAiWC1BcGktS2V5IjogZGF0YS5hcGlLZXksICJDYWNoZS1Db250cm9sIjogIm5vLWNhY2hlIiB9LAogICAgfSk7CiAgICBjb25zdCBib2R5ID0gKGF3YWl0IHJlcy5qc29uKCkuY2F0Y2goKCkgPT4gKHt9KSkpIGFzIHsgaXNfbG9nZ2VkX2luPzogYm9vbGVhbiB9OwogICAgaWYgKCFyZXMub2sgfHwgYm9keS5pc19sb2dnZWRfaW4gPT09IGZhbHNlKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcihgQXBvbGxvIHJlamVjdGVkIHRoaXMga2V5IChzdGF0dXMgJHtyZXMuc3RhdHVzfSkuIENoZWNrIGl0J3MgY29waWVkIGNvcnJlY3RseSBhbmQgbm90IGV4cGlyZWQuYCk7CiAgICB9CiAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbgogICAgICAuZnJvbSgiYXBvbGxvX2tleXMiKQogICAgICAudXBzZXJ0KHsgdXNlcl9pZDogY29udGV4dC51c2VySWQsIGFwaV9rZXk6IGRhdGEuYXBpS2V5LCB1cGRhdGVkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4KICAgICAgLmZyb20oIm91dHJlYWNoX3NldHRpbmdzIikKICAgICAgLnVwZGF0ZSh7IGFwb2xsb19zdGF0dXM6ICJvayIsIGFwb2xsb19lcnJvcjogbnVsbCwgYXBvbGxvX2NoZWNrZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KQogICAgICAuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IHJlbW92ZUFwb2xsb0tleUZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0IH0pID0+IHsKICAgIGNvbnN0IHsgc3VwYWJhc2VBZG1pbiB9ID0gYXdhaXQgaW1wb3J0KCJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQuc2VydmVyIik7CiAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oImFwb2xsb19rZXlzIikuZGVsZXRlKCkuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oIm91dHJlYWNoX3NldHRpbmdzIikudXBkYXRlKHsgYXBvbGxvX3N0YXR1czogInVua25vd24iLCBhcG9sbG9fZXJyb3I6IG51bGwgfSkuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IHJldmlld1F1ZXVlRm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgbSA9IGF3YWl0IGltcG9ydCgiLi9vdXRyZWFjaC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHMgPSBhd2FpdCBtLmdldFNldHRpbmdzKGNvbnRleHQuc3VwYWJhc2UsIGNvbnRleHQudXNlcklkKTsKICAgIGNvbnN0IHEgPSAoc3RhdHVzOiBzdHJpbmcsIGxpbWl0OiBudW1iZXIpID0+IGNvbnRleHQuc3VwYWJhc2UKICAgICAgLmZyb20oImNvbnRhY3RzIikKICAgICAgLnNlbGVjdCgiKiwgam9icyh0aXRsZSwgdXJsLCBjb21wYW55KSIpCiAgICAgIC5lcSgic2VuZF9zdGF0dXMiLCBzdGF0dXMpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQobGltaXQpOwogICAgLy8gV2FpdGluZy1mb3ItcmV2aWV3IGZpcnN0IHNvIG5ldyBjb250YWN0cyBhcmUgbmV2ZXIgaGlkZGVuIGJlaGluZCBhcHByb3ZlZCBvbmVzCiAgICBjb25zdCBbcCwgYV0gPSBhd2FpdCBQcm9taXNlLmFsbChbcSgicGVuZGluZyIsIDUwMCksIHEoImFwcHJvdmVkIiwgNTAwKV0pOwogICAgY29uc3QgZGF0YSA9IFsuLi4ocC5kYXRhID8/IFtdKSwgLi4uKGEuZGF0YSA/PyBbXSldOwogICAgcmV0dXJuIGRhdGEubWFwKChjKSA9PiB7CiAgICAgIGNvbnN0IGUgPSBtLmNvbXBvc2VFbWFpbChzLCBjIGFzIG5ldmVyKTsKICAgICAgcmV0dXJuIHsKICAgICAgICBpZDogYy5pZCwgbmFtZTogYy5uYW1lLCB0aXRsZTogYy50aXRsZSwgY29tcGFueTogYy5jb21wYW55LCBlbWFpbDogYy5lbWFpbCwgc3RhdHVzOiBjLnNlbmRfc3RhdHVzLCBlbWFpbFN0YXR1czogYy5lbWFpbF9zdGF0dXMsIGxpbmtlZGluVXJsOiBjLmxpbmtlZGluX3VybCwKICAgICAgICBqb2JUaXRsZTogKGMgYXMgdW5rbm93biBhcyB7IGpvYnM6IHsgdGl0bGU6IHN0cmluZyB9IHwgbnVsbCB9KS5qb2JzPy50aXRsZSA/PyAiIiwKICAgICAgICBzdWJqZWN0OiBlLnN1YmplY3QsIGJvZHk6IGUuYm9keSwKICAgICAgfTsKICAgIH0pOwogIH0pOwoKZXhwb3J0IGNvbnN0IHVwZGF0ZVJldmlld0ZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGk6IHVua25vd24pID0+CiAgICB6Lm9iamVjdCh7CiAgICAgIGlkOiB6LnN0cmluZygpLnV1aWQoKSwKICAgICAgZW1haWw6IHouc3RyaW5nKCkudHJpbSgpLmVtYWlsKCkubWF4KDI1NSksCiAgICAgIG5hbWU6IHouc3RyaW5nKCkudHJpbSgpLm1heCgyMDApLAogICAgICBzdWJqZWN0OiB6LnN0cmluZygpLnRyaW0oKS5taW4oMSkubWF4KDMwMCksCiAgICAgIGJvZHk6IHouc3RyaW5nKCkubWluKDEpLm1heCgxMDAwMCksCiAgICAgIHN0YXR1czogei5lbnVtKFsicGVuZGluZyIsICJhcHByb3ZlZCIsICJza2lwcGVkIl0pLAogICAgfSkucGFyc2UoaSksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEsIGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgY29udGV4dC5zdXBhYmFzZQogICAgICAuZnJvbSgiY29udGFjdHMiKQogICAgICAudXBkYXRlKHsgZW1haWw6IGRhdGEuZW1haWwudG9Mb3dlckNhc2UoKSwgbmFtZTogZGF0YS5uYW1lLCBjdXN0b21fc3ViamVjdDogZGF0YS5zdWJqZWN0LCBjdXN0b21fYm9keTogZGF0YS5ib2R5LCBzZW5kX3N0YXR1czogZGF0YS5zdGF0dXMgfSkKICAgICAgLmVxKCJpZCIsIGRhdGEuaWQpOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGFwcHJvdmVBbGxGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICAvLyBBcHByb3ZlIGFsbCBhcHByb3ZlcyBldmVyeXRoaW5nIHdhaXRpbmcsIGluY2x1ZGluZyBsaWtlbHkgKGd1ZXNzZWQpIGVtYWlscy4KICAgIGF3YWl0IGNvbnRleHQuc3VwYWJhc2UuZnJvbSgiY29udGFjdHMiKS51cGRhdGUoeyBzZW5kX3N0YXR1czogImFwcHJvdmVkIiB9KS5lcSgic2VuZF9zdGF0dXMiLCAicGVuZGluZyIpOwogICAgcmV0dXJuIHsgb2s6IHRydWUgfTsKICB9KTsKCmV4cG9ydCBjb25zdCB0ZXN0U2VuZEZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGk6IHVua25vd24pID0+CiAgICB6Lm9iamVjdCh7IHN1YmplY3Q6IHouc3RyaW5nKCkubWluKDEpLm1heCgzMDApLCBib2R5OiB6LnN0cmluZygpLm1pbigxKS5tYXgoMTAwMDApLCB0bzogei5zdHJpbmcoKS5lbWFpbCgpLm9wdGlvbmFsKCkgfSkucGFyc2UoaSksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEsIGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgbSA9IGF3YWl0IGltcG9ydCgiLi9vdXRyZWFjaC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHMgPSBhd2FpdCBtLmdldFNldHRpbmdzKGNvbnRleHQuc3VwYWJhc2UsIGNvbnRleHQudXNlcklkKTsKICAgIGNvbnN0IHRvID0gZGF0YS50byA/PyAoY29udGV4dC5jbGFpbXMgYXMgeyBlbWFpbD86IHN0cmluZyB9KS5lbWFpbDsKICAgIGlmICghdG8pIHRocm93IG5ldyBFcnJvcigiTm8gZW1haWwgYWRkcmVzcyB0byBzZW5kIHRoZSB0ZXN0IHRvIik7CiAgICBhd2FpdCBtLnNlbmRHbWFpbCh0bywgYFtURVNUXSAke2RhdGEuc3ViamVjdH1gLCBkYXRhLmJvZHksIGF3YWl0IG0ubG9hZFJlc3VtZShzKSk7CiAgICByZXR1cm4geyB0byB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGh1bnRlcktleUluZm9GbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oImh1bnRlcl9rZXlzIikuc2VsZWN0KCJhcGlfa2V5IikuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCkubWF5YmVTaW5nbGUoKTsKICAgIHJldHVybiBkYXRhID8geyBoYXNLZXk6IHRydWUsIGxhc3Q0OiBkYXRhLmFwaV9rZXkuc2xpY2UoLTQpIH0gOiB7IGhhc0tleTogZmFsc2UsIGxhc3Q0OiBudWxsIH07CiAgfSk7CgpleHBvcnQgY29uc3Qgc2F2ZUh1bnRlcktleUZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGk6IHVua25vd24pID0+IHoub2JqZWN0KHsgYXBpS2V5OiB6LnN0cmluZygpLnRyaW0oKS5taW4oMTApLm1heCgyMDApIH0pLnBhcnNlKGkpKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEsIGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYGh0dHBzOi8vYXBpLmh1bnRlci5pby92Mi9hY2NvdW50P2FwaV9rZXk9JHtlbmNvZGVVUklDb21wb25lbnQoZGF0YS5hcGlLZXkpfWApOwogICAgY29uc3QgaiA9IChhd2FpdCByZXMuanNvbigpLmNhdGNoKCgpID0+ICh7fSkpKSBhcyB7IGRhdGE/OiB7IHJlcXVlc3RzPzogeyBzZWFyY2hlcz86IHsgdXNlZDogbnVtYmVyOyBhdmFpbGFibGU6IG51bWJlciB9IH0gfSB9OwogICAgaWYgKCFyZXMub2spIHRocm93IG5ldyBFcnJvcihgSHVudGVyIHJlamVjdGVkIHRoaXMga2V5IChzdGF0dXMgJHtyZXMuc3RhdHVzfSkuIENoZWNrIGl0J3MgY29waWVkIGNvcnJlY3RseS5gKTsKICAgIGNvbnN0IHsgc3VwYWJhc2VBZG1pbiB9ID0gYXdhaXQgaW1wb3J0KCJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQuc2VydmVyIik7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluCiAgICAgIC5mcm9tKCJodW50ZXJfa2V5cyIpCiAgICAgIC51cHNlcnQoeyB1c2VyX2lkOiBjb250ZXh0LnVzZXJJZCwgYXBpX2tleTogZGF0YS5hcGlLZXksIHVwZGF0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJvdXRyZWFjaF9zZXR0aW5ncyIpLnVwZGF0ZSh7IGh1bnRlcl9zdGF0dXM6ICJvayIsIGh1bnRlcl9lcnJvcjogbnVsbCB9KS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKTsKICAgIC8vIGpvYnMgaGVsZCBiYWNrIGJ5IGEga2V5IHByb2JsZW0gZ2V0IGFub3RoZXIgZ28KICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgiam9icyIpLnVwZGF0ZSh7IGVycm9yOiBudWxsIH0pLmVxKCJ1c2VyX2lkIiwgY29udGV4dC51c2VySWQpLmVxKCJzdGF0dXMiLCAibmV3Iik7CiAgICBjb25zdCBzciA9IGouZGF0YT8ucmVxdWVzdHM/LnNlYXJjaGVzOwogICAgcmV0dXJuIHsgc2VhcmNoZXNMZWZ0OiBzciA/IHNyLmF2YWlsYWJsZSAtIHNyLnVzZWQgOiBudWxsIH07CiAgfSk7CgpleHBvcnQgY29uc3QgcmVtb3ZlSHVudGVyS2V5Rm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgiaHVudGVyX2tleXMiKS5kZWxldGUoKS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKTsKICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgib3V0cmVhY2hfc2V0dGluZ3MiKS51cGRhdGUoeyBodW50ZXJfc3RhdHVzOiAidW5rbm93biIsIGh1bnRlcl9lcnJvcjogbnVsbCB9KS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3Qgc25vdktleUluZm9GbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oInNub3Zfa2V5cyIpLnNlbGVjdCgiY2xpZW50X2lkIikuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCkubWF5YmVTaW5nbGUoKTsKICAgIHJldHVybiBkYXRhID8geyBoYXNLZXk6IHRydWUsIGxhc3Q0OiBkYXRhLmNsaWVudF9pZC5zbGljZSgtNCkgfSA6IHsgaGFzS2V5OiBmYWxzZSwgbGFzdDQ6IG51bGwgfTsKICB9KTsKCmV4cG9ydCBjb25zdCBzYXZlU25vdktleUZuID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGk6IHVua25vd24pID0+CiAgICB6Lm9iamVjdCh7IGNsaWVudElkOiB6LnN0cmluZygpLnRyaW0oKS5taW4oNikubWF4KDIwMCksIGNsaWVudFNlY3JldDogei5zdHJpbmcoKS50cmltKCkubWluKDYpLm1heCgyMDApIH0pLnBhcnNlKGkpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhLCBjb250ZXh0IH0pID0+IHsKICAgIGNvbnN0IG0gPSBhd2FpdCBpbXBvcnQoIkAvbGliL291dHJlYWNoLnNlcnZlciIpOwogICAgY29uc3QgdG9rZW4gPSBhd2FpdCBtLnNub3ZUb2tlbihkYXRhLmNsaWVudElkLCBkYXRhLmNsaWVudFNlY3JldCk7CiAgICBpZiAoIXRva2VuKSB0aHJvdyBuZXcgRXJyb3IoIlNub3YuaW8gcmVqZWN0ZWQgdGhpcyBVc2VyIElEIC8gU2VjcmV0LiBDb3B5IGJvdGggYWdhaW4gZnJvbSBTbm92LmlvIOKGkiBTZXR0aW5ncyDihpIgQVBJLiIpOwogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgic25vdl9rZXlzIikudXBzZXJ0KHsKICAgICAgdXNlcl9pZDogY29udGV4dC51c2VySWQsCiAgICAgIGNsaWVudF9pZDogZGF0YS5jbGllbnRJZCwKICAgICAgY2xpZW50X3NlY3JldDogZGF0YS5jbGllbnRTZWNyZXQsCiAgICAgIHVwZGF0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgIH0pOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oIm91dHJlYWNoX3NldHRpbmdzIikudXBkYXRlKHsgc25vdl9zdGF0dXM6ICJvayIsIHNub3ZfZXJyb3I6IG51bGwgfSkuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oImpvYnMiKS51cGRhdGUoeyBlcnJvcjogbnVsbCB9KS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKS5lcSgic3RhdHVzIiwgIm5ldyIpOwogICAgcmV0dXJuIHsgb2s6IHRydWUgfTsKICB9KTsKCmV4cG9ydCBjb25zdCByZW1vdmVTbm92S2V5Rm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgic25vdl9rZXlzIikuZGVsZXRlKCkuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCk7CiAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oIm91dHJlYWNoX3NldHRpbmdzIikudXBkYXRlKHsgc25vdl9zdGF0dXM6ICJ1bmtub3duIiwgc25vdl9lcnJvcjogbnVsbCB9KS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgZmluZEpvYnNGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCBtID0gYXdhaXQgaW1wb3J0KCIuL291dHJlYWNoLnNlcnZlciIpOwogICAgY29uc3QgcyA9IGF3YWl0IG0uZ2V0U2V0dGluZ3MoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQpOwogICAgcmV0dXJuIHsgYWRkZWQ6IGF3YWl0IG0uZmV0Y2hEYWlseUpvYnMoY29udGV4dC5zdXBhYmFzZSwgY29udGV4dC51c2VySWQsIHMpIH07CiAgfSk7CgpleHBvcnQgY29uc3Qgc25vdkJhbGFuY2VGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oInNub3Zfa2V5cyIpLnNlbGVjdCgiY2xpZW50X2lkLCBjbGllbnRfc2VjcmV0IikuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCkubWF5YmVTaW5nbGUoKTsKICAgIGlmICghZGF0YSkgcmV0dXJuIHsgYmFsYW5jZTogbnVsbCBhcyBudW1iZXIgfCBudWxsIH07CiAgICBjb25zdCBtID0gYXdhaXQgaW1wb3J0KCIuL291dHJlYWNoLnNlcnZlciIpOwogICAgY29uc3QgdG9rZW4gPSBhd2FpdCBtLnNub3ZUb2tlbihkYXRhLmNsaWVudF9pZCwgZGF0YS5jbGllbnRfc2VjcmV0KTsKICAgIGlmICghdG9rZW4pIHJldHVybiB7IGJhbGFuY2U6IG51bGwgYXMgbnVtYmVyIHwgbnVsbCB9OwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goImh0dHBzOi8vYXBpLnNub3YuaW8vdjEvZ2V0LWJhbGFuY2UiLCB7IGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfSB9KTsKICAgIGNvbnN0IGogPSAoYXdhaXQgcmVzLmpzb24oKS5jYXRjaCgoKSA9PiBudWxsKSkgYXMgeyBkYXRhPzogeyBiYWxhbmNlPzogc3RyaW5nIH0gfSB8IG51bGw7CiAgICBjb25zdCBiID0gTnVtYmVyKGo/LmRhdGE/LmJhbGFuY2UpOwogICAgcmV0dXJuIHsgYmFsYW5jZTogTnVtYmVyLmlzRmluaXRlKGIpID8gYiA6IG51bGwgfTsKICB9KTsKCmFzeW5jIGZ1bmN0aW9uIHJlcU9yaWdpbigpIHsKICBjb25zdCB7IGdldFJlcXVlc3QgfSA9IGF3YWl0IGltcG9ydCgiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0L3NlcnZlciIpOwogIHRyeSB7IHJldHVybiBuZXcgVVJMKGdldFJlcXVlc3QoKS51cmwpLm9yaWdpbjsgfSBjYXRjaCB7IHJldHVybiBudWxsOyB9Cn0KCmV4cG9ydCBjb25zdCBjaGVja0JvdW5jZXNGbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCB9KSA9PiB7CiAgICBjb25zdCBtID0gYXdhaXQgaW1wb3J0KCIuL291dHJlYWNoLnNlcnZlciIpOwogICAgcmV0dXJuIGF3YWl0IG0uY2hlY2tCb3VuY2VzKGNvbnRleHQuc3VwYWJhc2UsIGNvbnRleHQudXNlcklkKTsKICB9KTsKCmV4cG9ydCBjb25zdCBkZWxldGVDb250YWN0Rm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoaTogdW5rbm93bikgPT4gei5vYmplY3QoeyBpZDogei5zdHJpbmcoKS51dWlkKCkgfSkucGFyc2UoaSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSwgY29udGV4dCB9KSA9PiB7CiAgICAvLyBOZXZlciBkZWxldGUgYSBjb250YWN0IHRoYXQgd2FzIGFscmVhZHkgZW1haWxlZCDigJQgc2VudCByb3dzIGFyZSB0aGUgc2VuZCBoaXN0b3J5LgogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgY29udGV4dC5zdXBhYmFzZS5mcm9tKCJjb250YWN0cyIpLmRlbGV0ZSgpCiAgICAgIC5lcSgiaWQiLCBkYXRhLmlkKS5lcSgidXNlcl9pZCIsIGNvbnRleHQudXNlcklkKS5pcygic2VudF9hdCIsIG51bGwpOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGRlbGV0ZUFwcHJvdmVkRm4gPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBjb3VudCwgZXJyb3IgfSA9IGF3YWl0IGNvbnRleHQuc3VwYWJhc2UuZnJvbSgiY29udGFjdHMiKS5kZWxldGUoeyBjb3VudDogImV4YWN0IiB9KQogICAgICAuZXEoInVzZXJfaWQiLCBjb250ZXh0LnVzZXJJZCkuZXEoInNlbmRfc3RhdHVzIiwgImFwcHJvdmVkIikuaXMoInNlbnRfYXQiLCBudWxsKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIHsgZGVsZXRlZDogY291bnQgPz8gMCB9OwogIH0pOwo=
+import { createServerFn } from "@tanstack/react-start";
+import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
+import { z } from "zod";
+
+export const addJobFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) =>
+    z
+      .object({ url: z.string().url().max(2000).optional(), text: z.string().max(20000).optional() })
+      .refine((v) => v.url || v.text, "Provide a link or description")
+      .parse(i),
+  )
+  .handler(async ({ data, context }) => {
+    const m = await import("./outreach.server");
+    const id = await m.addJob(context.supabase, context.userId, data);
+    return { id };
+  });
+
+export const processJobFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) => z.object({ jobId: z.string().uuid() }).parse(i))
+  .handler(async ({ data, context }) => {
+    const m = await import("./outreach.server");
+    const s = await m.getSettings(context.supabase, context.userId);
+    await context.supabase.from("jobs").update({ status: "new" }).eq("id", data.jobId);
+    const n = await m.processJob(context.supabase, context.userId, data.jobId, s);
+    return { contacts: n };
+  });
+
+export const sendPendingFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((d: { company?: string } | undefined) => ({ company: typeof d?.company === "string" && d.company.trim() ? d.company.trim().slice(0, 200) : null }))
+  .handler(async ({ context, data }) => {
+    const m = await import("./outreach.server");
+    const s = await m.getSettings(context.supabase, context.userId);
+    const { count } = await context.supabase.from("contacts").select("id", { count: "exact", head: true })
+      .eq("user_id", context.userId).eq("send_status", "sent").gte("sent_at", m.sendCountStart(s as { daily_reset_at?: string | null }));
+    const sent = await m.sendPending(context.supabase, context.userId, s, 50, await reqOrigin(), data.company);
+    const capReached = !data.company && (count ?? 0) >= s.daily_limit;
+    return { sent, capReached, sentToday: count ?? 0, dailyLimit: s.daily_limit };
+  });
+
+export const resetDailyLimitFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { error } = await context.supabase.from("outreach_settings")
+      .update({ daily_reset_at: new Date().toISOString() }).eq("user_id", context.userId);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const runNowFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const m = await import("./outreach.server");
+    return { log: await m.runStep(context.supabase, context.userId, { full: true, origin: await reqOrigin() }) };
+  });
+
+export const apolloKeyInfoFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { data } = await supabaseAdmin.from("apollo_keys").select("api_key, updated_at").eq("user_id", context.userId).maybeSingle();
+    return data ? { hasKey: true, last4: data.api_key.slice(-4), updatedAt: data.updated_at } : { hasKey: false, last4: null, updatedAt: null };
+  });
+
+export const saveApolloKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) => z.object({ apiKey: z.string().trim().min(10).max(200) }).parse(i))
+  .handler(async ({ data, context }) => {
+    // Check the key works before saving it
+    const res = await fetch("https://api.apollo.io/v1/auth/health", {
+      headers: { "X-Api-Key": data.apiKey, "Cache-Control": "no-cache" },
+    });
+    const body = (await res.json().catch(() => ({}))) as { is_logged_in?: boolean };
+    if (!res.ok || body.is_logged_in === false) {
+      throw new Error(`Apollo rejected this key (status ${res.status}). Check it's copied correctly and not expired.`);
+    }
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin
+      .from("apollo_keys")
+      .upsert({ user_id: context.userId, api_key: data.apiKey, updated_at: new Date().toISOString() });
+    if (error) throw new Error(error.message);
+    await supabaseAdmin
+      .from("outreach_settings")
+      .update({ apollo_status: "ok", apollo_error: null, apollo_checked_at: new Date().toISOString() })
+      .eq("user_id", context.userId);
+    return { ok: true };
+  });
+
+export const removeApolloKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    await supabaseAdmin.from("apollo_keys").delete().eq("user_id", context.userId);
+    await supabaseAdmin.from("outreach_settings").update({ apollo_status: "unknown", apollo_error: null }).eq("user_id", context.userId);
+    return { ok: true };
+  });
+
+export const reviewQueueFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const m = await import("./outreach.server");
+    const s = await m.getSettings(context.supabase, context.userId);
+    const q = (status: string, limit: number) => context.supabase
+      .from("contacts")
+      .select("*, jobs(title, url, company)")
+      .eq("send_status", status)
+      .order("created_at", { ascending: false })
+      .limit(limit);
+    // Waiting-for-review first so new contacts are never hidden behind approved ones
+    const [p, a] = await Promise.all([q("pending", 500), q("approved", 500)]);
+    const data = [...(p.data ?? []), ...(a.data ?? [])];
+    return data.map((c) => {
+      const e = m.composeEmail(s, c as never);
+      return {
+        id: c.id, name: c.name, title: c.title, company: c.company, email: c.email, status: c.send_status, emailStatus: c.email_status, linkedinUrl: c.linkedin_url,
+        jobTitle: (c as unknown as { jobs: { title: string } | null }).jobs?.title ?? "",
+        subject: e.subject, body: e.body,
+      };
+    });
+  });
+
+export const updateReviewFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) =>
+    z.object({
+      id: z.string().uuid(),
+      email: z.string().trim().email().max(255),
+      name: z.string().trim().max(200),
+      subject: z.string().trim().min(1).max(300),
+      body: z.string().min(1).max(10000),
+      status: z.enum(["pending", "approved", "skipped"]),
+    }).parse(i),
+  )
+  .handler(async ({ data, context }) => {
+    const { error } = await context.supabase
+      .from("contacts")
+      .update({ email: data.email.toLowerCase(), name: data.name, custom_subject: data.subject, custom_body: data.body, send_status: data.status })
+      .eq("id", data.id);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const approveAllFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    // Approve all approves everything waiting, including likely (guessed) emails.
+    await context.supabase.from("contacts").update({ send_status: "approved" }).eq("send_status", "pending");
+    return { ok: true };
+  });
+
+export const testSendFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) =>
+    z.object({ subject: z.string().min(1).max(300), body: z.string().min(1).max(10000), to: z.string().email().optional() }).parse(i),
+  )
+  .handler(async ({ data, context }) => {
+    const m = await import("./outreach.server");
+    const s = await m.getSettings(context.supabase, context.userId);
+    const to = data.to ?? (context.claims as { email?: string }).email;
+    if (!to) throw new Error("No email address to send the test to");
+    await m.sendGmail(to, `[TEST] ${data.subject}`, data.body, await m.loadResume(s), null, s.sender_email);
+    return { to };
+  });
+
+export const hunterKeyInfoFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { data } = await supabaseAdmin.from("hunter_keys").select("api_key").eq("user_id", context.userId).maybeSingle();
+    return data ? { hasKey: true, last4: data.api_key.slice(-4) } : { hasKey: false, last4: null };
+  });
+
+export const saveHunterKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) => z.object({ apiKey: z.string().trim().min(10).max(200) }).parse(i))
+  .handler(async ({ data, context }) => {
+    const res = await fetch(`https://api.hunter.io/v2/account?api_key=${encodeURIComponent(data.apiKey)}`);
+    const j = (await res.json().catch(() => ({}))) as { data?: { requests?: { searches?: { used: number; available: number } } } };
+    if (!res.ok) throw new Error(`Hunter rejected this key (status ${res.status}). Check it's copied correctly.`);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin
+      .from("hunter_keys")
+      .upsert({ user_id: context.userId, api_key: data.apiKey, updated_at: new Date().toISOString() });
+    if (error) throw new Error(error.message);
+    await supabaseAdmin.from("outreach_settings").update({ hunter_status: "ok", hunter_error: null }).eq("user_id", context.userId);
+    // jobs held back by a key problem get another go
+    await supabaseAdmin.from("jobs").update({ error: null }).eq("user_id", context.userId).eq("status", "new");
+    const sr = j.data?.requests?.searches;
+    return { searchesLeft: sr ? sr.available - sr.used : null };
+  });
+
+export const removeHunterKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    await supabaseAdmin.from("hunter_keys").delete().eq("user_id", context.userId);
+    await supabaseAdmin.from("outreach_settings").update({ hunter_status: "unknown", hunter_error: null }).eq("user_id", context.userId);
+    return { ok: true };
+  });
+
+export const snovKeyInfoFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { data } = await supabaseAdmin.from("snov_keys").select("client_id").eq("user_id", context.userId).maybeSingle();
+    return data ? { hasKey: true, last4: data.client_id.slice(-4) } : { hasKey: false, last4: null };
+  });
+
+export const saveSnovKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) =>
+    z.object({ clientId: z.string().trim().min(6).max(200), clientSecret: z.string().trim().min(6).max(200) }).parse(i),
+  )
+  .handler(async ({ data, context }) => {
+    const m = await import("@/lib/outreach.server");
+    const token = await m.snovToken(data.clientId, data.clientSecret);
+    if (!token) throw new Error("Snov.io rejected this User ID / Secret. Copy both again from Snov.io → Settings → API.");
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin.from("snov_keys").upsert({
+      user_id: context.userId,
+      client_id: data.clientId,
+      client_secret: data.clientSecret,
+      updated_at: new Date().toISOString(),
+    });
+    if (error) throw new Error(error.message);
+    await supabaseAdmin.from("outreach_settings").update({ snov_status: "ok", snov_error: null }).eq("user_id", context.userId);
+    await supabaseAdmin.from("jobs").update({ error: null }).eq("user_id", context.userId).eq("status", "new");
+    return { ok: true };
+  });
+
+export const removeSnovKeyFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    await supabaseAdmin.from("snov_keys").delete().eq("user_id", context.userId);
+    await supabaseAdmin.from("outreach_settings").update({ snov_status: "unknown", snov_error: null }).eq("user_id", context.userId);
+    return { ok: true };
+  });
+
+export const findJobsFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const m = await import("./outreach.server");
+    const s = await m.getSettings(context.supabase, context.userId);
+    const log: string[] = [];
+    const added = await m.fetchDailyJobs(context.supabase, context.userId, s, log);
+    return { added, log };
+  });
+
+export const snovBalanceFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { data } = await supabaseAdmin.from("snov_keys").select("client_id, client_secret").eq("user_id", context.userId).maybeSingle();
+    if (!data) return { balance: null as number | null };
+    const m = await import("./outreach.server");
+    const token = await m.snovToken(data.client_id, data.client_secret);
+    if (!token) return { balance: null as number | null };
+    const res = await fetch("https://api.snov.io/v1/get-balance", { headers: { Authorization: `Bearer ${token}` } });
+    const j = (await res.json().catch(() => null)) as { data?: { balance?: string } } | null;
+    const b = Number(j?.data?.balance);
+    return { balance: Number.isFinite(b) ? b : null };
+  });
+
+async function reqOrigin() {
+  const { getRequest } = await import("@tanstack/react-start/server");
+  try { return new URL(getRequest().url).origin; } catch { return null; }
+}
+
+export const checkBouncesFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const m = await import("./outreach.server");
+    return await m.checkBounces(context.supabase, context.userId);
+  });
+
+export const deleteContactFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) => z.object({ id: z.string().uuid() }).parse(i))
+  .handler(async ({ data, context }) => {
+    // Never delete a contact that was already emailed — sent rows are the send history.
+    const { error } = await context.supabase.from("contacts").delete()
+      .eq("id", data.id).eq("user_id", context.userId).is("sent_at", null);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const deleteApprovedFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { count, error } = await context.supabase.from("contacts").delete({ count: "exact" })
+      .eq("user_id", context.userId).eq("send_status", "approved").is("sent_at", null);
+    if (error) throw new Error(error.message);
+    return { deleted: count ?? 0 };
+  });
+
+export const gmailSenderInfoFn = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async () => {
+    const m = await import("./outreach.server");
+    return { email: await m.gmailSenderEmail() };
+  });

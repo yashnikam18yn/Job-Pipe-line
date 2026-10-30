@@ -1,1 +1,150 @@
-IiIiVXNlci1vcGVyYXRlZCBsb2NhbCBOYXVrcmkgc2F2ZXMuIE5vIHBhc3N3b3JkcywgQ0FQVENIQSBoYW5kbGluZyBvciBldmFzaW9uLiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGFzeW5jaW8KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YSwgdGltZXpvbmUKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAppbXBvcnQgc29ja2V0CgpJU1QgPSB0aW1lem9uZSh0aW1lZGVsdGEoaG91cnM9NSwgbWludXRlcz0zMCkpClBST0ZJTEVfVVJMID0gImh0dHBzOi8vd3d3Lm5hdWtyaS5jb20vbW5qdXNlci9wcm9maWxlIgpIT01FID0gUGF0aC5ob21lKCkgLyAiLm5hdWtyaS1sb2NhbCIKCgpkZWYgc2NoZWR1bGVkX3Nsb3Qobm93KToKICAgIGxvY2FsID0gbm93LmFzdGltZXpvbmUoSVNUKQogICAgaWYgOCA8PSBsb2NhbC5ob3VyIDwgMTI6CiAgICAgICAgcmV0dXJuIGYie2xvY2FsLmRhdGUoKX06bW9ybmluZyIKICAgIGlmIDIxIDw9IGxvY2FsLmhvdXIgPCAyMzoKICAgICAgICByZXR1cm4gZiJ7bG9jYWwuZGF0ZSgpfTpldmVuaW5nIgogICAgcmV0dXJuIE5vbmUKCgpkZWYgcmVhZF9zdGF0ZSgpOgogICAgcGF0aCA9IEhPTUUgLyAic3RhdHVzLmpzb24iCiAgICByZXR1cm4ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dCgpKSBpZiBwYXRoLmV4aXN0cygpIGVsc2UgeyJhdHRlbXB0cyI6IHt9fQoKCmRlZiB3cml0ZV9zdGF0ZShzdGF0ZSk6CiAgICBIT01FLm1rZGlyKG1vZGU9MG83MDAsIHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHRlbXAgPSBIT01FIC8gInN0YXR1cy50bXAiCiAgICB0ZW1wLndyaXRlX3RleHQoanNvbi5kdW1wcyhzdGF0ZSwgaW5kZW50PTIpKQogICAgdGVtcC5yZXBsYWNlKEhPTUUgLyAic3RhdHVzLmpzb24iKQoKCmRlZiBlZGl0X2NvbnRyb2wocGFnZSk6CiAgICByZXR1cm4gcGFnZS5sb2NhdG9yKCJ4cGF0aD0vL2Rpdltjb250YWlucyhAY2xhc3MsJ3dpZGdldEhlYWQnKV0vL3NwYW5bbm9ybWFsaXplLXNwYWNlKCk9J1Jlc3VtZSBoZWFkbGluZSddL2ZvbGxvd2luZy1zaWJsaW5nOjpzcGFuIikKCgphc3luYyBkZWYgc2F2ZV91bmNoYW5nZWRfaGVhZGxpbmUocGFnZSk6CiAgICAiIiJGYWlsIGNsb3NlZCBpZiBjYW5kaWRhdGUgc2VsZWN0b3JzIGRpZmZlcjsgbmV2ZXIgcmVwbGFjZSB0aGUgdXNlcidzIHRleHQuIiIiCiAgICBmcm9tIHBsYXl3cmlnaHQuYXN5bmNfYXBpIGltcG9ydCBleHBlY3QKICAgIGVkaXQgPSBlZGl0X2NvbnRyb2wocGFnZSkKICAgIGF3YWl0IGV4cGVjdChlZGl0KS50b19oYXZlX2NvdW50KDEsIHRpbWVvdXQ9MTUwMDApCiAgICBhd2FpdCBlZGl0LmNsaWNrKCkKICAgIGZpZWxkID0gcGFnZS5sb2NhdG9yKCIjcmVzdW1lSGVhZGxpbmVUeHQiKQogICAgYXdhaXQgZXhwZWN0KGZpZWxkKS50b19iZV92aXNpYmxlKCkKICAgIG9yaWdpbmFsID0gYXdhaXQgZmllbGQuaW5wdXRfdmFsdWUoKQogICAgaWYgbm90IG9yaWdpbmFsLnN0cmlwKCk6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJFbXB0eSBoZWFkbGluZTogbm90aGluZyB3YXMgc2F2ZWQuIikKICAgIHNhdmUgPSBwYWdlLmdldF9ieV9yb2xlKCJidXR0b24iLCBuYW1lPSJTYXZlIiwgZXhhY3Q9VHJ1ZSkKICAgIGF3YWl0IGV4cGVjdChzYXZlKS50b19oYXZlX2NvdW50KDEpCiAgICBhd2FpdCBleHBlY3Qoc2F2ZSkudG9fYmVfZW5hYmxlZCgpCiAgICAjIERvIG5vdCBhcHBlbmQgd2hpdGVzcGFjZSBvciBjaGFuZ2UgbmFtZSwgZXhwZXJpZW5jZSwgb3IgYW55IG90aGVyIHByb2ZpbGUgZGF0YS4KICAgIGF3YWl0IHNhdmUuY2xpY2soKQogICAgYXdhaXQgZXhwZWN0KGZpZWxkKS50b19iZV9oaWRkZW4oKQogICAgYXdhaXQgcGFnZS5yZWxvYWQod2FpdF91bnRpbD0iZG9tY29udGVudGxvYWRlZCIpCiAgICBhd2FpdCBleHBlY3QoZWRpdF9jb250cm9sKHBhZ2UpKS50b19oYXZlX2NvdW50KDEsIHRpbWVvdXQ9MTUwMDApCiAgICBhd2FpdCBlZGl0X2NvbnRyb2wocGFnZSkuY2xpY2soKQogICAgYXdhaXQgZXhwZWN0KGZpZWxkKS50b19iZV92aXNpYmxlKCkKICAgIGF3YWl0IGV4cGVjdChmaWVsZCkudG9faGF2ZV92YWx1ZShvcmlnaW5hbCkKICAgIHJldHVybiAic2F2ZV9jb21wbGV0ZWRfaGVhZGxpbmVfdW5jaGFuZ2VkIgoKCmFzeW5jIGRlZiBicm93c2VyX3Nlc3Npb24obW9kZSk6CiAgICBmcm9tIHBsYXl3cmlnaHQuYXN5bmNfYXBpIGltcG9ydCBhc3luY19wbGF5d3JpZ2h0CiAgICBIT01FLm1rZGlyKG1vZGU9MG83MDAsIHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGFzeW5jIHdpdGggYXN5bmNfcGxheXdyaWdodCgpIGFzIHA6CiAgICAgICAgY29udGV4dCA9IGF3YWl0IHAuY2hyb21pdW0ubGF1bmNoX3BlcnNpc3RlbnRfY29udGV4dCgKICAgICAgICAgICAgc3RyKEhPTUUgLyAiYnJvd3NlciIpLCBoZWFkbGVzcz1GYWxzZSwKICAgICAgICAgICAgdmlld3BvcnQ9eyJ3aWR0aCI6IDEyODAsICJoZWlnaHQiOiA5MDB9LAogICAgICAgICkKICAgICAgICBwYWdlID0gYXdhaXQgY29udGV4dC5uZXdfcGFnZSgpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBhd2FpdCBwYWdlLmdvdG8oUFJPRklMRV9VUkwsIHdhaXRfdW50aWw9ImRvbWNvbnRlbnRsb2FkZWQiLCB0aW1lb3V0PTQ1MDAwKQogICAgICAgICAgICBpZiBtb2RlID09ICJsb2dpbiI6CiAgICAgICAgICAgICAgICBwcmludCgiU2lnbiBpbnRvIE5hdWtyaSB5b3Vyc2VsZiBpbiB0aGlzIHdpbmRvdy4gQ29tcGxldGUgYW55IENBUFRDSEEgeW91cnNlbGYuIikKICAgICAgICAgICAgICAgIHByaW50KCJPcGVuIHlvdXIgcHJvZmlsZSwgdGhlbiByZXR1cm4gaGVyZS4gTm8gcHJvZmlsZSBjaGFuZ2VzIHdpbGwgYmUgbWFkZS4iKQogICAgICAgICAgICAgICAgYXdhaXQgYXN5bmNpby50b190aHJlYWQoaW5wdXQsICJQcmVzcyBFbnRlciB3aGVuIHlvdXIgcHJvZmlsZSBpcyBvcGVuOiAiKQogICAgICAgICAgICAgICAgZnJvbSBwbGF5d3JpZ2h0LmFzeW5jX2FwaSBpbXBvcnQgZXhwZWN0CiAgICAgICAgICAgICAgICBhd2FpdCBleHBlY3QoZWRpdF9jb250cm9sKHBhZ2UpKS50b19oYXZlX2NvdW50KDEsIHRpbWVvdXQ9MTUwMDApCiAgICAgICAgICAgICAgICBzdGF0ZSA9IHJlYWRfc3RhdGUoKQogICAgICAgICAgICAgICAgc3RhdGVbImxvZ2luX2NoZWNrZWRfYXQiXSA9IGRhdGV0aW1lLm5vdyh0aW1lem9uZS51dGMpLmlzb2Zvcm1hdCgpCiAgICAgICAgICAgICAgICB3cml0ZV9zdGF0ZShzdGF0ZSkKICAgICAgICAgICAgICAgIHByaW50KCJQcm9maWxlIGFjY2VzcyBjaGVja2VkLiBMb2dpbiBzdGF5cyBvbmx5IG9uIHRoaXMgY29tcHV0ZXIuIikKICAgICAgICAgICAgICAgIHJldHVybiAibG9naW5fY2hlY2tlZCIKICAgICAgICAgICAgcmV0dXJuIGF3YWl0IHNhdmVfdW5jaGFuZ2VkX2hlYWRsaW5lKHBhZ2UpCiAgICAgICAgZmluYWxseToKICAgICAgICAgICAgYXdhaXQgY29udGV4dC5jbG9zZSgpCgoKYXN5bmMgZGVmIHJ1bl9vbmNlKHNsb3Q9Tm9uZSk6CiAgICBzdGF0ZSA9IHJlYWRfc3RhdGUoKQogICAgaWYgc2xvdCBhbmQgc2xvdCBpbiBzdGF0ZS5nZXQoImF0dGVtcHRzIiwge30pOgogICAgICAgIHJldHVybgogICAga2V5ID0gc2xvdCBvciBmIm1hbnVhbDp7ZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0YykuaXNvZm9ybWF0KCl9IgogICAgc3RhdGUuc2V0ZGVmYXVsdCgiYXR0ZW1wdHMiLCB7fSlba2V5XSA9IHsicmVzdWx0IjogInN0YXJ0ZWQiLCAiYXQiOiBkYXRldGltZS5ub3codGltZXpvbmUudXRjKS5pc29mb3JtYXQoKX0KICAgIHdyaXRlX3N0YXRlKHN0YXRlKSAgIyBJbnRlcnJ1cHRlZCBhdHRlbXB0cyBhcmUgbm90IGF1dG9tYXRpY2FsbHkgcmVwZWF0ZWQuCiAgICB0cnk6CiAgICAgICAgcmVzdWx0ID0gYXdhaXQgYnJvd3Nlcl9zZXNzaW9uKCJzYXZlIikKICAgICAgICBkZXRhaWwgPSAiQ2xpY2tlZCBTYXZlIGFuZCByZWxvYWRlZDogaGVhZGxpbmUgdW5jaGFuZ2VkLiBObyByYW5raW5nIG9yIHRpbWVzdGFtcCBjbGFpbS4iCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJlc3VsdCA9ICJuZWVkc19hdHRlbnRpb24iCiAgICAgICAgZGV0YWlsID0gIk5vdCBjb25maXJtZWQuIENoZWNrIGxvZ2luLCBDQVBUQ0hBLCBkaXNhYmxlZCBTYXZlLCBvciBjaGFuZ2VkIHBhZ2UgY29udHJvbHM7IG5vIGF1dG9tYXRpYyByZXRyeSB0aGlzIHNsb3QuIgogICAgc3RhdGVbImF0dGVtcHRzIl1ba2V5XSA9IHsicmVzdWx0IjogcmVzdWx0LCAiZGV0YWlsIjogZGV0YWlsLCAiYXQiOiBkYXRldGltZS5ub3codGltZXpvbmUudXRjKS5pc29mb3JtYXQoKX0KICAgIHdyaXRlX3N0YXRlKHN0YXRlKQogICAgcHJpbnQoZiJ7a2V5fToge3Jlc3VsdH0uIHtkZXRhaWx9IiwgZmx1c2g9VHJ1ZSkKCgphc3luYyBkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgibW9kZSIsIGNob2ljZXM9WyJsb2dpbiIsICJydW4iLCAid2F0Y2giLCAic3RhdHVzIl0pCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQogICAgaWYgYXJncy5tb2RlID09ICJzdGF0dXMiOgogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVhZF9zdGF0ZSgpLCBpbmRlbnQ9MikpCiAgICAgICAgcmV0dXJuCiAgICAjIEtlZXAgdHdvIGNvcGllcyBmcm9tIHNhdmluZyB0aGUgc2FtZSBwcm9maWxlIGNvbmN1cnJlbnRseS4KICAgIGxvY2sgPSBzb2NrZXQuc29ja2V0KCkKICAgIHRyeToKICAgICAgICBsb2NrLmJpbmQoKCIxMjcuMC4wLjEiLCA0Nzg2MykpCiAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KCJBbm90aGVyIGNvcHkgbWF5IGJlIHJ1bm5pbmcgKG9yIHBvcnQgNDc4NjMgaXMgaW4gdXNlKS4gQ2xvc2UgaXQgZmlyc3QuIikKICAgIHRyeToKICAgICAgICBpZiBhcmdzLm1vZGUgPT0gImxvZ2luIjoKICAgICAgICAgICAgYXdhaXQgYnJvd3Nlcl9zZXNzaW9uKCJsb2dpbiIpCiAgICAgICAgZWxpZiBhcmdzLm1vZGUgPT0gInJ1biI6CiAgICAgICAgICAgIGFuc3dlciA9IGF3YWl0IGFzeW5jaW8udG9fdGhyZWFkKGlucHV0LCAiQ2xpY2sgU2F2ZSBvbiB5b3VyIENVUlJFTlQgcmVzdW1lIGhlYWRsaW5lLCB3aXRob3V0IGNoYW5naW5nIGl0PyBUeXBlIFlFUzogIikKICAgICAgICAgICAgaWYgYW5zd2VyID09ICJZRVMiOgogICAgICAgICAgICAgICAgYXdhaXQgcnVuX29uY2UoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIG5vdCByZWFkX3N0YXRlKCkuZ2V0KCJsb2dpbl9jaGVja2VkX2F0Iik6CiAgICAgICAgICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KCJSdW4gbG9naW4gZmlyc3QuIikKICAgICAgICAgICAgYW5zd2VyID0gYXdhaXQgYXN5bmNpby50b190aHJlYWQoaW5wdXQsICJBbGxvdyB1bmNoYW5nZWQtaGVhZGxpbmUgc2F2ZXMgYXQgOCBBTSBhbmQgOSBQTSBJU1Qgd2hpbGUgdGhpcyBpcyBvcGVuPyBUeXBlIFlFUzogIikKICAgICAgICAgICAgaWYgYW5zd2VyICE9ICJZRVMiOgogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIHByaW50KCJXYXRjaGluZyBtb3JuaW5nIDggQU3igJMxMiBQTSAvIGV2ZW5pbmcgOSBQTeKAkzExIFBNIElTVC4gS2VlcCBjb21wdXRlciBhd2FrZSBhbmQgdGhpcyB3aW5kb3cgb3Blbi4gQ3RybCtDIHN0b3BzLiIsIGZsdXNoPVRydWUpCiAgICAgICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgICAgICBzbG90ID0gc2NoZWR1bGVkX3Nsb3QoZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0YykpCiAgICAgICAgICAgICAgICBpZiBzbG90OgogICAgICAgICAgICAgICAgICAgIGF3YWl0IHJ1bl9vbmNlKHNsb3QpCiAgICAgICAgICAgICAgICBhd2FpdCBhc3luY2lvLnNsZWVwKDMwKQogICAgZmluYWxseToKICAgICAgICBsb2NrLmNsb3NlKCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdHJ5OgogICAgICAgIGFzeW5jaW8ucnVuKG1haW4oKSkKICAgIGV4Y2VwdCBLZXlib2FyZEludGVycnVwdDoKICAgICAgICBwcmludCgiU3RvcHBlZC4iKQ==
+"""User-operated local Naukri saves. No passwords, CAPTCHA handling or evasion."""
+import argparse
+import asyncio
+from datetime import datetime, timedelta, timezone
+import json
+import os
+from pathlib import Path
+import socket
+
+IST = timezone(timedelta(hours=5, minutes=30))
+PROFILE_URL = "https://www.naukri.com/mnjuser/profile"
+HOME = Path.home() / ".naukri-local"
+
+
+def scheduled_slot(now):
+    local = now.astimezone(IST)
+    if 8 <= local.hour < 12:
+        return f"{local.date()}:morning"
+    if 21 <= local.hour < 23:
+        return f"{local.date()}:evening"
+    return None
+
+
+def read_state():
+    path = HOME / "status.json"
+    return json.loads(path.read_text()) if path.exists() else {"attempts": {}}
+
+
+def write_state(state):
+    HOME.mkdir(mode=0o700, parents=True, exist_ok=True)
+    temp = HOME / "status.tmp"
+    temp.write_text(json.dumps(state, indent=2))
+    temp.replace(HOME / "status.json")
+
+
+def edit_control(page):
+    return page.locator("xpath=//div[contains(@class,'widgetHead')]//span[normalize-space()='Resume headline']/following-sibling::span")
+
+
+async def save_unchanged_headline(page):
+    """Fail closed if candidate selectors differ; never replace the user's text."""
+    from playwright.async_api import expect
+    edit = edit_control(page)
+    await expect(edit).to_have_count(1, timeout=15000)
+    await edit.click()
+    field = page.locator("#resumeHeadlineTxt")
+    await expect(field).to_be_visible()
+    original = await field.input_value()
+    if not original.strip():
+        raise RuntimeError("Empty headline: nothing was saved.")
+    save = page.get_by_role("button", name="Save", exact=True)
+    await expect(save).to_have_count(1)
+    await expect(save).to_be_enabled()
+    # Do not append whitespace or change name, experience, or any other profile data.
+    await save.click()
+    await expect(field).to_be_hidden()
+    await page.reload(wait_until="domcontentloaded")
+    await expect(edit_control(page)).to_have_count(1, timeout=15000)
+    await edit_control(page).click()
+    await expect(field).to_be_visible()
+    await expect(field).to_have_value(original)
+    return "save_completed_headline_unchanged"
+
+
+async def browser_session(mode):
+    from playwright.async_api import async_playwright
+    HOME.mkdir(mode=0o700, parents=True, exist_ok=True)
+    async with async_playwright() as p:
+        context = await p.chromium.launch_persistent_context(
+            str(HOME / "browser"), headless=False,
+            viewport={"width": 1280, "height": 900},
+        )
+        page = await context.new_page()
+        try:
+            await page.goto(PROFILE_URL, wait_until="domcontentloaded", timeout=45000)
+            if mode == "login":
+                print("Sign into Naukri yourself in this window. Complete any CAPTCHA yourself.")
+                print("Open your profile, then return here. No profile changes will be made.")
+                await asyncio.to_thread(input, "Press Enter when your profile is open: ")
+                from playwright.async_api import expect
+                await expect(edit_control(page)).to_have_count(1, timeout=15000)
+                state = read_state()
+                state["login_checked_at"] = datetime.now(timezone.utc).isoformat()
+                write_state(state)
+                print("Profile access checked. Login stays only on this computer.")
+                return "login_checked"
+            return await save_unchanged_headline(page)
+        finally:
+            await context.close()
+
+
+async def run_once(slot=None):
+    state = read_state()
+    if slot and slot in state.get("attempts", {}):
+        return
+    key = slot or f"manual:{datetime.now(timezone.utc).isoformat()}"
+    state.setdefault("attempts", {})[key] = {"result": "started", "at": datetime.now(timezone.utc).isoformat()}
+    write_state(state)  # Interrupted attempts are not automatically repeated.
+    try:
+        result = await browser_session("save")
+        detail = "Clicked Save and reloaded: headline unchanged. No ranking or timestamp claim."
+    except Exception:
+        result = "needs_attention"
+        detail = "Not confirmed. Check login, CAPTCHA, disabled Save, or changed page controls; no automatic retry this slot."
+    state["attempts"][key] = {"result": result, "detail": detail, "at": datetime.now(timezone.utc).isoformat()}
+    write_state(state)
+    print(f"{key}: {result}. {detail}", flush=True)
+
+
+async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("mode", choices=["login", "run", "watch", "status"])
+    args = parser.parse_args()
+    if args.mode == "status":
+        print(json.dumps(read_state(), indent=2))
+        return
+    # Keep two copies from saving the same profile concurrently.
+    lock = socket.socket()
+    try:
+        lock.bind(("127.0.0.1", 47863))
+    except OSError:
+        raise SystemExit("Another copy may be running (or port 47863 is in use). Close it first.")
+    try:
+        if args.mode == "login":
+            await browser_session("login")
+        elif args.mode == "run":
+            answer = await asyncio.to_thread(input, "Click Save on your CURRENT resume headline, without changing it? Type YES: ")
+            if answer == "YES":
+                await run_once()
+        else:
+            if not read_state().get("login_checked_at"):
+                raise SystemExit("Run login first.")
+            answer = await asyncio.to_thread(input, "Allow unchanged-headline saves at 8 AM and 9 PM IST while this is open? Type YES: ")
+            if answer != "YES":
+                return
+            print("Watching morning 8 AM–12 PM / evening 9 PM–11 PM IST. Keep computer awake and this window open. Ctrl+C stops.", flush=True)
+            while True:
+                slot = scheduled_slot(datetime.now(timezone.utc))
+                if slot:
+                    await run_once(slot)
+                await asyncio.sleep(30)
+    finally:
+        lock.close()
+
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Stopped.")

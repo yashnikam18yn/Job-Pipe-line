@@ -1,1 +1,192 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjb250YWluc0VtYWlsQWRkcmVzcyB9IGZyb20gIkAvbGliL3RlbXBsYXRlIjsKaW1wb3J0IHsgam9iUmVmZXJlbmNlLCByZW1haW5pbmdRdW90YSwgcmVuZGVyVGVtcGxhdGUgfSBmcm9tICJAL2xpYi90ZW1wbGF0ZSI7CgpkZXNjcmliZSgiam9iIHJlZmVyZW5jZXMiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGEgdmFsaWQgSFRUUChTKSBqb2IgVVJMIiwgKCkgPT4gewogICAgY29uc3QgdXJsID0gImh0dHBzOi8vY29wZWxhbmQud2Q1Lm15d29ya2RheWpvYnMuY29tL2VuLVVTL0NvcGVsYW5kL2pvYi9FbmdpbmVlcl9KUjExMDA2MyI7CiAgICBleHBlY3Qoam9iUmVmZXJlbmNlKHVybCkuam9iX3VybCkudG9CZSh1cmwpOwogICAgZXhwZWN0KGpvYlJlZmVyZW5jZSh1cmwpLmpvYl9pZCkudG9CZSgiSlIxMTAwNjMiKTsKICB9KTsKICBpdCgiZXh0cmFjdHMgSlIxMTAwNjMgd2hlbiBhIFVSTCBpcyBtYWxmb3JtZWQiLCAoKSA9PiB7CiAgICBjb25zdCByZWYgPSBqb2JSZWZlcmVuY2UoImNvcGVsYW5kLndkNS5teXdvcmtkYXlqb2JzLmNvbS9qb2IvRW5naW5lZXJfSlIxMTAwNjMiKTsKICAgIGV4cGVjdChyZWYuam9iX3VybCkudG9CZSgiIik7CiAgICBleHBlY3QocmVmLmpvYl9pZCkudG9CZSgiSlIxMTAwNjMiKTsKICB9KTsKICBpdCgiZXh0cmFjdHMgam9iIElEcyBmcm9tIExpbmtlZEluIGFuZCBxdWVyeSBwYXJhbWV0ZXJzIiwgKCkgPT4gewogICAgZXhwZWN0KGpvYlJlZmVyZW5jZSgiaW4ubGlua2VkaW4uY29tL2pvYnMvdmlldy9qYXZhLWRldmVsb3Blci1hdC10ZWt3aXNzZW4taW5kaWEtNDQ4NDA3MjAxNiIpLmpvYl9pZCkudG9CZSgiNDQ4NDA3MjAxNiIpOwogICAgZXhwZWN0KGpvYlJlZmVyZW5jZSgiaHR0cHM6Ly9jYXJlZXJzLmV4YW1wbGUuY29tL2pvYj9qb2JJZD1KUjExMDA2MyIpLmpvYl9pZCkudG9CZSgiSlIxMTAwNjMiKTsKICB9KTsKICBpdCgiZXh0cmFjdHMgV29ya2RheSByZXF1aXNpdGlvbiBJRHMgZnJvbSB0aGUgam9iIHBhdGgiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IGlkIG9mIFsiSlIxMTAwNjMiLCAiUi0xMjM0NTYiLCAiUjEyMzQ1NiIsICIxMjM0NTYiLCAiSlJfMTEwMDYzIl0pIHsKICAgICAgY29uc3QgdXJsID0gYGh0dHBzOi8vY29tcGFueS53ZDUubXl3b3JrZGF5am9icy5jb20vZW4tVVMvRXh0ZXJuYWwvam9iL0luZGlhL1NvZnR3YXJlLUVuZ2luZWVyXyR7aWR9YDsKICAgICAgZXhwZWN0KGpvYlJlZmVyZW5jZSh1cmwpLmpvYl9pZCkudG9CZShpZCk7CiAgICB9CiAgICBleHBlY3Qoam9iUmVmZXJlbmNlKCJodHRwczovL2NvbXBhbnkud2Q1Lm15d29ya2RheWpvYnMuY29tL2pvYi9JbmRpYS9Tb2Z0d2FyZS1FbmdpbmVlciU1RlIxMjM0NTYvYXBwbHkiKS5qb2JfaWQpLnRvQmUoIlIxMjM0NTYiKTsKICB9KTsKICBpdCgiaW5jbHVkZXMgYm90aCB0aGUgam9iIFVSTCBhbmQgaXRzIGlkZW50aWZpYWJsZSBKb2IgSUQgaW4gdGhlIGVtYWlsIiwgKCkgPT4gewogICAgY29uc3QgdXJsID0gImh0dHBzOi8vY29wZWxhbmQud2Q1Lm15d29ya2RheWpvYnMuY29tL2VuLVVTL0NvcGVsYW5kL2pvYi9FbmdpbmVlcl9KUjExMDA2MyI7CiAgICBleHBlY3QocmVuZGVyVGVtcGxhdGUoInt7am9iX3JlZmVyZW5jZX19IiwgeyBqb2JfdXJsOiB1cmwgfSkpLnRvQmUoYEpvYiBVUkw6ICR7dXJsfVxuSm9iIElEOiBKUjExMDA2M2ApOwogIH0pOwogIGl0KCJvbWl0cyBKb2IgSUQgd2hlbiB0aGUgVVJMIGhhcyBubyByZWNvZ25pemFibGUgcmVxdWlzaXRpb24iLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IHVybCBvZiBbCiAgICAgICJodHRwczovL2NvbXBhbnkud2Q1Lm15d29ya2RheWpvYnMuY29tL2pvYi9JbmRpYS9Tb2Z0d2FyZS1FbmdpbmVlciIsCiAgICAgICJodHRwczovL2NvbXBhbnkud2Q1Lm15d29ya2RheWpvYnMuY29tL2pvYi9JbmRpYS9FbmdpbmVlci0yIiwKICAgICAgImh0dHBzOi8vY2FyZWVycy5leGFtcGxlLmNvbS9qb2Ivc29mdHdhcmUtZW5naW5lZXI/dHJhY2tpbmdJZD0xMjM0NTYiLAogICAgICAiaHR0cHM6Ly9leGFtcGxlLmNvbS9qb2IvU29mdHdhcmUtRW5naW5lZXJfMTIzNDU2IiwKICAgIF0pIHsKICAgICAgZXhwZWN0KHJlbmRlclRlbXBsYXRlKCJ7e2pvYl9yZWZlcmVuY2V9fSIsIHsgam9iX3VybDogdXJsLCBqb2JfaWQ6ICJpbnRlcm5hbC11dWlkIiB9KSkudG9CZShgSm9iIFVSTDogJHt1cmx9YCk7CiAgICAgIGV4cGVjdChqb2JSZWZlcmVuY2UodXJsKS5qb2JfaWQpLnRvQmUoIiIpOwogICAgfQogIH0pOwogIGl0KCJkb2VzIG5vdCBpbmNsdWRlIHVuc2FmZSBsaW5rcyBvciBpbnZlbnQgSURzIGZvciBtYW51YWwgam9icyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgdmFsdWUgb2YgWyJqYXZhc2NyaXB0OmFsZXJ0KDEpIiwgIm1hbnVhbDo0OWQ0Njk5MC1iY2IzLTRkZmMtYTllMS0xNDA4YmQ3Yjg2OGQiLCAibm90IGEgbGluayIsICJodHRwczovL3VzZXI6cGFzc0BleGFtcGxlLmNvbS9qb2IiLCBudWxsXSkgewogICAgICBleHBlY3Qoam9iUmVmZXJlbmNlKHZhbHVlKSkudG9FcXVhbCh7IGpvYl91cmw6ICIiLCBqb2JfaWQ6ICIiLCBqb2JfcmVmZXJlbmNlOiAiIiB9KTsKICAgIH0KICB9KTsKfSk7CgpkZXNjcmliZSgiYm91bmNlIHJlY2lwaWVudCBtYXRjaGluZyIsICgpID0+IHsKICBpdCgiZG9lcyBub3QgbWFyayBhIGRpZmZlcmVudCByZWNpcGllbnQgYm91bmNlZCBiYXNlZCBvbiBhIHN1YnN0cmluZyIsICgpID0+IHsKICAgIGV4cGVjdChjb250YWluc0VtYWlsQWRkcmVzcygiQWRkcmVzcyBub3QgZm91bmQ6IGpvYW5uQGV4YW1wbGUuY29tIiwgImFubkBleGFtcGxlLmNvbSIpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChjb250YWluc0VtYWlsQWRkcmVzcygiRmFpbGVkIHJlY2lwaWVudDogPEFOTkBleGFtcGxlLmNvbT4iLCAiYW5uQGV4YW1wbGUuY29tIikpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoY29udGFpbnNFbWFpbEFkZHJlc3MoImFubkBleGFtcGxlLmNvbS5hdSBmYWlsZWQiLCAiYW5uQGV4YW1wbGUuY29tIikpLnRvQmUoZmFsc2UpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJlbWFpbCB0ZW1wbGF0ZSIsICgpID0+IHsKICBpdCgiZmlsbHMgcGxhY2Vob2xkZXJzIiwgKCkgPT4gewogICAgZXhwZWN0KHJlbmRlclRlbXBsYXRlKCJIaSB7e2ZpcnN0X25hbWV9fSwge3tqb2JfdGl0bGV9fSBhdCB7e2NvbXBhbnl9fSIsIHsgZmlyc3RfbmFtZTogIkFzaGEiLCBqb2JfdGl0bGU6ICJTREUgMiIsIGNvbXBhbnk6ICJBY21lIiB9KSkudG9CZSgKICAgICAgIkhpIEFzaGEsIFNERSAyIGF0IEFjbWUiLAogICAgKTsKICB9KTsKICBpdCgiZmFsbHMgYmFjayB3aGVuIGEgbmFtZSBpcyBtaXNzaW5nIiwgKCkgPT4gewogICAgZXhwZWN0KHJlbmRlclRlbXBsYXRlKCJIaSB7e2ZpcnN0X25hbWV9fSIsIHt9KSkudG9CZSgiSGkgdGhlcmUiKTsKICB9KTsKfSk7CgpkZXNjcmliZSgiZGFpbHkgbGltaXQiLCAoKSA9PiB7CiAgaXQoImFsbG93cyB1cCB0byB0aGUgZGFpbHkgY2FwIG9mIDE1IiwgKCkgPT4gewogICAgZXhwZWN0KHJlbWFpbmluZ1F1b3RhKDE1LCAwKSkudG9CZSgxNSk7CiAgICBleHBlY3QocmVtYWluaW5nUXVvdGEoMTUsIDEyKSkudG9CZSgzKTsKICB9KTsKICBpdCgibmV2ZXIgZ29lcyBuZWdhdGl2ZSBvbmNlIHRoZSBjYXAgaXMgcmVhY2hlZCIsICgpID0+IHsKICAgIGV4cGVjdChyZW1haW5pbmdRdW90YSgxNSwgMTUpKS50b0JlKDApOwogICAgZXhwZWN0KHJlbWFpbmluZ1F1b3RhKDE1LCAyMCkpLnRvQmUoMCk7CiAgfSk7Cn0pOwoKaW1wb3J0IHsgaXNXaXRoaW4yNGggfSBmcm9tICJAL2xpYi9vdXRyZWFjaC5zZXJ2ZXIiOwpkZXNjcmliZSgib25seSBqb2JzIGZyb20gdGhlIHBhc3QgMjQgaG91cnMiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGZyZXNoIHBvc3RpbmdzIiwgKCkgPT4gewogICAgZXhwZWN0KGlzV2l0aGluMjRoKCJQb3N0ZWQgNSBob3VycyBhZ28iKSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChpc1dpdGhpbjI0aCgiMSBkYXkgYWdvIikpLnRvQmUodHJ1ZSk7CiAgfSk7CiAgaXQoImRyb3BzIG9sZGVyIHBvc3RpbmdzIiwgKCkgPT4gewogICAgZXhwZWN0KGlzV2l0aGluMjRoKCJQb3N0ZWQgMyBkYXlzIGFnbyIpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChpc1dpdGhpbjI0aCgiMSB3ZWVrIGFnbyIpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChpc1dpdGhpbjI0aCgiMzArIGRheXMgYWdvIikpLnRvQmUoZmFsc2UpOwogIH0pOwp9KTsKZGVzY3JpYmUoImxpbmtlZGluIHBsYWNlaG9sZGVyIiwgKCkgPT4gewogIGl0KCJpbnNlcnRzIHRoZSBMaW5rZWRJbiBsaW5rIiwgKCkgPT4gewogICAgZXhwZWN0KHJlbmRlclRlbXBsYXRlKCJMaW5rZWRJbjoge3tsaW5rZWRpbn19IiwgeyBsaW5rZWRpbjogImh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi95YXNoLW5pa2FtLTM0MDRiYjIyMy8iIH0pKS50b0JlKAogICAgICAiTGlua2VkSW46IGh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi95YXNoLW5pa2FtLTM0MDRiYjIyMy8iLAogICAgKTsKICB9KTsKfSk7CgppbXBvcnQgeyBzZW5kYWJsZVN0YXR1c2VzIH0gZnJvbSAiQC9saWIvdGVtcGxhdGUiOwpkZXNjcmliZSgicmV2aWV3IHF1ZXVlIiwgKCkgPT4gewogIGl0KCJvbmx5IHNlbmRzIGFwcHJvdmVkIGVtYWlscyB3aGVuIHJldmlldyBpcyBvbiIsICgpID0+IHsKICAgIGV4cGVjdChzZW5kYWJsZVN0YXR1c2VzKHRydWUpKS50b0VxdWFsKFsiYXBwcm92ZWQiXSk7CiAgfSk7CiAgaXQoInNlbmRzIHdhaXRpbmcgZW1haWxzIHRvbyB3aGVuIHJldmlldyBpcyBvZmYiLCAoKSA9PiB7CiAgICBleHBlY3Qoc2VuZGFibGVTdGF0dXNlcyhmYWxzZSkpLnRvQ29udGFpbigicGVuZGluZyIpOwogIH0pOwp9KTsKCmltcG9ydCB7IHRpdGxlTWF0Y2hlcyB9IGZyb20gIkAvbGliL291dHJlYWNoLnNlcnZlciI7CmRlc2NyaWJlKCJ3aG8gZ2V0cyBjb250YWN0ZWQiLCAoKSA9PiB7CiAgY29uc3QgdGl0bGVzID0gWyJIUiIsICJSZWNydWl0ZXIiLCAiVGFsZW50IEFjcXVpc2l0aW9uIiwgIkVuZ2luZWVyaW5nIE1hbmFnZXIiLCAiU0RFIDIiXTsKICBpdCgibWF0Y2hlcyBIUiwgcmVjcnVpdGVycywgbWFuYWdlcnMgYW5kIFNERTJzIiwgKCkgPT4gewogICAgZXhwZWN0KHRpdGxlTWF0Y2hlcygiU2VuaW9yIFRlY2huaWNhbCBSZWNydWl0ZXIiLCB0aXRsZXMpKS50b0JlKHRydWUpOwogICAgZXhwZWN0KHRpdGxlTWF0Y2hlcygiSFIgQnVzaW5lc3MgUGFydG5lciIsIHRpdGxlcykpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QodGl0bGVNYXRjaGVzKCJFbmdpbmVlcmluZyBNYW5hZ2VyLCBQYXltZW50cyIsIHRpdGxlcykpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QodGl0bGVNYXRjaGVzKCJTREUgSUkiLCB0aXRsZXMpKS50b0JlKHRydWUpOwogIH0pOwogIGl0KCJza2lwcyB1bnJlbGF0ZWQgcm9sZXMiLCAoKSA9PiB7CiAgICBleHBlY3QodGl0bGVNYXRjaGVzKCJTYWxlcyBEaXJlY3RvciIsIHRpdGxlcykpLnRvQmUoZmFsc2UpOwogIH0pOwp9KTsKCmltcG9ydCB7IGlzQ29tcGFueUVtYWlsIH0gZnJvbSAiQC9saWIvb3V0cmVhY2guc2VydmVyIjsKZGVzY3JpYmUoImlzQ29tcGFueUVtYWlsIiwgKCkgPT4gewogIGl0KCJrZWVwcyBjb21wYW55LWRvbWFpbiBhZGRyZXNzZXMiLCAoKSA9PiB7CiAgICBleHBlY3QoaXNDb21wYW55RW1haWwoInByaXlhQHF1ZXN0Z2xvYmFsLmNvbSIsICJxdWVzdGdsb2JhbC5jb20iKSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChpc0NvbXBhbnlFbWFpbCgiaHJAaW4ucXVlc3RnbG9iYWwuY29tIiwgInd3dy5xdWVzdGdsb2JhbC5jb20iKSkudG9CZSh0cnVlKTsKICB9KTsKICBpdCgiZHJvcHMgZnJlZSBtYWlsYm94ZXMgYW5kIG90aGVyIGRvbWFpbnMiLCAoKSA9PiB7CiAgICBleHBlY3QoaXNDb21wYW55RW1haWwoInByaXlhQGdtYWlsLmNvbSIsICJxdWVzdGdsb2JhbC5jb20iKSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoaXNDb21wYW55RW1haWwoInByaXlhQG90aGVyY28uY29tIiwgInF1ZXN0Z2xvYmFsLmNvbSIpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChpc0NvbXBhbnlFbWFpbCgieEBub3RxdWVzdGdsb2JhbC5jb20iLCAicXVlc3RnbG9iYWwuY29tIikpLnRvQmUoZmFsc2UpOwogIH0pOwp9KTsKCmltcG9ydCB7IGlzQWJvdmVFeHBlcmllbmNlQmFuZCwgaXNTZW5pb3JSb2xlIH0gZnJvbSAiQC9saWIvdGVtcGxhdGUiOwpkZXNjcmliZSgiam9iIGxldmVsIGZpbHRlciIsICgpID0+IHsKICBpdCgia2VlcHMgU0RFMiwgZW5naW5lZXIgYW5kIGp1bmlvciByb2xlcyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgdCBvZiBbIlNERSAyIiwgIlNERSBJSSIsICJTb2Z0d2FyZSBFbmdpbmVlciIsICJFbmdpbmVlciBJIFNvZnR3YXJlIERldmVsb3BtZW50IiwgIkphdmEgQmFja2VuZCBEZXZlbG9wZXIiLCAiSnVuaW9yIERldmVsb3BlciIsICJHcmFkdWF0ZSBFbmdpbmVlciBUcmFpbmVlIl0pIHsKICAgICAgZXhwZWN0KGlzU2VuaW9yUm9sZSh0KSkudG9CZShmYWxzZSk7CiAgICB9CiAgfSk7CgogIGl0KCJoaWRlcyBsZWFkIGFuZCBhYm92ZS1TREUyIHRpdGxlcyIsICgpID0+IHsKICAgIGZvciAoY29uc3QgdCBvZiBbIkxlYWQgRW5naW5lZXIiLCAiVGVjaG5pY2FsIExlYWQg4oCTIEphdmEiLCAiUHJpbmNpcGFsIEVuZ2luZWVyIiwgIlN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIiwgIkVuZ2luZWVyaW5nIE1hbmFnZXIiLCAiU29sdXRpb24gQXJjaGl0ZWN0IiwgIlNERSBJSUkiLCAiU29mdHdhcmUgRW5naW5lZXIgMyIsICJEaXJlY3RvciBvZiBFbmdpbmVlcmluZyIsICJIZWFkIG9mIEVuZ2luZWVyaW5nIiwgIlZQIEVuZ2luZWVyaW5nIiwgIlNlbmlvciBTREUiXSkgewogICAgICBleHBlY3QoaXNTZW5pb3JSb2xlKHQpKS50b0JlKHRydWUpOwogICAgfQogIH0pOwogIGl0KCJoaWRlcyBqb2JzIHRoYXQgYXNrIGZvciBtb3JlIHRoYW4gNSB5ZWFycyIsICgpID0+IHsKICAgIGV4cGVjdChpc0Fib3ZlRXhwZXJpZW5jZUJhbmQoIlNvZnR3YXJlIEVuZ2luZWVyIiwgIkxvb2tpbmcgZm9yIDgrIHllYXJzIG9mIGV4cGVyaWVuY2UiKSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChpc0Fib3ZlRXhwZXJpZW5jZUJhbmQoIkphdmEgRGV2ZWxvcGVyIiwgIkV4cGVyaWVuY2U6IDYgdG8gMTAgeWVhcnMiKSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChpc0Fib3ZlRXhwZXJpZW5jZUJhbmQoIlNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlciIsICIzLTUgeWVhcnMgb2YgZXhwZXJpZW5jZSIpKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChpc0Fib3ZlRXhwZXJpZW5jZUJhbmQoIlNvZnR3YXJlIEVuZ2luZWVyIiwgIjAtMiB5ZWFycyIpKS50b0JlKGZhbHNlKTsKICB9KTsKfSk7CgoKaW1wb3J0IHsgcGFyc2VQb3N0ZWRBdCwgcG9zdGVkTGFiZWwsIHRpbWVBZ28gfSBmcm9tICJAL2xpYi90ZW1wbGF0ZSI7CmRlc2NyaWJlKCJ3aGVuIGEgam9iIHdhcyBwb3N0ZWQiLCAoKSA9PiB7CiAgY29uc3Qgbm93ID0gbmV3IERhdGUoIjIwMjYtMTAtMjhUMTI6MDA6MDBaIik7CiAgaXQoInJlYWRzICcxMyBob3VycyBhZ28nIGFuZCAnNTIgbWludXRlcyBhZ28nIHdvcmRpbmciLCAoKSA9PiB7CiAgICBleHBlY3QocGFyc2VQb3N0ZWRBdCgiUG9zdGVkIDEzIGhvdXJzIGFnbyIsIG5vdykpLnRvQmUobmV3IERhdGUobm93LmdldFRpbWUoKSAtIDEzICogM182MDBfMDAwKS50b0lTT1N0cmluZygpKTsKICAgIGV4cGVjdChwYXJzZVBvc3RlZEF0KCI1MiBtaW51dGVzIGFnbyIsIG5vdykpLnRvQmUobmV3IERhdGUobm93LmdldFRpbWUoKSAtIDUyICogNjBfMDAwKS50b0lTT1N0cmluZygpKTsKICAgIGV4cGVjdChwYXJzZVBvc3RlZEF0KCJwb3N0ZWQgeWVzdGVyZGF5Iiwgbm93KSkudG9CZShuZXcgRGF0ZShub3cuZ2V0VGltZSgpIC0gODZfNDAwXzAwMCkudG9JU09TdHJpbmcoKSk7CiAgfSk7CiAgaXQoInVzZXMgYSBwbGFpbiBkYXRlIHVubGVzcyB0b2xkIHRvIGlnbm9yZSBpdCIsICgpID0+IHsKICAgIGV4cGVjdChwYXJzZVBvc3RlZEF0KCIyMDI2LTEwLTI4Iiwgbm93KSkudG9CZSgiMjAyNi0xMC0yOFQwMDowMDowMC4wMDBaIik7CiAgICBleHBlY3QocGFyc2VQb3N0ZWRBdCgiMjAyNi0xMC0yOCIsIG5vdywgZmFsc2UpKS50b0JlTnVsbCgpOwogIH0pOwogIGl0KCJzYXlzIG5vdGhpbmcgd2hlbiB0aGUgdGV4dCBjYXJyaWVzIG5vIHRpbWUiLCAoKSA9PiB7CiAgICBleHBlY3QocGFyc2VQb3N0ZWRBdCgiSmF2YSBEZXZlbG9wZXIgYXQgQWNtZSIsIG5vdykpLnRvQmVOdWxsKCk7CiAgfSk7CiAgaXQoImxhYmVscyByZWNlbnQgcG9zdGluZ3MgcmVsYXRpdmVseSwgb2xkZXIgb25lcyBieSBkYXRlLCBhbmQgZmFsbHMgYmFjayB0byB3aGVuIHdlIGFkZGVkIHRoZW0iLCAoKSA9PiB7CiAgICBleHBlY3QodGltZUFnbyhuZXcgRGF0ZShub3cuZ2V0VGltZSgpIC0gOTAgKiA2MF8wMDApLnRvSVNPU3RyaW5nKCksIG5vdykpLnRvQmUoIjIgaG91cnMgYWdvIik7CiAgICBleHBlY3QocG9zdGVkTGFiZWwobmV3IERhdGUobm93LmdldFRpbWUoKSAtIDMgKiAzXzYwMF8wMDApLnRvSVNPU3RyaW5nKCksIG51bGwsIG5vdykpLnRvQmUoIlBvc3RlZCAzIGhvdXJzIGFnbyIpOwogICAgZXhwZWN0KHBvc3RlZExhYmVsKG5ldyBEYXRlKG5vdy5nZXRUaW1lKCkgLSAzICogODZfNDAwXzAwMCkudG9JU09TdHJpbmcoKSwgbnVsbCwgbm93KS5zdGFydHNXaXRoKCJQb3N0ZWQgIikpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QocG9zdGVkTGFiZWwobnVsbCwgbmV3IERhdGUobm93LmdldFRpbWUoKSAtIDIwICogNjBfMDAwKS50b0lTT1N0cmluZygpLCBub3cpKS50b0JlKCJBZGRlZCAyMCBtaW4gYWdvIik7CiAgICBleHBlY3QocG9zdGVkTGFiZWwobnVsbCwgbnVsbCwgbm93KSkudG9CZSgiIik7CiAgfSk7Cn0pOw==
+import { describe, expect, it } from "vitest";
+import { containsEmailAddress } from "@/lib/template";
+import { jobReference, remainingQuota, renderTemplate } from "@/lib/template";
+
+describe("job references", () => {
+  it("keeps a valid HTTP(S) job URL", () => {
+    const url = "https://copeland.wd5.myworkdayjobs.com/en-US/Copeland/job/Engineer_JR110063";
+    expect(jobReference(url).job_url).toBe(url);
+    expect(jobReference(url).job_id).toBe("JR110063");
+  });
+  it("extracts JR110063 when a URL is malformed", () => {
+    const ref = jobReference("copeland.wd5.myworkdayjobs.com/job/Engineer_JR110063");
+    expect(ref.job_url).toBe("");
+    expect(ref.job_id).toBe("JR110063");
+  });
+  it("extracts job IDs from LinkedIn and query parameters", () => {
+    expect(jobReference("in.linkedin.com/jobs/view/java-developer-at-tekwissen-india-4484072016").job_id).toBe("4484072016");
+    expect(jobReference("https://careers.example.com/job?jobId=JR110063").job_id).toBe("JR110063");
+  });
+  it("extracts Workday requisition IDs from the job path", () => {
+    for (const id of ["JR110063", "R-123456", "R123456", "123456", "JR_110063"]) {
+      const url = `https://company.wd5.myworkdayjobs.com/en-US/External/job/India/Software-Engineer_${id}`;
+      expect(jobReference(url).job_id).toBe(id);
+    }
+    expect(jobReference("https://company.wd5.myworkdayjobs.com/job/India/Software-Engineer%5FR123456/apply").job_id).toBe("R123456");
+  });
+  it("includes both the job URL and its identifiable Job ID in the email", () => {
+    const url = "https://copeland.wd5.myworkdayjobs.com/en-US/Copeland/job/Engineer_JR110063";
+    expect(renderTemplate("{{job_reference}}", { job_url: url })).toBe(`Job URL: ${url}\nJob ID: JR110063`);
+  });
+  it("omits Job ID when the URL has no recognizable requisition", () => {
+    for (const url of [
+      "https://company.wd5.myworkdayjobs.com/job/India/Software-Engineer",
+      "https://company.wd5.myworkdayjobs.com/job/India/Engineer-2",
+      "https://careers.example.com/job/software-engineer?trackingId=123456",
+      "https://example.com/job/Software-Engineer_123456",
+    ]) {
+      expect(renderTemplate("{{job_reference}}", { job_url: url, job_id: "internal-uuid" })).toBe(`Job URL: ${url}`);
+      expect(jobReference(url).job_id).toBe("");
+    }
+  });
+  it("does not include unsafe links or invent IDs for manual jobs", () => {
+    for (const value of ["javascript:alert(1)", "manual:49d46990-bcb3-4dfc-a9e1-1408bd7b868d", "not a link", "https://user:pass@example.com/job", null]) {
+      expect(jobReference(value)).toEqual({ job_url: "", job_id: "", job_reference: "" });
+    }
+  });
+});
+
+describe("bounce recipient matching", () => {
+  it("does not mark a different recipient bounced based on a substring", () => {
+    expect(containsEmailAddress("Address not found: joann@example.com", "ann@example.com")).toBe(false);
+    expect(containsEmailAddress("Failed recipient: <ANN@example.com>", "ann@example.com")).toBe(true);
+    expect(containsEmailAddress("ann@example.com.au failed", "ann@example.com")).toBe(false);
+  });
+});
+
+describe("email template", () => {
+  it("fills placeholders", () => {
+    expect(renderTemplate("Hi {{first_name}}, {{job_title}} at {{company}}", { first_name: "Asha", job_title: "SDE 2", company: "Acme" })).toBe(
+      "Hi Asha, SDE 2 at Acme",
+    );
+  });
+  it("falls back when a name is missing", () => {
+    expect(renderTemplate("Hi {{first_name}}", {})).toBe("Hi there");
+  });
+});
+
+describe("daily limit", () => {
+  it("allows up to the daily cap of 15", () => {
+    expect(remainingQuota(15, 0)).toBe(15);
+    expect(remainingQuota(15, 12)).toBe(3);
+  });
+  it("never goes negative once the cap is reached", () => {
+    expect(remainingQuota(15, 15)).toBe(0);
+    expect(remainingQuota(15, 20)).toBe(0);
+  });
+});
+
+import { isWithin24h } from "@/lib/outreach.server";
+describe("only jobs from the past 24 hours", () => {
+  it("keeps fresh postings", () => {
+    expect(isWithin24h("Posted 5 hours ago")).toBe(true);
+    expect(isWithin24h("1 day ago")).toBe(true);
+  });
+  it("drops older postings", () => {
+    expect(isWithin24h("Posted 3 days ago")).toBe(false);
+    expect(isWithin24h("1 week ago")).toBe(false);
+    expect(isWithin24h("30+ days ago")).toBe(false);
+  });
+});
+describe("linkedin placeholder", () => {
+  it("inserts the LinkedIn link", () => {
+    expect(renderTemplate("LinkedIn: {{linkedin}}", { linkedin: "https://www.linkedin.com/in/yash-nikam-3404bb223/" })).toBe(
+      "LinkedIn: https://www.linkedin.com/in/yash-nikam-3404bb223/",
+    );
+  });
+});
+
+import { sendableStatuses } from "@/lib/template";
+describe("review queue", () => {
+  it("only sends approved emails when review is on", () => {
+    expect(sendableStatuses(true)).toEqual(["approved"]);
+  });
+  it("sends waiting emails too when review is off", () => {
+    expect(sendableStatuses(false)).toContain("pending");
+  });
+});
+
+import { titleMatches } from "@/lib/outreach.server";
+describe("who gets contacted", () => {
+  const titles = ["HR", "Recruiter", "Talent Acquisition", "Engineering Manager", "SDE 2"];
+  it("matches HR, recruiters, managers and SDE2s", () => {
+    expect(titleMatches("Senior Technical Recruiter", titles)).toBe(true);
+    expect(titleMatches("HR Business Partner", titles)).toBe(true);
+    expect(titleMatches("Engineering Manager, Payments", titles)).toBe(true);
+    expect(titleMatches("SDE II", titles)).toBe(true);
+  });
+  it("skips unrelated roles", () => {
+    expect(titleMatches("Sales Director", titles)).toBe(false);
+  });
+});
+
+import { isCompanyEmail } from "@/lib/outreach.server";
+describe("isCompanyEmail", () => {
+  it("keeps company-domain addresses", () => {
+    expect(isCompanyEmail("priya@questglobal.com", "questglobal.com")).toBe(true);
+    expect(isCompanyEmail("hr@in.questglobal.com", "www.questglobal.com")).toBe(true);
+  });
+  it("drops free mailboxes and other domains", () => {
+    expect(isCompanyEmail("priya@gmail.com", "questglobal.com")).toBe(false);
+    expect(isCompanyEmail("priya@otherco.com", "questglobal.com")).toBe(false);
+    expect(isCompanyEmail("x@notquestglobal.com", "questglobal.com")).toBe(false);
+  });
+});
+
+import { isAboveExperienceBand, isSeniorRole, isJobWithinExperiencePolicy } from "@/lib/template";
+describe("manual job experience exception", () => {
+  it("allows manually added lead roles", () => {
+    expect(isJobWithinExperiencePolicy("manual", "Technical Lead – Java", "3-5 years")).toBe(true);
+    expect(isJobWithinExperiencePolicy("linkedin", "Technical Lead – Java", "3-5 years")).toBe(false);
+  });
+  it("allows manually added jobs requiring more than five years", () => {
+    expect(isJobWithinExperiencePolicy("manual", "Software Engineer", "8+ years of experience")).toBe(true);
+    expect(isJobWithinExperiencePolicy("naukri", "Software Engineer", "8+ years of experience")).toBe(false);
+    expect(isJobWithinExperiencePolicy(null, "Software Engineer", "8+ years of experience")).toBe(false);
+    expect(isJobWithinExperiencePolicy("linkedin", "SDE 2", "3-5 years of experience")).toBe(true);
+  });
+});
+describe("job level filter", () => {
+  it("keeps SDE2, engineer and junior roles", () => {
+    for (const t of ["SDE 2", "SDE II", "Software Engineer", "Engineer I Software Development", "Java Backend Developer", "Junior Developer", "Graduate Engineer Trainee"]) {
+      expect(isSeniorRole(t)).toBe(false);
+    }
+  });
+
+  it("hides lead and above-SDE2 titles", () => {
+    for (const t of ["Lead Engineer", "Technical Lead – Java", "Principal Engineer", "Staff Software Engineer", "Engineering Manager", "Solution Architect", "SDE III", "Software Engineer 3", "Director of Engineering", "Head of Engineering", "VP Engineering", "Senior SDE"]) {
+      expect(isSeniorRole(t)).toBe(true);
+    }
+  });
+  it("hides jobs that ask for more than 5 years", () => {
+    expect(isAboveExperienceBand("Software Engineer", "Looking for 8+ years of experience")).toBe(true);
+    expect(isAboveExperienceBand("Java Developer", "Experience: 6 to 10 years")).toBe(true);
+    expect(isAboveExperienceBand("Senior Software Engineer", "3-5 years of experience")).toBe(false);
+    expect(isAboveExperienceBand("Software Engineer", "0-2 years")).toBe(false);
+  });
+});
+
+
+import { parsePostedAt, postedLabel, timeAgo } from "@/lib/template";
+describe("when a job was posted", () => {
+  const now = new Date("2026-10-28T12:00:00Z");
+  it("reads '13 hours ago' and '52 minutes ago' wording", () => {
+    expect(parsePostedAt("Posted 13 hours ago", now)).toBe(new Date(now.getTime() - 13 * 3_600_000).toISOString());
+    expect(parsePostedAt("52 minutes ago", now)).toBe(new Date(now.getTime() - 52 * 60_000).toISOString());
+    expect(parsePostedAt("posted yesterday", now)).toBe(new Date(now.getTime() - 86_400_000).toISOString());
+  });
+  it("uses a plain date unless told to ignore it", () => {
+    expect(parsePostedAt("2026-10-28", now)).toBe("2026-10-28T00:00:00.000Z");
+    expect(parsePostedAt("2026-10-28", now, false)).toBeNull();
+  });
+  it("says nothing when the text carries no time", () => {
+    expect(parsePostedAt("Java Developer at Acme", now)).toBeNull();
+  });
+  it("labels recent postings relatively, older ones by date, and falls back to when we added them", () => {
+    expect(timeAgo(new Date(now.getTime() - 90 * 60_000).toISOString(), now)).toBe("2 hours ago");
+    expect(postedLabel(new Date(now.getTime() - 3 * 3_600_000).toISOString(), null, now)).toBe("Posted 3 hours ago");
+    expect(postedLabel(new Date(now.getTime() - 3 * 86_400_000).toISOString(), null, now).startsWith("Posted ")).toBe(true);
+    expect(postedLabel(null, new Date(now.getTime() - 20 * 60_000).toISOString(), now)).toBe("Added 20 min ago");
+    expect(postedLabel(null, null, now)).toBe("");
+  });
+});
